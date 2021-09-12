@@ -11,6 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
+          
+      - uses: actions/checkout@v2
+      
+      - name: CheckDir1
+        run: ls -al
+      
       # Runs a set of commands using the runners shell
       - name: Setup DocFX
         run: |
@@ -23,12 +29,13 @@ jobs:
           sudo apt install -y unzip
           curl -L https://github.com/dotnet/docfx/releases/download/v2.58.3/docfx.zip --output docfx.zip
           unzip docfx.zip
-          
-      - uses: actions/checkout@v2
+      
+      - name: CheckDir1
+        run: ls -al
           
       - name: DocFX Build
         working-directory: ${{ github.workspace }}
-        run: mono /home/runner/work/geekdojo-com/geekdojo-com/docfx.exe build docfx.json --warningsAsErrors
+        run: mono docfx.exe build docfx.json --warningsAsErrors
         continue-on-error: false
           
       - name: Build And Deploy
