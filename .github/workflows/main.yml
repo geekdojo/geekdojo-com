@@ -38,6 +38,6 @@ jobs:
           args: install docfx
           
       - name: DocFX Build
-        working-directory: /
+        working-directory: ${{ github.workspace }}
         run: docfx build docfx.json
         continue-on-error: false
