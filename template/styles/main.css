@@ -52,12 +52,12 @@ html, body, .form-control, .form-control:focus, a, .btn, .list-group-item {
     color: var(--primary) !important;
 }
 
-article img {
-    width:100%;
-}
-
 article a {
     color: var(--secondary) !important;
+}
+
+article img {
+    max-width: 100%;
 }
 
 section {

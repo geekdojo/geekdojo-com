@@ -1,5 +1,5 @@
-- name: Content
-  items:
-    - name: Projects
-      topicHref: projects/index.yml
-      href: projects/toc.yml
+items:
+  - name: Content
+  - name: Projects
+    topicHref: projects/index.yml
+    href: projects/toc.yml

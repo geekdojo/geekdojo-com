@@ -75,4 +75,4 @@ An engagement request can be accomplished by submitting a **New issue** on the [
 
 In parallel to the above engagement request, the [Working Locally](working-locally.md) guide will help the user setup their workstation for rapid content development.
 
-**Again, thank YOU for your willingness to contribute to our development community!**
+**Again, thank YOU for your willingness to contribute to our community!**

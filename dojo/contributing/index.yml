@@ -1,15 +1,15 @@
 ### YamlMime:LandingPage
 
 title: About the Dojo
-summary: Learn how the Dojo works including behind the scenes looks at what it takes to service 30 products and 1000s of developers.
-description: Learn how the Dojo works including behind the scenes looks at what it takes to service 30 products and 1000s of developers.
+summary: Learn how to contribute and how we manage the Dojo on a day-to-day basis.
+description: Learn how to contribute and how we manage the Dojo on a day-to-day basis.
 
 metadata:
   title: About the Dojo
-  description: Learn how the Dojo works including behind the scenes looks at what it takes to service 30 products and 1000s of developers.
+  description: Learn how to contribute and how we manage the Dojo on a day-to-day basis.
   ms.topic: landing-page
   ms.service: dojo-service
-  ms.date: 08/06/2020
+  ms.date: 09/12/2021
 
 # -- supported linkListTypes
 # architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
@@ -36,13 +36,3 @@ landingContent:
           - text: Markdown Extended Syntax
             url: https://www.markdownguide.org/extended-syntax/#tables
             target: _blank
-  - title: Concepts
-    linkLists:
-      - linkListType: concept
-        links:
-          - text: Dojo Content Hierarchy
-            url: content-hierarchy.html
-            target: _self
-          - text: Dojo Content Types
-            url: content-types.html
-            target: _self
