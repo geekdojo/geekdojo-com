@@ -1,0 +1,51 @@
+name: Azure Static Web Apps CI/CD
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build_and_deploy_job:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    name: Build and Deploy Job
+    steps:
+          
+      - uses: actions/checkout@v2
+      
+      # Runs a set of commands using the runners shell
+      - name: Setup DocFX
+        run: |
+          sudo apt update
+          sudo apt install -y dirmngr gnupg apt-transport-https ca-certificates software-properties-common
+          sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+          sudo apt-add-repository 'deb https://download.mono-project.com/repo/ubuntu stable-focal main'
+          sudo apt install -y mono-complete
+          sudo apt install -y mono-runtime mono-devel msbuild
+          sudo apt install -y unzip
+          curl -L https://github.com/dotnet/docfx/releases/download/v2.58.3/docfx.zip --output docfx.zip
+          unzip -n docfx.zip
+          
+      - name: DocFX Build
+        working-directory: ${{ github.workspace }}
+        run: mono docfx.exe build docfx.json --warningsAsErrors
+        continue-on-error: false
+        
+      - name: CheckDir1
+        run: ls -al
+        
+      - name: Build And Deploy
+        id: builddeploy
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_PROUD_SMOKE_0C6184010 }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
+          action: "upload"
+          ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
+          # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
+          app_location: _site" # App source code path
+          api_location: "" # Api source code path - optional
+          output_location: "" # Built app content directory - optional
+          ###### End of Repository/Build Configurations ######
+          skip_app_build: true
