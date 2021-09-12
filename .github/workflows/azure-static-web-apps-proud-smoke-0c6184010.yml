@@ -29,7 +29,9 @@ jobs:
           
       - name: DocFX Build
         working-directory: ${{ github.workspace }}
-        run: mono docfx.exe build docfx.json --warningsAsErrors
+        run: |
+          ls ${{github.action.path}}
+          mono ${{github.action.path}}/docfx.exe build docfx.json --warningsAsErrors
         continue-on-error: false
           
       - name: Build And Deploy
