@@ -1,0 +1,31 @@
+    <nav class="navbar navbar-expand-lg header-nav">
+      <a class="navbar-brand" href="/">
+        <div class="header-logo"></div>
+      </a>
+      <button class="navbar-toggler" type="button"(click)="isMenuCollapsed = !isMenuCollapsed" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" [ngbCollapse]="isMenuCollapsed">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/learn/index.html">Learn <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/inspiration/index.html">Inspiration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/projects/index.html">Projects</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#">Contribute</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search the Dojo" title="Press enter to search." aria-label="Search">      
+        </form>
+        <form class="form-inline my-2 my-lg-0">
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Sign in</button>
+        </form>
+      </div>
+    </nav>

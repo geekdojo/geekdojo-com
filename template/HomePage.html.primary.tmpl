@@ -1,0 +1,188 @@
+{{!master(layout/_master.tmpl)}}
+
+<section class="hero-banner">    
+    <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-8">
+            <div class="is-text-centered">Latest Project</div>
+            <hr style="width: 50%;" />
+            <div class="hero-builds">
+                <div>
+                    {{#mainFeaturette}}
+                    <a href="{{{title_url}}}" title="{{{title}}}" target="{{{title_url_target}}}"><img src="{{{image_url}}}" class="mainFeatureImg is-centered"></a>
+                    {{/mainFeaturette}}
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <div class="is-text-centered">Inspiration</div>
+            <hr style="width: 50%;" />
+
+            {{#inspiration}}
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hero-builds hero-builds-small">
+                        <div>
+                            <a href="{{{title_url}}}" title="{{{title}}}" target="{{{title_url_target}}}"><img src="{{{image_url}}}" class="inspirationImg is-centered"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {{/inspiration}}
+            
+            <button class="btn btn-outline-primary" style="width:100%; margin-top:20px" onclick="window.location.href='/inspiration/index.html'">See more</button>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <div class="is-text-centered">Projects</div>
+            <hr style="width: 50%;" />
+            
+            {{#projects}}
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hero-builds hero-builds-small">
+                        <div>
+                            <a href="{{{title_url}}}" title="{{{title}}}" target="{{{title_url_target}}}"><img src="{{{image_url}}}" class="inspirationImg is-centered"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {{/projects}}
+            
+            <button class="btn btn-outline-primary" style="width:100%; margin-top:20px" onclick="window.location.href='/projects/index.html'">See more</button>
+        </div>
+    </div>
+
+    <hr style="margin-top:20px; width: 50%;" />
+  </section>
+
+  <section>
+    <p class="supertitle is-uppercase letter-spacing-wide font-size-xs margin-bottom-none">LEARN</p>
+    <h2 class="title margin-top-none margin-bottom-xs margin-pull-left2">All the Things</h2>
+    <div>
+        <ul class="docs-dir">
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/dotnet/" data-linktype="absolute-path">
+                    .NET
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/aspnet/core/" data-linktype="absolute-path">
+                    ASP.NET
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/azure/" data-linktype="absolute-path">
+                    Azure
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/azure/architecture/" data-linktype="absolute-path">
+                    Azure Architecture Center
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/azure/devops/" data-linktype="absolute-path">
+                    Azure DevOps
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/cpp/" data-linktype="absolute-path">
+                    C++
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/dotnet/csharp/" data-linktype="absolute-path">
+                    C#
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/dynamics365/" data-linktype="absolute-path">
+                    Dynamics 365
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/gaming/" data-linktype="absolute-path">
+                    Gaming
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/microsoft-365" data-linktype="absolute-path">
+                    Microsoft 365
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/microsoft-edge/" data-linktype="absolute-path">
+                    Microsoft Edge
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/security/" data-linktype="absolute-path">
+                    Microsoft Security
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/microsoftteams/" data-linktype="absolute-path">
+                    Microsoft Teams
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/onedrive/" data-linktype="absolute-path">
+                    OneDrive
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/powerapps/" data-linktype="absolute-path">
+                    Power Apps
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/power-bi/" data-linktype="absolute-path">
+                    Power BI
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/power-platform/" data-linktype="absolute-path">
+                    Power Platform
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/powershell/" data-linktype="absolute-path">
+                    PowerShell
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/sharepoint/" data-linktype="absolute-path">
+                    SharePoint
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/sql/" data-linktype="absolute-path">
+                    SQL Server
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/dotnet/visual-basic/" data-linktype="absolute-path">
+                    Visual Basic
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/visualstudio/products/" data-linktype="absolute-path">
+                    Visual Studio
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/windows/" data-linktype="absolute-path">
+                    Windows
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a class="bar-link" href="/en-us/xamarin/" data-linktype="absolute-path">
+                    Xamarin
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>

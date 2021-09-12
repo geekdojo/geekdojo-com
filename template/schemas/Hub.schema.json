@@ -1,0 +1,81 @@
+{
+    "$schema": "https://dotnet.github.io/docfx/schemas/v1.0/schema.json#",
+    "version": "1.0.0",
+    "id": "https://github.com/dotnet/docfx/schemas/hub.schema.json",
+    "title": "Hub",
+    "description": "The schema for hub page",
+    "type": "object",
+    "xrefProperties": [ "title", "description" ],
+    "properties": {
+        "metadata": {
+            "type": "object",
+            "tags": [ "metadata" ]
+        },
+        "uid": {
+            "type": "string",
+            "contentType": "uid"
+        },
+        "categories": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name":{
+                        "type": "string"
+                    },
+                    "slug":{
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "directory": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "resourceType": {
+                        "type": "string"
+                    },
+                    "authorTeamUrl": {
+                        "type": "string",
+                        "contentType": "href"
+                    },
+                    "authorTeam": {
+                        "type": "string"                        
+                    },
+                    "urlTarget": {
+                        "type": "string"
+                    },
+                    "url": {
+                        "type": "string",
+                        "contentType": "href"
+                    },
+                    "categorySlugs": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "summary": {
+                        "type": "string",
+                        "contentType": "markdown"
+                    },
+                    "title": {
+                        "type": "string",
+                        "mergeType": "key"
+                    }
+                }
+            }
+        },
+        "jsScripts": {
+            "type": "array"
+        },
+        "summary": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        }
+    }
+}

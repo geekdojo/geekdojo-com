@@ -1,0 +1,82 @@
+{
+  "build": {
+    "content": [
+      {
+        "src": "dojo",
+        "dest": ".",
+        "files": [
+          "**/*.md",
+          "**/*.yml",
+          "staticwebapp.config.json"
+        ],
+        "exclude": [
+          "**/includes/**",
+          "**/obj/**",
+          "**/bower_components/**",
+          "**/node_modules/**",
+          "**/.git/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "src": "dojo",
+        "dest": ".",
+        "files": [
+          "**/*.f3d",
+          "**/*.gif",
+          "**/*.jpeg",
+          "**/*.jpg",
+          "**/*.pdf",
+          "**/*.png",
+          "**/*.stl",
+          "**/*.svg",
+          "**/*.webp"
+        ],
+        "exclude": [
+          "iot-edge/**",
+          "**/_themes/**",
+          "**/obj/**"
+        ]
+      },
+      {
+        "src": null,
+        "dest": null,
+        "files": [
+          "includes/**/*.f3d",
+          "includes/**/*.gif",
+          "includes/**/*.jpeg",
+          "includes/**/*.jpg",
+          "includes/**/*.pdf",
+          "includes/**/*.png",
+          "includes/**/*.stl",
+          "includes/**/*.svg",
+          "includes/**/*.webp"
+        ],
+        "exclude": [
+          "**/_themes/**",
+          "**/obj/**"
+        ]
+      }
+    ],
+    "globalMetadata": {
+      "_disableSideFilter": true,
+      "_gitContribute": {
+        "repo": "https://github.com/org/repo",
+        "branch": "master"
+      }
+    },
+    "dest": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "./template"
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
+  }
+}

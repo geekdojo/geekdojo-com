@@ -1,0 +1,61 @@
+{
+    "$schema": "https://dotnet.github.io/docfx/schemas/v1.0/schema.json#",
+    "version": "1.0.0",
+    "id": "https://github.com/dotnet/docfx/schemas/landingpage.schema.json",
+    "title": "LandingPage",
+    "description": "The schema for landing page",
+    "type": "object",
+    "xrefProperties": [ "title", "description" ],
+    "properties": {
+        "metadata": {
+            "type": "object",
+            "tags": [ "metadata" ]
+        },
+        "uid": {
+            "type": "string",
+            "contentType": "uid"
+        },
+        "jsScripts": {
+            "type": "array"
+        },
+        "landingContent": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "linkLists": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "target": {
+                                    "type": "string",
+                                    "default": "_self"
+                                },
+                                "url": {
+                                    "type": "string",
+                                    "contentType": "href"
+                                },
+                                "text": {
+                                    "type": "string",
+                                    "tags": [ "localizable" ]
+                                },
+                                "content": {
+                                    "type": "string",
+                                    "contentType": "markdown"
+                                }
+                            }
+                        }
+                    },
+                    "title": {
+                        "type": "string",
+                        "mergeType": "key"
+                    }
+                }
+            }
+        },
+        "title": {
+            "type": "string"
+        }
+    }
+}

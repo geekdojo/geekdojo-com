@@ -1,0 +1,40 @@
+{{!master(layout/_master.tmpl)}}
+        <section class="hero hero-normal">
+            <div class="uhf-container">
+                <div class="row has-padding-bottom-extra-large has-padding-top-extra-large">
+                    <div class="col-sm-7">
+                        <p class="">
+                            Welcome to the Dojo Directory
+                        </p>
+                        <h1 class="">Search Code and Content</h1>
+                        <p class="">Look for articles and inner/opensource code for developing software at Optum.</p>
+                        <div class="has-margin-top-large"> 
+                            {{>partials/searchForm}}
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <img src="/media/dojo-kanji.png" class="document-index-logo is-hidden-mobile" />                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="uhf-container has-padding-bottom-extra-large ">
+                <div>                    
+                    <p class="has-margin-top-extra-large">
+                        Index
+                    </p>
+                    <h1 class="">Code and Content Directory</h1>
+                    <p class="">Explore the Dojo by category.</p>
+                </div>
+                <div>
+                    <ul class="has-three-text-columns document-index-list">
+                        {{#index}}
+                        {{#items}}
+                        <li class="has-three-text-columns-list-items"><a href="{{{url}}}">{{{title}}}</a></li>
+                        {{/items}}
+                        {{/index}}
+                    </ul>
+                </div>
+            </div>
+        <section>

@@ -1,0 +1,13 @@
+items:
+  - name: All Node Setup
+    href: all-node-setup.md
+  - name: Bill of Materials
+    href: BOM.md
+  - name: Construction
+    href: construction.md
+  - name: Gluster
+    href: gluster-setup.md
+  - name: Kubernetes Setup
+    href: kubernetes-setup.md
+  - name: Master Node Setup
+    href: master-node-setup.md

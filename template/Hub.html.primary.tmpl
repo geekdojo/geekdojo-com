@@ -1,0 +1,74 @@
+{{!master(layout/_master.tmpl)}}
+
+        <section class="hero hero-small">
+            <div class="uhf-container">
+                <div class="row has-padding-bottom-extra-large has-padding-top-extra-large">
+                    <div class="col-sm-7">
+                        <h1 class="">{{{title}}}</h1>
+                        <p class="">{{{summary}}}</p>
+                    </div>
+                    <div class="col-sm-5">
+                    
+                    </div>
+                </div>                
+            </div>            
+        </section>
+        <section>
+            {{^_disableContribution}}
+            <div class="uhf-container">
+                <ul class="feedback pull-right">
+                    {{#docurl}}
+                    <li id="feedback-section-link">
+                        <a href="{{docurl}}" target="_blank" title="Send feedback about this page">
+                            <i class="far fa-comment-dots"></i> Feedback
+                        </a>
+                    </li>
+                    {{/docurl}}
+                    {{#sourceurl}}
+                    <li id="contenteditbtn">
+                        <a href="{{sourceurl}}" target="_blank" title="Edit This Document" >
+                            <i class="far fa-edit"></i> Edit
+                        </a>
+                    </li>		
+                    {{/sourceurl}}				
+                </ul>					
+            </div>
+            {{/_disableContribution}}
+            <div class="uhf-container has-padding-bottom-extra-large has-padding-top-extra-large">            
+                <div class="row">
+                    <div class="col-sm-2">
+                        <h2>Browse:</h2>
+                    </div>
+                    <div class="col-sm-10">
+                        <h2 style="padding-left:1.75rem;" id="categoryName"></h2>
+                    </div>                    
+                </div>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <hr />
+                        <ul class="topic-list">
+                        {{#categories}}
+                            <li id="{{{slug}}}-category" data-category-slug="{{{slug}}}">{{{name}}}</li>
+                        {{/categories}}
+                        </ul>
+                    </div>
+                    <div class="col-sm-10">
+                        <div class="columns is-multiline  non-uhf-padding">
+                        {{#directory}}
+                            <div class="column is-one-fifth-widescreen item-column non-uhf-padding category-box {{#categorySlugs}}{{{.}}} {{/categorySlugs}}" style="display:none;">	
+                                <div class="box position-relative has-margin-none is-full-height-overflow-ellipsis has-heavy-shadow-hover border-high-contrast-hover has-padding-large text-decoration-none">
+                                    <img alt="" loading="lazy" width="48" height="48" class="image is-48x48 has-margin-bottom-small category-logo-{{{resourceType}}}" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+                                    <h3 class="font-size-h6 has-margin-none category-title"><a href="{{{url}}}" target="{{{target}}}">{{{title}}}</a></h3>
+                                    <div class="category-summary text-muted">{{{summary}}}</div>  
+                                    <div class="category-tool-box">
+                                        <div class="pull-left"><small class="text-muted"><a href="{{{authorTeamUrl}}}" target="_blank" title="author: {{{authorTeam}}}">{{{authorTeam}}}</a></small></div>
+                                        <div class="pull-right text-muted" style="font-size: x-small">{{{resourceType}}}</div>                                  
+                                    </div>
+                                </div>
+                            </div>
+                        {{/directory}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>

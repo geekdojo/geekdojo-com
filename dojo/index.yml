@@ -1,0 +1,44 @@
+### YamlMime:HomePage
+
+title: geekdojo
+summary: Geeks learning geek things
+
+metadata:
+  title: geekdojo
+  description: Geeks learning geek things
+  author: bashey
+  date: 09/11/2021
+
+mainFeaturette:
+  - image_url: /projects/3d-printing/JLAudio_6W3v3-4/media/JLAudioBassTube.jpg
+    title: JL Audio 6" Basstube
+    title_url: /projects/3d-printing/JLAudio_6W3v3-4/index.html
+    title_url_target: _self
+
+inspiration:
+  - image_url: /projects/3d-printing/JLAudio_6W3v3-4/media/JLAudioBassTube.jpg
+    title: JL Audio 6" Basstube
+    title_url: /projects/3d-printing/JLAudio_6W3v3-4/index.html
+    title_url_target: _self
+  - image_url: /projects/3d-printing/JLAudio_6W3v3-4/media/JLAudioBassTube.jpg
+    title: JL Audio 6" Basstube
+    title_url: /projects/3d-printing/JLAudio_6W3v3-4/index.html
+    title_url_target: _self
+  - image_url: /projects/3d-printing/JLAudio_6W3v3-4/media/JLAudioBassTube.jpg
+    title: JL Audio 6" Basstube
+    title_url: /projects/3d-printing/JLAudio_6W3v3-4/index.html
+    title_url_target: _self
+
+projects:
+  - image_url: /projects/raspberry-pi/micronetes/media/cluster.jpg
+    title: JL Audio 6" Basstube
+    title_url: /projects/raspberry-pi/micronetes/index.html
+    title_url_target: _self
+  - image_url: /projects/3d-printing/JLAudio_6W3v3-4/media/JLAudioBassTube.jpg
+    title: JL Audio 6" Basstube
+    title_url: /projects/3d-printing/JLAudio_6W3v3-4/index.html
+    title_url_target: _self
+  - image_url: /projects/3d-printing/JLAudio_6W3v3-4/media/JLAudioBassTube.jpg
+    title: JL Audio 6" Basstube
+    title_url: /projects/3d-printing/JLAudio_6W3v3-4/index.html
+    title_url_target: _self

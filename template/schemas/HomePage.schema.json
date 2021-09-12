@@ -1,0 +1,85 @@
+{
+    "$schema": "https://dotnet.github.io/docfx/schemas/v1.0/schema.json#",
+    "version": "1.0.0",
+    "id": "https://github.com/dotnet/docfx/schemas/homepage.schema.json",
+    "title": "HomePage",
+    "description": "The schema for landing page",
+    "type": "object",
+    "xrefProperties": [ "title", "summary" ],
+    "properties": {
+        "metadata": {
+            "type": "object",
+            "tags": [ "metadata" ]
+        },
+        "uid": {
+            "type": "string",
+            "contentType": "uid"
+        },
+        "mainFeature": {
+            "type": "object",
+            "properties": {
+                "image_url": {
+                    "type": "string",
+                    "contentType": "href"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "title_url": {
+                    "type": "string",
+                    "contentType": "href"
+                },
+                "title_url_target": {
+                    "type": "string"
+                }
+            }
+        },
+        "inspiration": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "image_url": {
+                        "type": "string",
+                        "contentType": "href"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "title_url": {
+                        "type": "string",
+                        "contentType": "href"
+                    },
+                    "title_url_target": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "projects": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "image_url": {
+                        "type": "string",
+                        "contentType": "href"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "title_url": {
+                        "type": "string",
+                        "contentType": "href"
+                    },
+                    "title_url_target": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "jsScripts": {
+            "type": "array"
+        }
+    }
+}

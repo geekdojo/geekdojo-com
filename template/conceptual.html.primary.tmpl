@@ -1,0 +1,53 @@
+{{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
+{{!master(layout/_master.tmpl)}}
+
+    <section>
+        <div class="row">
+            <div class="col-sm-5" id="breadcrumb">
+                <ul class="breadcrumb pull-left">
+                    <li>{{title}}</li>
+                </ul>
+            </div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-3">
+                <ul class="is-horizontal pull-right">
+                    {{#docurl}}
+                    <li id="feedback-section-link">
+                        <a href="{{docurl}}" target="_blank" title="Send feedback about this page">
+                            <i class="far fa-comment-dots"></i> Feedback
+                        </a>
+                    </li>
+                    {{/docurl}}
+                    {{#sourceurl}}
+                    <li id="contenteditbtn">
+                        <a href="{{sourceurl}}" target="_blank" title="Edit This Document" >
+                            <i class="far fa-edit"></i> Edit
+                        </a>
+                    </li>		
+                    {{/sourceurl}}				
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>          
+        <div class="row article">
+            <div class="col-sm-2">
+                {{>partials/toc}}
+            </div>
+            <div class="col-sm-8">
+                <article>
+                    <h2>{{{title}}}</h2>
+                    <div>{{{summary}}}</div>
+
+                    {{{conceptual}}}
+                </article>
+            </div>
+            <div class="col-sm-2 hidden-sm">
+                <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                    <h5>{{__global.inThisArticle}}</h5>
+                    <div></div>
+                </nav>
+            </div>
+        </div>
+    </section>

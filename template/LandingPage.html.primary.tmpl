@@ -1,0 +1,97 @@
+{{!master(layout/_master.tmpl)}}
+
+        <section>
+            <div class="row">
+                <div class="col-sm-5" id="breadcrumb">
+                    <ul class="breadcrumb pull-left">
+                        <li>{{_tocTitle}}</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4"></div>
+                <div class="col-sm-3">
+                    <ul class="is-horizontal pull-right">
+                        {{#docurl}}
+                        <li id="feedback-section-link">
+                            <a href="{{docurl}}" target="_blank" title="Send feedback about this page">
+                                <i class="far fa-comment-dots"></i> Feedback
+                            </a>
+                        </li>
+                        {{/docurl}}
+                        {{#sourceurl}}
+                        <li id="contenteditbtn">
+                            <a href="{{sourceurl}}" target="_blank" title="Edit This Document" >
+                                <i class="far fa-edit"></i> Edit
+                            </a>
+                        </li>		
+                        {{/sourceurl}}				
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="uhf-container has-padding-bottom-extra-large has-padding-top-extra-large">            
+                <div class="row">
+                    {{^_disableToc}}
+                    <div class="col-sm-2">
+                        {{>partials/toc}}
+                    </div>
+                    <div class="col-sm-10">
+                        <h2>{{{title}}}</h2>
+                        <div>{{{summary}}}</div>
+
+                        <div class="columns is-masonry  non-uhf-padding" style="margin-top: 20px">
+                        
+                            {{#landingContent}}
+                            <div class="column is-4-desktop landing-column">
+                                <div class="box box-shadow-medium margin-none margin-xxs-desktop">
+                                    <h5>{{title}}</h5>
+                                    <hr />
+                                    {{#linkLists}}
+                                        <h6 class="is-uppercase font-size-s">
+                                            <span class="has-margin-right-extra-small align-self-center font-size-h5 lp-card-topic lp-card-topic-{{{linkListType}}}" aria-hidden="true"></span>
+                                            {{topic_word}}
+                                        </h6>
+                                        <ul class="has-margin-none has-line-height-reset">
+                                        {{#links}}
+                                        <li class="is-unstyled has-padding-top-small has-padding-bottom-small"><a href="{{{url}}}" target="{{{target}}}">{{{text}}}</a></li>
+                                        {{/links}}
+                                        </ul>
+                                    {{/linkLists}}
+                                </div>
+                            </div>
+                            {{/landingContent}}
+
+                        </div>
+                    </div>
+                    {{/_disableToc}}
+                    {{#_disableToc}}
+                    <div class="col-sm-12">
+                        <h2>{{{title}}}</h2>
+                        <div>{{{summary}}}</div>
+
+                        <div class="columns is-masonry  non-uhf-padding" style="margin-top: 20px">
+                        
+                            {{#landingContent}}
+                            <div class="column is-4-desktop landing-column">
+                                <div class="box box-shadow-medium margin-none margin-xxs-desktop">
+                                    <h5>{{title}}</h5>
+                                    <hr />
+                                    {{#linkLists}}
+                                        <h6 class="is-uppercase">
+                                            <span class="has-margin-right-extra-small align-self-center font-size-h5 lp-card-topic lp-card-topic-{{{linkListType}}}" aria-hidden="true"></span>
+                                            {{topic_word}}
+                                        </h6>
+                                        {{#links}}
+                                        <p><a href="{{{url}}}" target="{{{target}}}">{{{text}}}</a></p>
+                                        {{/links}}
+                                    {{/linkLists}}
+                                </div>
+                            </div>
+                            {{/landingContent}}
+
+                        </div>
+                    </div>
+                    {{/_disableToc}}
+                </div>
+            </div>
+        </section>

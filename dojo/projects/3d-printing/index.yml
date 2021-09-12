@@ -1,0 +1,21 @@
+### YamlMime:LandingPage
+
+title: 3D Printing
+summary: Browse geekdojo's 3D printing projects.
+description: Browse geekdojo's 3D printing projects.
+
+metadata:
+  title: 3D Printing
+  description: Browse geekdojo's 3D printing projects.
+  ms.topic: landing-page
+  ms.service: dojo-projects
+  ms.date: 09/11/2021
+
+landingContent:
+  - title: Projects
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: JL Audio Basstube
+            url: JLAudio_6W3v3-4/index.html
+            target: _self

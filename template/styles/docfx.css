@@ -1,0 +1,173 @@
+
+
+:root {
+  --black: #1D1D1B;
+  --black_rgb: 0, 0, 0;
+  --white: #fff;
+  --primary: #1D1D1B !important;
+  --primary_rgb: 29, 29, 27;
+  --secondary: #E84E1B !important;
+  --secondary_rgb: 232, 78, 27;
+  --background: #fff;
+  --background_rgb: 255, 255, 255;
+
+  --tertiary_gray: #E9E9E9;
+  --tertiary_gray_rgb: 233, 233, 233;
+  --tertiary_yellow: #F2BF4B;
+  --tertiary_yellow_rgb: 242, 191, 75;
+  --tertiary_blue: #3693BC;
+  --tertiary_blue_rgb: 54, 147, 188;
+  --tertiary_purple: #49468E;
+  --tertiary_purple_rgb: 73, 70, 142;
+  --tertiary_red: #811525;
+  --tertiary_red_rgb: 129, 21, 37;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+      --black: #1D1D1B;
+      --black_rgb: 0, 0, 0;
+      --white: #fff;
+      --primary: #fff !important;
+      --primary_rgb: 255, 255, 255;
+      --secondary: #E84E1B !important;
+      --secondary_rgb: 232, 78, 27;
+      --background: #1D1D1B;
+      --background_rgb: 29, 29, 27;
+
+      --tertiary_gray: #E9E9E9;
+      --tertiary_gray_rgb: 233, 233, 233;
+      --tertiary_yellow: #F2BF4B;
+      --tertiary_yellow_rgb: 242, 191, 75;
+      --tertiary_blue: #3693BC;
+      --tertiary_blue_rgb: 54, 147, 188;
+      --tertiary_purple: #49468E;
+      --tertiary_purple_rgb: 73, 70, 142;
+      --tertiary_red: #811525;
+      --tertiary_red_rgb: 129, 21, 37;
+  }
+}
+
+body .toc{
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+
+.sidetoggle.ng-hide {
+  display: block !important;
+}
+.sidetoc-expand > .caret {
+  margin-left: 0px;
+  margin-top: -2px;
+}
+.sidetoc-expand > .caret-side {
+  border-left: 4px solid;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  margin-left: 4px;
+  margin-top: -4px;
+}
+.sidetoc-heading {
+  font-weight: 500;
+}
+
+.toc {
+  padding: 0;
+}
+.expand-stub {
+  position: absolute;
+}
+.toc .nav {
+    display: block;
+}
+.toc .nav > li > a.sidetoc-expand {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.toc .nav > li > a {
+  color: var(--primary) !important;
+  margin-left: 15px;
+  display: block;
+  padding: 0;
+}
+.toc .nav > li > a:hover,
+.toc .nav > li > a:focus {
+  color: var(--primary) !important;
+  background: none;
+  text-decoration: inherit;
+}
+.toc .nav > li.active > a {
+  color: var(--secondary) !important;
+}
+.toc .nav > li.active > a:hover,
+.toc .nav > li.active > a:focus {
+  color: #EAAA00;
+}
+
+.toc .nav > li> .expand-stub {
+  cursor: pointer;
+}
+
+.toc .nav > li.active > .expand-stub::before,
+.toc .nav > li.in > .expand-stub::before,
+.toc .nav > li.in.active > .expand-stub::before,
+.toc .nav > li.filtered > .expand-stub::before {
+    content: "-";
+}
+
+.toc .nav > li > .expand-stub::before,
+.toc .nav > li.active > .expand-stub::before {
+    content: "+";
+}
+
+.toc .nav > li.filtered > ul,
+.toc .nav > li.in > ul {
+  display: block;
+}
+
+.toc .nav > li > ul {
+  display: none;
+}
+
+.toc ul{
+  font-size: 12px;
+  margin: 0 0 0 3px;
+}
+
+.toc .level1 > li {    
+  margin-top: 10px;
+  position: relative;
+  font-size: 16px;
+}
+.toc .level1 > li:first-of-type {
+  border: 1px solid rgb(var(--black_rgb), 0.2);
+  background-color: var(--background) !important;
+}
+.toc .level1 > li:first-of-type > a {
+  padding: 3px;
+  background-color: transparent !important;
+}
+.toc .level2 {
+  font-weight: normal;
+  margin: 5px 0 0 15px;
+  font-size: 14px;
+}
+.toc-toggle {
+  display: none;
+  margin: 0 15px 0px 15px;
+}
+
+.breadcrumb {
+  margin: 0;
+  padding: 10px 0;
+  background-color: inherit;
+  white-space: nowrap;
+}
+.breadcrumb > li + li:before {
+  content: "\00a0/\00a0";
+}
+
+.bs-docs-sidenav {
+  display: block !important;
+}
