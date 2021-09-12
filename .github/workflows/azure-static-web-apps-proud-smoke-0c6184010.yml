@@ -4,20 +4,28 @@ on:
   push:
     branches:
       - master
-  pull_request:
-    types: [opened, synchronize, reopened, closed]
-    branches:
-      - master
 
 jobs:
   build_and_deploy_job:
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
-    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    runs-on: windows-latest
     name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v2
         with:
           submodules: true
+
+      # Runs a set of commands using the runners shell
+      - name: Setup DocFX
+        uses: crazy-max/ghaction-chocolatey@v1
+        with:
+          args: install docfx
+          
+      - name: DocFX Build
+        working-directory: ${{ github.workspace }}
+        run: docfx build docfx.json --warningsAsErrors
+        continue-on-error: false
+          
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
@@ -31,15 +39,3 @@ jobs:
           api_location: "" # Api source code path - optional
           output_location: "_site" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
-
-  close_pull_request_job:
-    if: github.event_name == 'pull_request' && github.event.action == 'closed'
-    runs-on: ubuntu-latest
-    name: Close Pull Request Job
-    steps:
-      - name: Close Pull Request
-        id: closepullrequest
-        uses: Azure/static-web-apps-deploy@v1
-        with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_PROUD_SMOKE_0C6184010 }}
-          action: "close"
