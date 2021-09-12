@@ -23,16 +23,12 @@ jobs:
           sudo apt install -y unzip
           curl -L https://github.com/dotnet/docfx/releases/download/v2.58.3/docfx.zip --output docfx.zip
           unzip docfx.zip
-          pwd
-          export PATH=$PATH:.
           
       - uses: actions/checkout@v2
           
       - name: DocFX Build
         working-directory: ${{ github.workspace }}
-        run: |
-          ls ${GITHUB_ACTION_PATH}
-          mono ${GITHUB_ACTION_PATH}/docfx.exe build docfx.json --warningsAsErrors
+        run: mono /home/runner/work/geekdojo-com/geekdojo-com/docfx.exe build docfx.json --warningsAsErrors
         continue-on-error: false
           
       - name: Build And Deploy
