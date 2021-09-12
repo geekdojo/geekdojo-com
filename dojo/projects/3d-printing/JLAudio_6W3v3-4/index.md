@@ -10,8 +10,6 @@ Image 1                                          |  Image 2                     
 
 - [BassTube.stl](media/designs/BassTube.stl): The bass tube itself
 - [Grill.stl](media/designs/Grill.stl): The Grill for the front of the tube. Entirely optional depending on preference and need. If the tube is somewhere the vacuum cleaner can whack it I highly recommend the grill.
-- [JLAudio_6w3v3_Tube_Sealed_v7.f3d](media/designs/JLAudio_6w3v3_Tube_Sealed_v7.f3d): The original AutoDesk Fusion design files in case you want to customize to your liking.
-- [JLAudio_6w3v34.pdf](media/JLAudio_6w3v34.pdf): The manual that comes with the subwoofer.
 - [Mount.stl](media/designs/Mount.stl): The floor mount for the tube - print two of them.
 
 ## Materials
