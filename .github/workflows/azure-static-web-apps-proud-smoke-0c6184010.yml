@@ -20,7 +20,10 @@ jobs:
           sudo apt-add-repository 'deb https://download.mono-project.com/repo/ubuntu stable-focal main'
           sudo apt install -y mono-complete
           sudo apt install -y mono-runtime mono-devel msbuild
-          sudo apt install docfx
+          sudo apt install -y unzip
+          curl https://github.com/dotnet/docfx/releases/download/v2.58.3/docfx.zip
+          unzip docfx.zip
+          sudo export PATH=$PATH:.
           
       - uses: actions/checkout@v2
           
