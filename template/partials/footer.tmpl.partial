@@ -1,2 +1,11 @@
-    &nbsp;    
-    <span style="float:right;">&copy; geekdojo {{{currentYear}}}</span>
+    <div class="row">
+        <div class="col-sm-12 col-lg-4">
+            <a class="" href="https://app.termly.io/notify/0e94abfd-cf8b-4c3b-a435-30129b79acbe">Do not sell my info</a>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+
+        </div>
+        <div class="col-sm-12 col-lg-4">
+            <span style="float:right;">&copy; geekdojo {{{currentYear}}}</span>
+        </div>
+    </div>  
