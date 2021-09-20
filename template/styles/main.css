@@ -56,6 +56,10 @@ html, body, .form-control, .form-control:focus, a, .btn, .list-group-item {
     color: var(--primary) !important;
 }
 
+a {
+    text-decoration: none !important;
+}
+
 article a {
     color: var(--secondary) !important;
 }
@@ -105,6 +109,8 @@ hr {
 
 .hr-section-sep {
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn:hover {
@@ -113,7 +119,7 @@ hr {
 }
 
 .btn-outline-primary, .btn-outline-primary:hover {
-    border-color: var(--primary);
+    border-color: var(--primary) !important;
 }
 
 .form-control:hover, .form-control:focus {
@@ -193,6 +199,10 @@ ul.is-horizontal li {
     padding: 0 1rem;
 }
 
+.header-nav-ul {
+    width: 100%;
+}
+
 .header-logo {
     background: url("/media/brand/Logo_horizontal_web.png") left top no-repeat;
     background-size: contain;
@@ -246,11 +256,13 @@ ul.is-horizontal li {
 }
 
 .hero-banner img.mainFeatureImg {
+    width: 100%;
     max-height: 666px;
     max-width: 1183px;
 }
 
 .hero-banner img.inspirationImg {
+    width: 100%;
     max-height: 154px;
     max-width: 273px;
 }
