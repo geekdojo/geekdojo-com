@@ -3,13 +3,13 @@
 
     <section>
         <div class="row">
-            <div class="col-sm-5 hidden-sm" id="breadcrumb">
+            <div class="col-lg-5 d-none d-lg-block" id="breadcrumb">
                 <ul class="breadcrumb pull-left">
                     <li>{{title}}</li>
                 </ul>
             </div>
-            <div class="col-sm-4 hidden-sm"></div>
-            <div class="col-sm-3 hidden-sm">
+            <div class="col-lg-4 d-none d-lg-block"></div>
+            <div class="col-lg-3 d-none d-lg-block">
                 <ul class="is-horizontal pull-right">
                     {{#docurl}}
                     <li id="feedback-section-link">
@@ -32,10 +32,10 @@
 
     <section>          
         <div class="row article">
-            <div class="col-sm-2 hidden-sm">
+            <div class="col-md-0 col-lg-2 d-none d-lg-block">
                 {{>partials/toc}}
             </div>
-            <div class="col-sm-8">
+            <div class="col-md-12 col-lg-8">
                 <article>
                     <h2>{{{title}}}</h2>
                     <div>{{{summary}}}</div>
@@ -43,7 +43,7 @@
                     {{{conceptual}}}
                 </article>
             </div>
-            <div class="col-sm-2 hidden-sm">
+            <div class="col-md-0 col-lg-2 d-none d-lg-block">
                 <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
                     <h5>{{__global.inThisArticle}}</h5>
                     <div></div>
