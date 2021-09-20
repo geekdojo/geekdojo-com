@@ -1,11 +1,13 @@
     <div class="row">
-        <div class="col-sm-12 col-lg-4">
-            <a class="" href="https://app.termly.io/notify/0e94abfd-cf8b-4c3b-a435-30129b79acbe">Do not sell my info</a>
-        </div>
-        <div class="col-sm-12 col-lg-4">
-
-        </div>
-        <div class="col-sm-12 col-lg-4">
-            <span style="float:right;">&copy; geekdojo {{{currentYear}}}</span>
+        <div class="col-sm-12 col-lg-12">
+            <hr class="hr-section-sep"/>
+            <ul class="footer-terms">
+                <li>&copy; geekdojo {{{currentYear}}}</span></li>
+                <li><a href="/policies/terms-of-use.html">Terms</a></li>
+                <li><a href="/policies/privacy.html">Privacy</a></li>
+                <li><a href="/policies/cookie.html">Cookies</a></li>
+                <li><a href="/policies/disclaimer.html">Disclaimer</a></li>
+                <li><a class="" href="https://app.termly.io/notify/0e94abfd-cf8b-4c3b-a435-30129b79acbe">CCPA: Do not sell my info</a></li>
+            </ul>
         </div>
     </div>  

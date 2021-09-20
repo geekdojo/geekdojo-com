@@ -60,11 +60,6 @@ article a {
     color: var(--secondary) !important;
 }
 
-footer a {
-    color: var(--white) !important;
-    background-color: var(--black) !important;
-}
-
 article img {
     max-width: 100%;
 }
@@ -106,6 +101,10 @@ section {
 
 hr {
     background-color: var(--tertiary_gray);
+}
+
+.hr-section-sep {
+    width: 50%;
 }
 
 .btn:hover {
@@ -290,9 +289,24 @@ ul.docs-dir li:hover {
 }
 
 footer {
-    background-color: var(--black);
-    color: var(--white);
     padding: 20px;
+}
+
+.footer-terms {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    list-style:none; 
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ul.footer-terms > li { 
+    display: inline;
+    flex: 0 1 auto;
+    padding-right: 10px;
 }
 
 #search-results > ul {
