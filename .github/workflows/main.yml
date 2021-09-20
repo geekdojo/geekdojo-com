@@ -4,7 +4,7 @@ name: geekdojo-com__pr-verify
 
 # Controls when the workflow will run
 on:
-  pull_request:
+  pull_request_target:
     branches: [ master ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -46,5 +46,5 @@ jobs:
           -X POST \
           -H "Authorization: Bearer $GITHUB_TOKEN" \
           -H "Accept: application/vnd.github.v3+json" \
-          https://api.github.com/repos/geekdojo-ofc/geekdojo-com/check-runs \
+          https://api.github.com/repos/{org}/{repo}/check-runs \
           -d '{"name":"build", "head_sha": "'"$BUILD_COMMIT"'", "status": "completed", "conclusion": "success" }'
