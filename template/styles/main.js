@@ -24,4 +24,5 @@ $(document).ready( function() { // Wait until document is fully parsed
         e.preventDefault();
 
     });
-  })
+
+  });

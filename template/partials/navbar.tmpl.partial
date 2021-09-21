@@ -7,9 +7,9 @@
       </button>
       
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav header-nav-ul">
-          <li class="nav-item active">
-            <a class="nav-link" href="/learn/index.html">Learn <span class="sr-only">(current)</span></a>
+        <ul class="navbar-nav header-nav-ul me-auto mb-2 mb-lg-0" id="header-nav-ul">
+          <li class="nav-item">
+            <a class="nav-link" href="/learn/index.html">Learn</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/inspiration/index.html">Inspiration</a>
