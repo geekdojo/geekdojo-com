@@ -77,9 +77,9 @@ There are three ranges available for non-public use. These ranges will not route
 
 | Range | CIDR | Subnet Mask | IPs Available |
 |-------|------|-------------|---------------|
-| Class A: 10.0.0.0 to 10.255.255.255 | 10.0.0.0/8 | 0.255.255.255 | 16,777,216 |
-| Class B: 172.16.0.0 to 172.31.255.255 | 172.16.0.0/12 | 0.15.255.255 | 1,048,576 |
-| Class C: 192.168.0.0 to 192.168.255.255 | 172.168.0.0/16 | 0.0.255.255 | 65,536 |
+| Class A: 10.0.0.0 to 10.255.255.255 &nbsp;&nbsp; | 10.0.0.0/8 &nbsp;&nbsp; | 0.255.255.255 &nbsp;&nbsp; | 16,777,216 |
+| Class B: 172.16.0.0 to 172.31.255.255 &nbsp;&nbsp; | 172.16.0.0/12 &nbsp;&nbsp; | 0.15.255.255 &nbsp;&nbsp; | 1,048,576 |
+| Class C: 192.168.0.0 to 192.168.255.255 &nbsp;&nbsp; | 172.168.0.0/16 &nbsp;&nbsp; | 0.0.255.255 &nbsp;&nbsp; | 65,536 |
 
 Most home networks are based around the last CIDR (192.168.0.0/16) and most corporations used the first CIDR (10.0.0.0/8). If you routinely VPN into work from home then it is recommended to take your company's IP choice into account when planning your home network.
 

@@ -78,6 +78,24 @@
                 }
             }
         },
+        "learn": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "title": {
+                        "type": "string"
+                    },
+                    "title_url": {
+                        "type": "string",
+                        "contentType": "href"
+                    },
+                    "title_url_target": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
         "jsScripts": {
             "type": "array"
         }
