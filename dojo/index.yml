@@ -10,9 +10,9 @@ metadata:
   date: 09/11/2021
 
 mainFeaturette:
-  - image_url: /projects/3d-printing/JLAudio_6W3v3-4/media/JLAudioBassTube.jpg
-    title: JL Audio 6" Basstube
-    title_url: /projects/3d-printing/JLAudio_6W3v3-4/index.html
+  - image_url: /projects/raspberry-pi/bitscope-edgerack/media/edgerack-fp-large.jpg
+    title: Bitscope's 24 node Edgerack
+    title_url: /projects/raspberry-pi/bitscope-edgerack/index.html
     title_url_target: _self
 
 inspiration:
@@ -38,7 +38,12 @@ projects:
     title: JL Audio 6" Basstube
     title_url: /projects/3d-printing/JLAudio_6W3v3-4/index.html
     title_url_target: _self
-  - image_url: /projects/3d-printing/JLAudio_6W3v3-4/media/JLAudioBassTube.jpg
-    title: JL Audio 6" Basstube
-    title_url: /projects/3d-printing/JLAudio_6W3v3-4/index.html
+  - image_url: /projects/raspberry-pi/niryo/media/niryo_fp_small.png
+    title: Niryo
+    title_url: /projects/raspberry-pi
+    title_url_target: _self
+
+learn:
+  - title: Networking
+    title_url: /learn/networking/index.html
     title_url_target: _self

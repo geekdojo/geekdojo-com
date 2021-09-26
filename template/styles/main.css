@@ -257,14 +257,14 @@ ul.is-horizontal li {
 
 .hero-banner img.mainFeatureImg {
     width: 100%;
-    max-height: 666px;
-    max-width: 1183px;
+    max-height: 720px;
+    max-width: 960px;
 }
 
 .hero-banner img.inspirationImg {
     width: 100%;
-    max-height: 154px;
-    max-width: 273px;
+    max-height: 166px;
+    max-width: 222px;
 }
 
 .hero-builds {
