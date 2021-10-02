@@ -16,17 +16,17 @@ mainFeaturette:
     title_url_target: _self
 
 inspiration:
-  - image_url: /projects/audio/pc-2_1-sound/media/JLAudioBassTube.jpg
+  - image_url: /projects/audio/3D-printed-2_1/media/JLAudioBassTube.jpg
     title: 2.1 PC Sound
-    title_url: /projects/audio/pc-2_1-sound/index.html
+    title_url: /projects/audio/3D-printed-2_1/index.html
     title_url_target: _self
-  - image_url: /projects/audio/pc-2_1-sound/media/JLAudioBassTube.jpg
+  - image_url: /projects/audio/3D-printed-2_1/media/JLAudioBassTube.jpg
     title: 2.1 PC Sound
-    title_url: /projects/audio/pc-2_1-sound/index.html
+    title_url: /projects/audio/3D-printed-2_1/index.html
     title_url_target: _self
-  - image_url: /projects/audio/pc-2_1-sound/media/JLAudioBassTube.jpg
+  - image_url: /projects/audio/3D-printed-2_1/media/JLAudioBassTube.jpg
     title: 2.1 PC Sound
-    title_url: /projects/audio/pc-2_1-sound/index.html
+    title_url: /projects/audio/3D-printed-2_1/index.html
     title_url_target: _self
 
 projects:
