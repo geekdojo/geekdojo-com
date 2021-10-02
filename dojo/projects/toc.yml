@@ -1,6 +1,7 @@
-items:
-  - name: 3D Printing
-    topicHref: 3d-printing/index.yml
-    href: 3d-printing/toc.yml
-  - name: Raspberry Pi
-    href: raspberry-pi/toc.yml
+- name: Projects
+  href: index.yml
+- name: Audio
+  href: audio/toc.yml
+- name: Raspberry Pi
+  topicHref: raspberry-pi/index.yml
+  href: raspberry-pi/toc.yml

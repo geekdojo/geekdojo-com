@@ -3,5 +3,7 @@ items:
     href: how-does-the-internet-work.md
   - name: Network Devices
     href: networking-devices.md
+  - name: Understanding Routing
+    href: routing.md
   - name: Understanding TCP/IP
     href: tcp-ip.md

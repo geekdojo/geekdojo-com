@@ -10,3 +10,21 @@ metadata:
   ms.topic: landing-page
   ms.service: dojo-learn
   ms.date: 09/11/2021
+
+landingContent:
+  - title: Networking Basics
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: How the Internet Works
+            url: networking/how-does-the-internet-work.html
+            target: _self
+          - text: What is TCP/IP
+            url: networking/tcp-ip.html
+            target: _self
+          - text: Networking Devices
+            url: networking/networking-devices.html
+            target: _self
+          - text: Understanding Routing
+            url: networking/routing.html
+            target: _self
