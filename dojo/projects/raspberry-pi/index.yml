@@ -14,8 +14,16 @@ metadata:
 landingContent:
   - title: Projects
     linkLists:
-      - linkListType: get-started
+      - linkListType: Kubernetes
         links:
+          - text: Bitscope Edgerack
+            url: bitscope-edgerack/index.html
+            target: _self
           - text: Micronetes
             url: micronetes/index.html
-            target: _self          
+            target: _self
+      - linkListType: Robotics
+        links:
+          - text: Niryo 6-axis Arm
+            url: niryo/index.html
+            target: _self

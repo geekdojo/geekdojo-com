@@ -83,6 +83,10 @@ There are three ranges available for non-public use. These ranges will not route
 
 Most home networks are based around the last CIDR (192.168.0.0/16) and most corporations used the first CIDR (10.0.0.0/8). If you routinely VPN into work from home then it is recommended to take your company's IP choice into account when planning your home network.
 
+### Other Reserved Ranges
+
+There are quite a few ranges that are reserved for various purposes. The full list is available at the [IANA IPv4 Special-Purpose Address Registry](https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml).
+
 ## Layer 4: Ports and Protocols
 
 Each IP address can communicate over digital channels called *ports*. The ports range from 0 to 65,536 and represent a different wavelength on the signal between to network interfaces. Most services use a well-known, predefined, port. For example, when a user browses to a website they are doing so over HTTPS which runs on port 443 using TCP. When email is sent that often happens over the Simple Mail Transport Protocol (SMTP) which runs on port 25, again using TCP.

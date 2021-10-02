@@ -16,31 +16,31 @@ mainFeaturette:
     title_url_target: _self
 
 inspiration:
-  - image_url: /projects/3d-printing/JLAudio_6W3v3-4/media/JLAudioBassTube.jpg
-    title: JL Audio 6" Basstube
-    title_url: /projects/3d-printing/JLAudio_6W3v3-4/index.html
+  - image_url: /projects/audio/pc-2_1-sound/media/JLAudioBassTube.jpg
+    title: 2.1 PC Sound
+    title_url: /projects/audio/pc-2_1-sound/index.html
     title_url_target: _self
-  - image_url: /projects/3d-printing/JLAudio_6W3v3-4/media/JLAudioBassTube.jpg
-    title: JL Audio 6" Basstube
-    title_url: /projects/3d-printing/JLAudio_6W3v3-4/index.html
+  - image_url: /projects/audio/pc-2_1-sound/media/JLAudioBassTube.jpg
+    title: 2.1 PC Sound
+    title_url: /projects/audio/pc-2_1-sound/index.html
     title_url_target: _self
-  - image_url: /projects/3d-printing/JLAudio_6W3v3-4/media/JLAudioBassTube.jpg
-    title: JL Audio 6" Basstube
-    title_url: /projects/3d-printing/JLAudio_6W3v3-4/index.html
+  - image_url: /projects/audio/pc-2_1-sound/media/JLAudioBassTube.jpg
+    title: 2.1 PC Sound
+    title_url: /projects/audio/pc-2_1-sound/index.html
     title_url_target: _self
 
 projects:
   - image_url: /projects/raspberry-pi/micronetes/media/cluster.jpg
-    title: JL Audio 6" Basstube
+    title: 7 node Kubernetes Cluster on Raspberry Pis
     title_url: /projects/raspberry-pi/micronetes/index.html
     title_url_target: _self
-  - image_url: /projects/3d-printing/JLAudio_6W3v3-4/media/JLAudioBassTube.jpg
-    title: JL Audio 6" Basstube
-    title_url: /projects/3d-printing/JLAudio_6W3v3-4/index.html
+  - image_url: /projects/audio/3D-printed-2_1/media/JLAudioBassTube.jpg
+    title: 2.1 PC Sound
+    title_url: /projects/audio/3D-printed-2_1/index.html
     title_url_target: _self
   - image_url: /projects/raspberry-pi/niryo/media/niryo_fp_small.png
     title: Niryo
-    title_url: /projects/raspberry-pi
+    title_url: /projects/raspberry-pi/niryo/index.html
     title_url_target: _self
 
 learn:

@@ -60,6 +60,11 @@ a {
     text-decoration: none !important;
 }
 
+input:focus, button:focus, a {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 article a {
     color: var(--secondary) !important;
 }
@@ -123,7 +128,7 @@ hr {
 }
 
 .form-control:hover, .form-control:focus {
-    border-color: rgba(var(--secondary_rgb), 0.8);  
+    border-color: rgba(var(--secondary_rgb), 0.8) !important;  
 }
 
 .form-control:focus {   
@@ -355,4 +360,24 @@ ul.footer-terms > li {
 #hero-search-input {
     margin-top: 20px;
     width: 50%;
+}
+
+ul.landing-page {
+    flex-wrap: wrap;
+    display: flex;
+    padding: 10px 0 10px 0;
+    list-style: none;
+}
+
+ul.landing-page li {
+    flex: 1 0 25%;
+
+    background-color: var(--background);
+	border: 1px solid rgba(var(--primary_rgb), .11);
+	display: block;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding: 1.25rem;
+
+    box-shadow: 0 3.2px 7.2px 0 rgba(255,255,255,0.13),0 .6px 1.8px 0 rgba(255,255,255,0.11) !important;
 }
