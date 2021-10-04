@@ -10,3 +10,12 @@ metadata:
   ms.topic: landing-page
   ms.service: dojo-inspiration
   ms.date: 09/11/2021
+
+landingContent:
+  - title: Home Setups
+    linkLists:
+      - linkListType: Builds
+        links:
+          - text: Creating geekdojo
+            url: home-setups/geekdojo/index.html
+            target: _self

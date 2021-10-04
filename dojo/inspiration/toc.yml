@@ -1,2 +1,6 @@
 - name: Inspiration
   href: index.yml
+- name: Home Builds
+  items:
+    - name: geekdojo
+      href: home-setups/geekdojo/index.md
