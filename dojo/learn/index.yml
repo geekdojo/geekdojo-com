@@ -13,7 +13,7 @@ metadata:
 
 landingContent:
   - title: Networking Basics
-    image_url: networking/media/networking.jpg
+    image_url: ../projects/raspberry-pi/micronetes/media/cluster-thumb.png
     linkLists:
       - linkListType: get-started
         links:
