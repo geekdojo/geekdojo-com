@@ -267,19 +267,13 @@ ul.is-horizontal li {
 }
 
 .hero-banner img.inspirationImg {
-    width: 100%;
-    max-height: 166px;
-    max-width: 222px;
+    border: 1px solid var(--tertiary_gray);
 }
 
 .hero-builds {
     display: block;
     margin-bottom: 20px;
-    background-color: rgb(var(--black_rgb), 0.2);
-}
-
-.hero-builds-small {
-    height: 154px;
+    overflow: hidden;
 }
 
 ul.docs-dir {
@@ -318,6 +312,17 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.footer-social-terms {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    list-style:none; 
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
 }
 
 ul.footer-terms > li { 

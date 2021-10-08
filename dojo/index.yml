@@ -16,29 +16,29 @@ mainFeaturette:
     title_url_target: _self
 
 inspiration:
-  - image_url: /inspiration/home-setups/geekdojo/media/currentsetup.jpg
+  - image_url: /inspiration/home-setups/geekdojo/media/currentsetup-thumb.png
     title: Where geekdojo is Created
     title_url: /inspiration/home-setups/geekdojo/index.html
     title_url_target: _self
-  - image_url: /inspiration/home-setups/geekdojo/media/currentsetup.jpg
+  - image_url: /inspiration/home-setups/geekdojo/media/currentsetup-thumb.png
     title: Where geekdojo is Created
     title_url: /inspiration/home-setups/geekdojo/index.html
     title_url_target: _self
-  - image_url: /inspiration/home-setups/geekdojo/media/currentsetup.jpg
+  - image_url: /inspiration/home-setups/geekdojo/media/currentsetup-thumb.png
     title: Where geekdojo is Created
     title_url: /inspiration/home-setups/geekdojo/index.html
     title_url_target: _self
 
 projects:
-  - image_url: /projects/raspberry-pi/micronetes/media/cluster.jpg
+  - image_url: /projects/raspberry-pi/micronetes/media/cluster-thumb.png
     title: 7 node Kubernetes Cluster on Raspberry Pis
     title_url: /projects/raspberry-pi/micronetes/index.html
     title_url_target: _self
-  - image_url: /projects/audio/3D-printed-2_1/media/JLAudioBassTube.jpg
+  - image_url: /projects/audio/3D-printed-2_1/media/JLAudioBassTube-thumb.png
     title: 2.1 PC Sound
     title_url: /projects/audio/3D-printed-2_1/index.html
     title_url_target: _self
-  - image_url: /projects/raspberry-pi/niryo/media/niryo_fp_small.png
+  - image_url: /projects/raspberry-pi/niryo/media/niryo-thumb.png
     title: Niryo
     title_url: /projects/raspberry-pi/niryo/index.html
     title_url_target: _self
