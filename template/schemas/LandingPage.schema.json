@@ -50,6 +50,10 @@
                     "title": {
                         "type": "string",
                         "mergeType": "key"
+                    },
+                    "image_url": {
+                        "type": "string",
+                        "contentType": "href"
                     }
                 }
             }

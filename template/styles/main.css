@@ -51,12 +51,13 @@
     }
   }
   
-html, body, .form-control, .form-control:focus, a, .btn, .list-group-item {
+html, body, .form-control, .form-control:focus, .btn, .list-group-item {
     background-color: var(--background) !important;
     color: var(--primary) !important;
 }
 
 a {
+    color: var(--primary) !important;
     text-decoration: none !important;
 }
 

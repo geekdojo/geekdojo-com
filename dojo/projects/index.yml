@@ -13,6 +13,7 @@ metadata:
 
 landingContent:
   - title: Audio
+    image_url: audio/3D-printed-2_1/media/JLAudioBassTube.jpg
     linkLists:
       - linkListType: Builds
         links:
@@ -20,6 +21,7 @@ landingContent:
             url: audio/3D-printed-2_1/index.html
             target: _self
   - title: Raspberry Pi
+    image_url: raspberry-pi/media/raspberry-pi.jpg
     linkLists:
       - linkListType: kubernetes
         links:
