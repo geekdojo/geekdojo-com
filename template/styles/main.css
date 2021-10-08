@@ -73,6 +73,14 @@ article img {
     max-width: 100%;
 }
 
+article table {
+    margin-bottom: 1rem;
+}
+
+article td {
+    padding-right: 1rem;
+}
+
 pre {
 	font-size: .875rem;
 	overflow: auto;
