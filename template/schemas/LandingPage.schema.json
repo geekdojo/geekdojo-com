@@ -16,7 +16,10 @@
             "contentType": "uid"
         },
         "jsScripts": {
-            "type": "array"
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
         },
         "landingContent": {
             "type": "array",

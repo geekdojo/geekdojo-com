@@ -31,7 +31,8 @@
           "**/*.png",
           "**/*.stl",
           "**/*.svg",
-          "**/*.webp"
+          "**/*.webp",
+          "**/*.json"
         ],
         "exclude": [
           "iot-edge/**",

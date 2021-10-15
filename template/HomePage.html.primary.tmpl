@@ -1,77 +1,30 @@
 {{!master(layout/_master.tmpl)}}
 
-<section class="hero-banner">    
+<section class="hero-banner container-fluid">    
     <div class="row">
-        <div class="col-xs-12 col-md-6 col-lg-8">
-            <div class="is-text-centered">Latest Project</div>
-            <hr class="hr-section-sep" />
-            <div class="hero-builds">
-                <div>
-                    {{#mainFeaturette}}
-                    <a href="{{{title_url}}}" title="{{{title}}}" target="{{{title_url_target}}}"><img src="{{{image_url}}}" class="mainFeatureImg is-centered"></a>
-                    {{/mainFeaturette}}
-                </div>
-            </div>
+        <div class="col-lg-2">
+            <p class="supertitle is-uppercase letter-spacing-wide font-size-xs">GET INSPIRED</p>
+            <nav>
+                <ul class="topic-list">
+                    <li id="all-category" data-category-slug="all">All</li>
+                    <li id="featured-category" data-category-slug="featured">Featured</li>
+                    <li id="learn-category" data-category-slug="learn" class="is-bottom-bordered">Learn</li>
+                    {{#categories}}
+                        <li id="{{{slug}}}-category" data-category-slug="{{{slug}}}">{{{name}}}</li>
+                    {{/categories}}
+                </ul>
+            </nav>
         </div>
-        <div class="col-xs-12 col-md-6 col-lg-2">
-            <div class="is-text-centered">Inspiration</div>
-            <hr class="hr-section-sep" />
+        <div class="col-lg-10">
+            <ul class="article-blocks">
 
-            {{#inspiration}}
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="hero-builds">
-                        <div>
-                            <a href="{{{title_url}}}" title="{{{title}}}" target="{{{title_url_target}}}"><img src="{{{image_url}}}" class="inspirationImg is-centered"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            {{/inspiration}}
+            {{#directory}}
+                <li class="category-box {{#categorySlugs}}{{{.}}} {{/categorySlugs}}" style="background: url('{{{imageUrl}}}') no-repeat center center;background-size:cover;display:none;" onclick="window.location.href = '{{{url}}}';">
+                </li>
+            {{/directory}}
             
-            <button class="btn btn-outline-primary" style="width:100%; margin-top:20px" onclick="window.location.href='/inspiration/index.html'">See more</button>
-        </div>
-        <div class="col-xs-12 col-md-6 col-lg-2">
-            <div class="is-text-centered">Projects</div>
-            <hr class="hr-section-sep" />
-            
-            {{#projects}}
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="hero-builds hero-builds-small">
-                        <div>
-                            <a href="{{{title_url}}}" title="{{{title}}}" target="{{{title_url_target}}}"><img src="{{{image_url}}}" class="inspirationImg is-centered"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            {{/projects}}
-            
-            <button class="btn btn-outline-primary" style="width:100%; margin-top:20px" onclick="window.location.href='/projects/index.html'">See more</button>
-        </div>
+            </ul>
+        </div>        
     </div>
 
-    <hr class="hr-section-sep"/>
   </section>
-
-  <section>
-    <p class="supertitle is-uppercase letter-spacing-wide font-size-xs margin-bottom-none">LEARN</p>
-    <h2 class="title margin-top-none margin-bottom-xs margin-pull-left2">All the Things</h2>
-    <div>
-        <ul class="docs-dir">
-            {{#learn}}
-            
-            <li class="list-group-item">
-                <a href="{{{title_url}}}" title="{{{title}}}" target="{{{title_url_target}}}" class="bar-link">
-                    {{{title}}}
-                </a>
-            </li>
-
-            {{/learn}}
-        </ul>
-    </div>
-</section>

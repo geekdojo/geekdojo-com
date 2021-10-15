@@ -1,0 +1,23 @@
+{{!master(layout/_master.tmpl)}}
+
+        <section>
+            <div class="row">
+                <div class="col-sm-5" id="breadcrumb">
+                    <ul class="breadcrumb pull-left">
+                        <li>{{_tocTitle}}</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4"></div>
+                <div class="col-sm-3">                    
+                </div>
+            </div>
+        </section>
+        <section>
+            <article>
+                {{=<% %>=}}
+                <div id="inspirationApp">
+                    <image-map image-map-path="<%imageMapPath%>" image-map-data-path="<%imageMapPath%>"></image-map>                
+                </div>
+                <%={{ }}=%>
+            </article>
+        </section>

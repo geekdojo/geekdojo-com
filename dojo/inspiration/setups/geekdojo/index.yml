@@ -1,0 +1,14 @@
+### YamlMime:InspirationPage
+
+title: geekdojo workstation
+summary: The geekdojo workstation
+description: The geekdojo workstation
+
+metadata:
+  title: geekdojo workstation
+  description: The geekdojo workstation
+
+jsScripts: ["styles/inspirationpage.vue.js"]
+
+imageMapPath: "media/currentsetup.jpg"
+imageMapDataPath: "media/data.json"

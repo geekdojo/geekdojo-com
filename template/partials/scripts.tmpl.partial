@@ -3,3 +3,7 @@
 <script type="text/javascript" src="{{_rel}}styles/docfx.vendor.js"></script>
 <script type="text/javascript" src="{{_rel}}styles/docfx.js"></script>
 <script type="text/javascript" src="{{_rel}}styles/main.js"></script>
+
+{{#jsScripts}}
+    <script type="text/javascript" src="{{_rel}}styles/{{.}}"></script>
+{{/jsScripts}}

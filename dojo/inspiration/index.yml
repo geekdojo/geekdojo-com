@@ -17,5 +17,5 @@ landingContent:
       - linkListType: Builds
         links:
           - text: Creating geekdojo
-            url: home-setups/geekdojo/index.html
+            url: setups/geekdojo/index.html
             target: _self

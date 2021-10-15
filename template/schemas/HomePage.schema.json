@@ -15,83 +15,56 @@
             "type": "string",
             "contentType": "uid"
         },
-        "mainFeature": {
-            "type": "object",
-            "properties": {
-                "image_url": {
-                    "type": "string",
-                    "contentType": "href"
-                },
-                "title": {
-                    "type": "string"
-                },
-                "title_url": {
-                    "type": "string",
-                    "contentType": "href"
-                },
-                "title_url_target": {
-                    "type": "string"
-                }
-            }
-        },
-        "inspiration": {
+        "categories": {
             "type": "array",
             "items": {
                 "type": "object",
                 "properties": {
-                    "image_url": {
-                        "type": "string",
-                        "contentType": "href"
-                    },
-                    "title": {
+                    "name":{
                         "type": "string"
                     },
-                    "title_url": {
-                        "type": "string",
-                        "contentType": "href"
-                    },
-                    "title_url_target": {
+                    "slug":{
                         "type": "string"
                     }
                 }
             }
         },
-        "projects": {
+        "directory": {
             "type": "array",
             "items": {
                 "type": "object",
                 "properties": {
-                    "image_url": {
+                    "authorUrl": {
                         "type": "string",
                         "contentType": "href"
+                    },
+                    "author": {
+                        "type": "string"                        
+                    },
+                    "urlTarget": {
+                        "type": "string"
+                    },
+                    "url": {
+                        "type": "string",
+                        "contentType": "href"
+                    },
+                    "imageUrl": {
+                        "type": "string",
+                        "contentType": "href"
+                    },
+                    "categorySlugs": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "summary": {
+                        "type": "string",
+                        "contentType": "markdown"
                     },
                     "title": {
-                        "type": "string"
-                    },
-                    "title_url": {
                         "type": "string",
-                        "contentType": "href"
-                    },
-                    "title_url_target": {
-                        "type": "string"
-                    }
-                }
-            }
-        },
-        "learn": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "title": {
-                        "type": "string"
-                    },
-                    "title_url": {
-                        "type": "string",
-                        "contentType": "href"
-                    },
-                    "title_url_target": {
-                        "type": "string"
+                        "mergeType": "key"
                     }
                 }
             }

@@ -9,41 +9,85 @@ metadata:
   author: bashey
   date: 09/11/2021
 
-mainFeaturette:
-  - image_url: /projects/raspberry-pi/bitscope-edgerack/media/edgerack-fp-large.jpg
-    title: Bitscope's 24 node Edgerack
-    title_url: /projects/raspberry-pi/bitscope-edgerack/index.html
-    title_url_target: _self
+categories:
+  - name: 3D Printing
+    slug: 3d-printing
+  - name: Home Audio
+    slug: home-audio
+  - name: Networking
+    slug: networking
+  - name: Raspberry Pi
+    slug: raspberry-pi
+  - name: Streaming
+    slug: streaming
 
-inspiration:
-  - image_url: /inspiration/home-setups/geekdojo/media/currentsetup-thumb.png
-    title: Where geekdojo is Created
-    title_url: /inspiration/home-setups/geekdojo/index.html
-    title_url_target: _self
-  - image_url: /inspiration/home-setups/geekdojo/media/currentsetup-thumb.png
-    title: Where geekdojo is Created
-    title_url: /inspiration/home-setups/geekdojo/index.html
-    title_url_target: _self
-  - image_url: /inspiration/home-setups/geekdojo/media/currentsetup-thumb.png
-    title: Where geekdojo is Created
-    title_url: /inspiration/home-setups/geekdojo/index.html
-    title_url_target: _self
-
-projects:
-  - image_url: /projects/raspberry-pi/micronetes/media/cluster-thumb.png
-    title: 7 node Kubernetes Cluster on Raspberry Pis
-    title_url: /projects/raspberry-pi/micronetes/index.html
-    title_url_target: _self
-  - image_url: /projects/audio/3D-printed-2_1/media/JLAudioBassTube-thumb.png
-    title: 2.1 PC Sound
-    title_url: /projects/audio/3D-printed-2_1/index.html
-    title_url_target: _self
-  - image_url: /projects/raspberry-pi/niryo/media/niryo-thumb.png
-    title: Niryo
-    title_url: /projects/raspberry-pi/niryo/index.html
-    title_url_target: _self
-
-learn:
-  - title: Networking
-    title_url: /learn/networking/index.html
-    title_url_target: _self
+directory:
+  # Card
+  - title: 2.1 PC Sound
+    summary: none
+    categorySlugs:
+      - all
+      - featured
+      - 3d-printing
+      - home-audio
+    url: /projects/audio/3D-printed-2_1/index.html
+    urlTarget: _self
+    author: geekdojo
+    imageUrl: /projects/audio/3D-printed-2_1/media/JLAudioBassTube-thumb.png
+  # Card
+  - title: 7 node Kubernetes Cluster on Raspberry Pis
+    summary: none
+    categorySlugs:
+      - all
+      - featured
+      - 3d-printing
+      - raspberry-pi
+    url: /projects/raspberry-pi/micronetes/index.html
+    urlTarget: _self
+    author: geekdojo
+    imageUrl: /projects/raspberry-pi/micronetes/media/cluster-thumb.png
+  # Card
+  - title: Bitscope's 24 node Edgerack
+    summary: none
+    categorySlugs:
+      - all
+      - featured
+      - raspberry-pi
+    url: /projects/raspberry-pi/bitscope-edgerack/index.html
+    urlTarget: _self
+    author: geekdojo
+    imageUrl: /projects/raspberry-pi/bitscope-edgerack/media/edgerack-fp-small.jpg
+  # Card
+  - title: Niryo
+    summary: none
+    categorySlugs:
+      - all
+      - featured
+      - raspberry-pi
+    url: /projects/raspberry-pi/niryo/index.html
+    urlTarget: _self
+    author: geekdojo
+    imageUrl: /projects/raspberry-pi/niryo/media/niryo-thumb.png
+  # Card
+  - title: 'Learn: Networking'
+    summary: none
+    categorySlugs:
+      - all
+      - featured
+      - learn
+      - networking
+    url: /learn/networking/index.html
+    urlTarget: _self
+    author: geekdojo
+    imageUrl: /learn/networking/media/networking.jpg
+  # Card
+  - title: Where geekdojo is Created
+    summary: none
+    categorySlugs:
+      - all
+      - featured
+      - streaming
+    url: /inspiration/setups/geekdojo/index.html
+    urlTarget: _self
+    author: geekdojo
+    imageUrl: /inspiration/setups/geekdojo/media/currentsetup-thumb.png

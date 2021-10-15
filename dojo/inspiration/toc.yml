@@ -3,4 +3,4 @@
 - name: Home Builds
   items:
     - name: geekdojo
-      href: home-setups/geekdojo/index.md
+      href: setups/geekdojo/index.yml

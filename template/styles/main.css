@@ -117,6 +117,11 @@ section {
     margin: 1rem;
 }
 
+header {
+    border-bottom: 1px solid rgba(var(--primary_rgb), 0.1);
+    margin-bottom: 1rem;
+}
+
 hr {
     background-color: var(--tertiary_gray);
 }
@@ -173,6 +178,10 @@ ul.is-horizontal li {
 .supertitle {
 	font-size: .875rem;
 	line-height: 1.25;
+}
+
+.is-bottom-bordered {
+    border-bottom: 1px solid rgba(var(--primary_rgb), 0.1);
 }
 
 .is-text-centered {
@@ -256,27 +265,27 @@ ul.is-horizontal li {
     margin-top: 0;
 }
 
-.hero-banner ul {
-    flex-wrap: wrap;
-    display: flex;
+.article-blocks, .article-categories  {
     border: none;
-    padding: 0;
+    list-style: none;
 }
 
-.hero-banner ul > li {
-    flex: 1 0 25%;
-    border: none;    
+.article-blocks > li {
+    display: inline-block;
     margin-top:5px;
-}
-
-.hero-banner img.mainFeatureImg {
-    width: 100%;
-    max-height: 720px;
-    max-width: 960px;
-}
-
-.hero-banner img.inspirationImg {
+    height:200px;
+    width: 267px;
+    margin: 0 1rem 1rem 0;
     border: 1px solid var(--tertiary_gray);
+    border-radius: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.hero-banner-title {
+    text-transform: uppercase !important;
+    line-height: 2rem;
+    padding-left: .5rem;
 }
 
 .hero-builds {
@@ -394,4 +403,66 @@ ul.landing-page li {
     padding: 1.25rem;
 
     box-shadow: 0 3.2px 7.2px 0 rgba(255,255,255,0.13),0 .6px 1.8px 0 rgba(255,255,255,0.11) !important;
+}
+
+div#inspirationApp {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 800px;
+    height: 600px;
+}
+
+.linkDiv {
+    position: absolute;
+    z-index: 1000;
+    line-height: 20px;
+    min-width: 20px;
+    cursor: pointer;
+}
+
+.linkDiv:hover div.linkText {
+    visibility: visible;
+}
+
+.linkText {
+    position: absolute;
+    left: 20px;
+    background: rgba(29, 29, 27, 0.8);
+    color: #fff;
+    line-height: 16px;
+    border-radius: 8px;
+    visibility: hidden;
+    transition: visibility .3s linear;
+    cursor:default;
+    width: 120px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.annotationWrap {
+    margin: 10px;
+    border-radius: 8px;
+    border-bottom: 2px solid #fff;    
+    min-height: 45px;
+}
+
+
+.topic-list {
+    cursor: pointer;
+    padding-left: 0;
+    list-style: none;
+}
+
+.topic-list li {
+    padding: .25rem;
+}
+
+.topic-list li:hover {
+    background-color: rgba(var(--primary_rgb), 0.2);
+}
+
+.topic-list li.is-active {
+    background-color: var(--secondary) !important;
+    color: #fff !important;
 }
