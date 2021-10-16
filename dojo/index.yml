@@ -78,7 +78,7 @@ directory:
     url: /projects/raspberry-pi/niryo/index.html
     urlTarget: _self
     author: geekdojo
-    imageUrl: /projects/raspberry-pi/niryo/media/niryo-thumb.png
+    imageUrl: /projects/raspberry-pi/niryo/media/niryo-one.jpg
   # Card
   - title: 'Learn: Networking'
     summary: none
