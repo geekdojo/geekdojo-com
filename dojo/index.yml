@@ -23,6 +23,28 @@ categories:
 
 directory:
   # Card
+  - title: Bitscope's 24 node Edgerack
+    summary: none
+    categorySlugs:
+      - all
+      - featured
+      - raspberry-pi
+    url: /projects/raspberry-pi/bitscope-edgerack/index.html
+    urlTarget: _self
+    author: geekdojo
+    imageUrl: /projects/raspberry-pi/bitscope-edgerack/media/edgerack-fp-small.jpg
+  # Card
+  - title: 5'x7' Packed w/Tech
+    summary: none
+    categorySlugs:
+      - all
+      - featured
+      - streaming
+    url: /inspiration/setups/geekdojo/index.html
+    urlTarget: _self
+    author: geekdojo
+    imageUrl: /inspiration/setups/geekdojo/media/currentsetup-thumb.png
+  # Card
   - title: 2.1 PC Sound
     summary: none
     categorySlugs:
@@ -47,18 +69,7 @@ directory:
     author: geekdojo
     imageUrl: /projects/raspberry-pi/micronetes/media/cluster-thumb.png
   # Card
-  - title: Bitscope's 24 node Edgerack
-    summary: none
-    categorySlugs:
-      - all
-      - featured
-      - raspberry-pi
-    url: /projects/raspberry-pi/bitscope-edgerack/index.html
-    urlTarget: _self
-    author: geekdojo
-    imageUrl: /projects/raspberry-pi/bitscope-edgerack/media/edgerack-fp-small.jpg
-  # Card
-  - title: Niryo
+  - title: Niryo's 6-axis Robotic Arm
     summary: none
     categorySlugs:
       - all
@@ -80,14 +91,3 @@ directory:
     urlTarget: _self
     author: geekdojo
     imageUrl: /learn/networking/media/networking.jpg
-  # Card
-  - title: Where geekdojo is Created
-    summary: none
-    categorySlugs:
-      - all
-      - featured
-      - streaming
-    url: /inspiration/setups/geekdojo/index.html
-    urlTarget: _self
-    author: geekdojo
-    imageUrl: /inspiration/setups/geekdojo/media/currentsetup-thumb.png

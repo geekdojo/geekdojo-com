@@ -282,6 +282,19 @@ ul.is-horizontal li {
     cursor: pointer;
 }
 
+.article-blocks > li .article-block-mask {
+    opacity: 0;
+    background-color: rgba(var(--background_rgb), 0.75);
+    transition: all 0.4s ease-in-out;
+    height: 100%;
+    width: 100%;
+    padding: .5rem 2rem;
+}
+
+.article-blocks > li:hover .article-block-mask {
+    opacity: 1;
+}
+
 .hero-banner-title {
     text-transform: uppercase !important;
     line-height: 2rem;

@@ -20,6 +20,9 @@
 
             {{#directory}}
                 <li class="category-box {{#categorySlugs}}{{{.}}} {{/categorySlugs}}" style="background: url('{{{imageUrl}}}') no-repeat center center;background-size:cover;display:none;" onclick="window.location.href = '{{{url}}}';">
+                    <div class="article-block-mask is-uppercase font-size-xs letter-spacing-wide">
+                        <div class="article-block-title">{{{title}}}</div>                 
+                    </div>
                 </li>
             {{/directory}}
             
