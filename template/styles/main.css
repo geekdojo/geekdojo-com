@@ -132,6 +132,12 @@ hr {
     margin-right: auto;
 }
 
+.geek-dojo-icon-16 {
+    border-radius: 4px;
+    overflow: hidden;
+    vertical-align: text-bottom;
+}
+
 .btn:hover {
     background-color: var(--primary) !important;
     color: var(--background) !important;
