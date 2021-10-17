@@ -1,24 +1,21 @@
     <div class="row">
-        <div class="col-sm-12 col-lg-12">
-            <hr class="hr-section-sep"/>
-            <ul class="footer-terms">
-                <li>&copy; geekdojo {{{currentYear}}}</span></li>
-                <li><a href="/policies/terms-of-use.html">Terms</a></li>
-                <li><a href="/policies/privacy.html">Privacy</a></li>
-                <li><a href="/policies/cookie.html">Cookies</a></li>
-                <li><a href="/policies/disclaimer.html">Disclaimer</a></li>
-                <li><a class="" href="https://app.termly.io/notify/0e94abfd-cf8b-4c3b-a435-30129b79acbe">CCPA: Do not sell my info</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 col-lg-12">
-            <div class="is-text-centered"><strong>Follow Us On<strong></div>
+        <div class="col-sm-12 col-lg-2">
+            <div>Follow Us On</div>
             <ul class="footer-social-terms">
                 <li><a href="https://www.facebook.com/groups/geekdojo" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a href="https://www.instagram.com/geekdojo_official/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
                 <li><a href="https://www.youtube.com/channel/UCPKxFczM9f3aqwmxiUbnocQ" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a></li>
                 <li><a href="https://twitter.com/geekdojo_ofc" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </div>
+        <div class="col-sm-12 col-lg-10">
+            <ul class="footer-terms">
+                <li><a href="/policies/terms-of-use.html">Terms</a></li>
+                <li><a href="/policies/privacy.html">Privacy</a></li>
+                <li><a href="/policies/cookie.html">Cookies</a></li>
+                <li><a href="/policies/disclaimer.html">Disclaimer</a></li>
+                <li><a class="" href="https://app.termly.io/notify/0e94abfd-cf8b-4c3b-a435-30129b79acbe">CCPA: Do not sell my info</a></li>                
+                <li>&copy; geekdojo {{{currentYear}}}</span></li>
             </ul>
         </div>
     </div>  

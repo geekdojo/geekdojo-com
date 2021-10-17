@@ -268,31 +268,38 @@ ul.is-horizontal li {
 .article-blocks, .article-categories  {
     border: none;
     list-style: none;
+    padding-left: 0;
 }
 
 .article-blocks > li {
     display: inline-block;
     margin-top:5px;
-    height:200px;
-    width: 267px;
+    width:300px;
     margin: 0 1rem 1rem 0;
     border: 1px solid var(--tertiary_gray);
-    border-radius: 2rem;
+    border-radius: .25rem;
     overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.article-block-img {
+    height:250px;
+    width:300px;
     cursor: pointer;
 }
 
-.article-blocks > li .article-block-mask {
-    opacity: 0;
-    background-color: rgba(var(--background_rgb), 0.75);
-    transition: all 0.4s ease-in-out;
-    height: 100%;
-    width: 100%;
-    padding: .5rem 2rem;
+.article-block-title {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 2rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
 }
 
-.article-blocks > li:hover .article-block-mask {
-    opacity: 1;
+.article-block-title > a {
+    font-weight: 600;
 }
 
 .hero-banner-title {
@@ -331,18 +338,18 @@ ul.docs-dir li:hover {
 }
 
 footer {
-    padding: 20px;
+    padding: 20px;    
+    border-top: 1px solid rgba(var(--primary_rgb), 0.1);
 }
 
 .footer-terms {
     display: flex;
-    align-items: stretch;
-    justify-content: space-between;
-    list-style:none; 
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    flex-wrap: wrap;
+    font-size: .875rem;
+    margin-bottom: 0;
+    list-style-type: none;
+    float: right;
+    line-height: 3rem;
 }
 
 .footer-social-terms {
@@ -351,15 +358,23 @@ footer {
     justify-content: space-between;
     list-style:none; 
     padding: 0;
-    margin-left: auto;
-    margin-right: auto;
     width: 100px;
 }
 
 ul.footer-terms > li { 
     display: inline;
     flex: 0 1 auto;
-    padding-right: 10px;
+    padding-right: 2rem;
+}
+
+ul.footer-terms > li:last-of-type {
+    padding-right: 0;
+}
+
+.header-search {
+    width: 75%;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 #search-results > ul {

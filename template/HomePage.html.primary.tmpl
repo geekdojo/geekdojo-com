@@ -15,18 +15,19 @@
                 </ul>
             </nav>
         </div>
-        <div class="col-lg-10">
-            <ul class="article-blocks">
+        <div class="col-lg-10 ">
+            <div style="text-align: center;">
+                <ul class="article-blocks">
 
-            {{#directory}}
-                <li class="category-box {{#categorySlugs}}{{{.}}} {{/categorySlugs}}" style="background: url('{{{imageUrl}}}') no-repeat center center;background-size:cover;display:none;" onclick="window.location.href = '{{{url}}}';">
-                    <div class="article-block-mask is-uppercase font-size-xs letter-spacing-wide">
-                        <div class="article-block-title">{{{title}}}</div>                 
-                    </div>
-                </li>
-            {{/directory}}
-            
-            </ul>
+                {{#directory}}
+                    <li class="category-box {{#categorySlugs}}{{{.}}} {{/categorySlugs}}" style="display:none;">
+                        <div class="article-block-title font-size-xs " title="{{{title}}}"><a href="{{{url}}}" title="{{{title}}}">{{{title}}}</a></div>                 
+                        <div class="article-block-img" style="background: url('{{{imageUrl}}}') no-repeat center center;background-size:cover;" onclick="window.location.href = '{{{url}}}';" title="{{{title}}}"></div>
+                    </li>
+                {{/directory}}
+                
+                </ul>
+            </div>
         </div>        
     </div>
 

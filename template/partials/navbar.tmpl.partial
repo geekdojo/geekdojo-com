@@ -7,6 +7,8 @@
       </button>
       
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
+          <!--
         <ul class="navbar-nav header-nav-ul me-auto mb-2 mb-lg-0" id="header-nav-ul">
           <li class="nav-item">
             <a class="nav-link" href="/learn/index.html">Learn</a>
@@ -17,20 +19,21 @@
           <li class="nav-item">
             <a class="nav-link" href="/projects/index.html">Projects</a>
           </li>
-          <!--
           <li class="nav-item dropdown">
             <a class="nav-link" href="/contributing/index.html">Contribute</a>
           </li>
-          -->
         </ul>
+          -->
         
-        <form class="form-inline my-2 my-lg-0 " id="header-search-form" action="#">
-          <input id="header-search-input" class="form-control mr-sm-2 header-search-input" type="search" placeholder="Search the Dojo" title="Press enter to search." aria-label="Search">      
+        <form class="form-inline my-2 my-lg-0 header-search" id="header-search-form" action="#">
+          <input id="header-search-input" class="form-control mr-sm-2 header-search-input" type="search" placeholder="Search geekdojo" title="Press enter to search." aria-label="Search">      
         </form>
+
         <!--
         <form class="form-inline my-2 my-lg-0">
           <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Sign in</button>
         </form>
         -->
+        
       </div>
     </nav>
