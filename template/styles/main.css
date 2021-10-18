@@ -259,7 +259,6 @@ ul.is-horizontal li {
 }
 
 #navbarSupportedContent {
-    border-left: 2px solid var(--primary);
     padding-left: 10px;
 }
 
