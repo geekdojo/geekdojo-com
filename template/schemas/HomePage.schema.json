@@ -5,7 +5,7 @@
     "title": "HomePage",
     "description": "The schema for landing page",
     "type": "object",
-    "xrefProperties": [ "title", "summary" ],
+    "xrefProperties": [ "title", "summary", "globalcategory" ],
     "properties": {
         "metadata": {
             "type": "object",

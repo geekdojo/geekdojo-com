@@ -25,6 +25,27 @@
 
   <script src="https://kit.fontawesome.com/b2e855331d.js" crossorigin="anonymous"></script>
   
+
+  <style>
+    .{{globalcategory}}-active {
+      border-top: 0;
+      border-left: 4px solid var(--secondary) !important; 
+    }
+
+    .{{globalcategory}}-active a {
+      color: var(--white) !important;
+    }
+
+    @media (min-width: 992px) {  
+ 
+      .{{globalcategory}}-active {
+        border-top: 4px solid var(--secondary) !important;
+        border-left: 0 !important;
+      }
+
+    }
+  </style>
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-2XWSX01EXF"></script>
   <script>

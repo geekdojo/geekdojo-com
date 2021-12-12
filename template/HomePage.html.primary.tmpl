@@ -1,34 +1,75 @@
 {{!master(layout/_master.tmpl)}}
 
-<section class="hero-banner container-fluid">    
-    <div class="row">
-        <div class="col-lg-2">
-            <p class="supertitle is-uppercase letter-spacing-wide font-size-xs">GET INSPIRED</p>
-            <nav>
-                <ul class="topic-list">
-                    <li id="all-category" data-category-slug="all">All</li>
-                    <li id="featured-category" data-category-slug="featured">Featured</li>
-                    <li id="learn-category" data-category-slug="learn" class="is-bottom-bordered">Learn</li>
-                    {{#categories}}
-                        <li id="{{{slug}}}-category" data-category-slug="{{{slug}}}">{{{name}}}</li>
-                    {{/categories}}
-                </ul>
-            </nav>
-        </div>
-        <div class="col-lg-10 ">
-            <div style="text-align: center;">
-                <ul class="article-blocks">
-
-                {{#directory}}
-                    <li class="category-box {{#categorySlugs}}{{{.}}} {{/categorySlugs}}" style="display:none;">
-                        <div class="article-block-title font-size-xs " title="{{{title}}}"><a href="{{{url}}}" title="{{{title}}}"><img class="geek-dojo-icon-16" src="/favicon.ico" /> {{{title}}}</a></div>                 
-                        <div class="article-block-img" style="background: url('{{{imageUrl}}}') no-repeat center center;background-size:cover;" onclick="window.location.href = '{{{url}}}';" title="{{{title}}}"></div>
-                    </li>
-                {{/directory}}
-                
-                </ul>
-            </div>
+  <body class="container-xxl">
+    <div class="header-homepage">
+        <div class="header-logo-container">
+            <div class="header-logo-block"></div>
         </div>        
     </div>
 
-  </section>
+    <header class="row homepage-header-row">
+        {{>partials/navbar}}
+
+        <div class="main-banner">
+            <h1>Geeks Learning Geek Things</h1>
+            <p>
+                Find inspiration, learn how technologies work, geek out on some new projects, and see what tools can help get the job done.
+            </p>
+            <div>
+                <form class="form-inline my-2 my-lg-0">
+                    <input type="text" class="form-control-inline main-banner-searchbox force-dark" placeholder="&nbsp;&nbsp;Search" /><button class="btn btn-primary btn-header-search main-banner-search-btn" type="submit"></button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <section class="row">
+    
+        <div class="col-sm-12 main-header-separator">
+            <svg class="main-header-sep-triangle" width="82" height="61" viewBox="0 0 82 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M41.0215 61L0.318288 0.25L81.7247 0.250007L41.0215 61Z" fill="#101010"/>
+            </svg>
+        </div>
+
+        <div class="col-sm-2 is-disabled-text text-md-weight text-sm" id="homepage-article-count">9 of 9 Articles</div>
+        <div class="col-sm-7"></div>
+        <div class="col-sm-3">
+            <div class="dropdown pull-right homepage-filter-drop-down">
+                <button class="btn btn-secondary dropdown-toggle text-hv-weight text-sm text-start icon" type="button" id="homepage-filter-ddl-btn" data-bs-toggle="dropdown" aria-expanded="false">
+                    Featured
+                </button>
+                <ul id="homepage-filter-ddl" class="dropdown-menu text-sm" aria-labelledby="homepage-filter-ddl-btn">
+                    <li><a class="dropdown-item" href="#category=all" data-category-slug="all">All</a></li>
+                    <li><a class="dropdown-item" href="#category=featured" data-category-slug="featured">Featured</a></li>
+                    {{#categories}}
+                        <li><a class="dropdown-item" href="#category={{{slug}}}" data-category-slug="{{{slug}}}">{{{name}}}</a></li>
+                    {{/categories}}
+                </ul>
+            </div>
+            <span class="pull-right is-disabled-text text-md-weight text-sm">Filter By &nbsp;&nbsp;</span>
+        </div>
+    </section>
+
+    <section class="row">
+
+        <ul class="article-blocks">
+            {{#directory}}<li class="category-box {{#categorySlugs}}{{{.}}} {{/categorySlugs}}" style="display:none;" onclick="window.location.href = '{{{url}}}';">
+                <div class="category-box-image" style="background: url('{{{imageUrl}}}') no-repeat center center;background-size:cover;" ></div>
+                <div class="category-box-infobox">
+                    <div class="category-box-title text-md text-hv-weight">{{{title}}}</div>
+                    <div class="category-box-slugs">
+                        <ul class="category-box-slugs-list">
+                            {{#categorySlugs}}<li class="text-sm is-disabled-text">{{{.}}}</li>{{/categorySlugs}}
+                        </ul>
+                    </div>
+                </div>
+            </li>{{/directory}}
+        </ul>
+    </section>
+
+    <footer>
+      {{>partials/footer}}
+    </footer>
+
+    {{>partials/scripts}}
+  </body>

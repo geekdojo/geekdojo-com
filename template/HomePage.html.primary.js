@@ -9,7 +9,7 @@ exports.transform = function (model) {
       common.setupContribution(model);
       common.setYear(model);
       model.jsScripts = model.jsScripts || [];
-      model.jsScripts.push("hub.tmpl.main.js");
+      model.jsScripts.push("homepage.html.js");
 
       if (extension && extension.postTransform) {
         model = extension.postTransform(model);

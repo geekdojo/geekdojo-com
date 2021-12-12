@@ -34,6 +34,7 @@ $(document).ready( function() { // Wait until document is fully parsed
 
     const urlParams = new URLSearchParams(window.location.search);
     const searchParam = urlParams.get('q');
+    const category = urlParams.get('category');
     
     $("#header-search-input").val(searchParam);
 
@@ -57,4 +58,5 @@ $(document).ready( function() { // Wait until document is fully parsed
 
     });
 
-  });
+
+});

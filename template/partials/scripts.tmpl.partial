@@ -5,5 +5,5 @@
 <script type="text/javascript" src="{{_rel}}styles/main.js"></script>
 
 {{#jsScripts}}
-    <script type="text/javascript" src="{{_rel}}styles/{{.}}"></script>
+<script type="text/javascript" src="{{_rel}}styles/{{.}}"></script>
 {{/jsScripts}}
