@@ -39,10 +39,10 @@
                     Featured
                 </button>
                 <ul id="homepage-filter-ddl" class="dropdown-menu text-sm" aria-labelledby="homepage-filter-ddl-btn">
-                    <li><a class="dropdown-item" href="#category=all" data-category-slug="all">All</a></li>
-                    <li><a class="dropdown-item" href="#category=featured" data-category-slug="featured">Featured</a></li>
+                    <li><a class="dropdown-item" data-category-slug="all">All</a></li>
+                    <li><a class="dropdown-item" data-category-slug="featured">Featured</a></li>
                     {{#categories}}
-                        <li><a class="dropdown-item" href="#category={{{slug}}}" data-category-slug="{{{slug}}}">{{{name}}}</a></li>
+                        <li><a class="dropdown-item" data-category-slug="{{{slug}}}">{{{name}}}</a></li>
                     {{/categories}}
                 </ul>
             </div>
