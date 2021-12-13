@@ -33,7 +33,7 @@
 }
 
 .header-logo {
-    background-image:    url(media/logo.svg);
+    background-image:   var(--header_logo);
     background-size:     contain;
     background-repeat:   no-repeat;
     min-width: 243px;
@@ -46,15 +46,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    .header-logo {
-        background-image:    url(media/logo.svg);
-        background-size:     50%;
-        background-repeat:   no-repeat;
-        background-position: center center;
-        min-width: 250px;
-        min-height: var(--header-height);
-    }
-
     .navbar-toggler-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     }
