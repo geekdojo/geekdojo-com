@@ -41,4 +41,10 @@ $(function(){
 
   });
 
+  $(".category-box-slugs-list li").click(function(){
+
+    catObj.category = $(this).text();
+
+  });
+
 });

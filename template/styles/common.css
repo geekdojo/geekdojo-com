@@ -59,6 +59,29 @@ ul {
     background-color: var(--light-background) !important;
 }
 
+.geekdojo-profile {
+    display: inline-block;
+    color: var(--white);
+    background-color: var(--secondary);    
+    height: 40px;
+    width: 40px;
+    background-image:    url(media/FB_Profile_Avatar.jpg);
+    background-size:     contain;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.geekdojo-profile-username {
+    display: inline-block;
+    color: var(--disabled-text);    
+    cursor: pointer;
+    padding-left: .5rem;
+    position: absolute;
+    line-height: 40px !important;
+}
+
 .is-disabled-text {
     color: var(--disabled-text);
 }
