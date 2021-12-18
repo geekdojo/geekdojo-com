@@ -47,4 +47,8 @@ $(function(){
 
   });
 
+  var headerImageLeft = $(".header-homepage").css("left");
+  var topOfBottomBannerSection = $(".homepage-bottom-banner").css("top");
+  $("#homepage-bottom-banner").css("left", headerImageLeft).css("top", topOfBottomBannerSection);
+
 });

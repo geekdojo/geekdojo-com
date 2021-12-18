@@ -60,3 +60,17 @@ $(document).ready( function() { // Wait until document is fully parsed
 
 
 });
+
+function copyToClipboard(element, classToFade, textToCopy) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val(textToCopy).select();
+  document.execCommand("copy");
+  $temp.remove();
+
+  $(element).removeClass(classToFade).addClass('fa-check');
+
+  setTimeout(function() {
+    $(element).removeClass('fa-check').addClass(classToFade);
+  }, 800);
+}
