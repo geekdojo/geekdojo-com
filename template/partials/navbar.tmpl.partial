@@ -12,25 +12,25 @@
       
         <ul class="navbar-nav header-nav-ul me-auto mb-2 mb-lg-0" id="header-nav-ul">
           <li class="nav-item home-active">
-            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/" title="Geekdojo home">Home</a>
           </li>
           <li class="nav-item learn-active">
-            <a class="nav-link" href="/learn/index.html">Learn</a>
+            <a class="nav-link" href="/learn/index.html" title="Learn about geek things">Learn</a>
           </li>
           <li class="nav-item inspiration-active">
-            <a class="nav-link" href="/inspiration/index.html">Inspiration</a>
+            <a class="nav-link" href="/inspiration/index.html" title="Find Inspiration">Inspiration</a>
           </li>
           <li class="nav-item project-active">
-            <a class="nav-link" href="/projects/index.html">Projects</a>
+            <a class="nav-link" href="/projects/index.html" title="Geekdojo Projects">Projects</a>
           </li>
           <li class="nav-item contribute-active">
-            <a class="nav-link" href="/contributing/index.html">Contribute</a>
+            <a class="nav-link" href="/contributing/index.html" title="Contribute to Geekdojo">Contribute</a>
           </li>
         </ul>
 
         <form class="d-flex">          
           <input class="form-control header-search-box" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-primary btn-header-search" type="submit"><i class="fal fa-search"></i></button>
+          <button class="btn btn-primary btn-header-search" type="submit" title="Search Geekdojo"><i class="fal fa-search"></i></button>
         </form>
 
       </div>
