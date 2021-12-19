@@ -36,7 +36,7 @@
 
   @media (prefers-color-scheme: dark) {
     :root {
-        --header_logo: url(media/Logo_horizontal_white.svg);
+        --header_logo: url(media/Logo_horizontal_white_web.png);
         --black: #1D1D1B;
         --black_rgb: 29, 29, 27;
         --white: #fff;
