@@ -4,6 +4,10 @@ input, button {
     border: none !important;
 }
 
+input[type="text"], input[type="search"], textarea {
+    padding-left: 5px;
+}
+
 input[type="text"], input[type="search"], textarea, option, .dropdown-toggle, .dropdown-menu {
     background-color: var(--card_background) !important;
     color: var(--black);    
@@ -29,7 +33,7 @@ input[type="text"]::placeholder {
 input[type="search"]::placeholder { 
     color: var(--disabled-text);
     font-style: italic;
-    padding-left: 2rem; 
+    padding-left: 1rem;
 }
 
 input:focus, button:focus, a {

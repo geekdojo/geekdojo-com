@@ -29,7 +29,7 @@
         </ul>
 
         <form class="d-flex" action="search.html">          
-          <input class="form-control header-search-box" type="search" placeholder="Search" name="q" aria-label="Search">
+          <input class="form-control header-search-box" type="search" name="q" aria-label="Search" placeholder="Search">
           <button class="btn btn-primary btn-header-search" type="submit" title="Search Geekdojo"><i class="fal fa-search"></i></button>
         </form>
 
