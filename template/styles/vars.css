@@ -7,14 +7,14 @@
     --primary_rgb: 29, 29, 27;
     --secondary: #E84E1B !important;
     --secondary_rgb: 232, 78, 27;
-    --background: #FBFBFB;
+    --background: #E5E5E5;
     --background_rgb: 251, 251, 251;
     --card_background: #ffffff;
 
 
     --dark-background: #1D1D1B;
     --dark-background_rgb: 29, 29, 27;
-    --light-background: #FBFBFB;
+    --light-background: #E5E5E5;
     --light-background_rgb: 251, 251, 251;
 
     --tertiary_gray: #E9E9E9;
@@ -50,7 +50,7 @@
 
         --dark-background: #1D1D1B;
         --dark-background_rgb: 29, 29, 27;
-        --light-background: #FBFBFB;
+        --light-background: #E5E5E5;
         --light-background_rgb: 251, 251, 251;
 
         --tertiary_gray: #E9E9E9;

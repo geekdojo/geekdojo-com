@@ -12,7 +12,6 @@
     margin: 15px;
     border-radius: 10px;
     background: var(--card_background);
-    box-shadow: 0px 20px 20px rgba(83, 83, 83, 0.17);
 }
 
 .category-box-image {
