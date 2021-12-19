@@ -28,8 +28,8 @@
           </li>
         </ul>
 
-        <form class="d-flex">          
-          <input class="form-control header-search-box" type="search" placeholder="Search" aria-label="Search">
+        <form class="d-flex" action="search.html">          
+          <input class="form-control header-search-box" type="search" placeholder="Search" name="q" aria-label="Search">
           <button class="btn btn-primary btn-header-search" type="submit" title="Search Geekdojo"><i class="fal fa-search"></i></button>
         </form>
 
