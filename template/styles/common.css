@@ -1,5 +1,5 @@
 
-html, body, .form-control, .form-control:focus, .btn, .list-group-item {
+html, body, .form-control, .form-control:focus, .list-group-item {
     background-color: var(--background) !important;
     color: var(--primary) !important;
 }

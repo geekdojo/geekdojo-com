@@ -2,12 +2,8 @@
 
   <body>
     
-    <div class="header-homepage">
-        <div class="header-logo-container">
-            <div class="header-logo-block"></div>
-        </div>        
-    </div>
-
+    <div class="header-homepage"></div>
+    <div class="header-logo-container"><div class="header-logo-block"></div></div>
     <div class="container-xxl">
         <header class="row homepage-header-row">
             {{>partials/navbar}}
@@ -18,8 +14,8 @@
                     Find inspiration, learn how technologies work, geek out on some new projects, and see what tools can help get the job done.
                 </p>
                 <div>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input type="text" class="form-control-inline main-banner-searchbox force-dark" placeholder="&nbsp;&nbsp;Search" /><button class="btn btn-primary btn-header-search main-banner-search-btn" type="submit"></button>
+                    <form class="form-inline">
+                        <input type="search" class="form-control-inline main-banner-searchbox" placeholder="&nbsp;&nbsp;Search" /><button class="btn btn-primary btn-header-search main-banner-search-btn" type="submit"><i class="fal fa-search"></i></button>
                     </form>
                 </div>
             </div>
@@ -33,9 +29,8 @@
                 </svg>
             </div>
 
-            <div class="col-sm-2 is-disabled-text text-md-weight text-sm" id="homepage-article-count">9 of 9 Articles</div>
-            <div class="col-sm-7"></div>
-            <div class="col-sm-3">
+            <div class="col-sm-12">
+                <div class="is-disabled-text text-md-weight text-sm pull-left" id="homepage-article-count">9 of 9 Articles</div>
                 <div class="dropdown pull-right homepage-filter-drop-down">
                     <button class="btn btn-secondary dropdown-toggle text-hv-weight text-sm text-start icon" type="button" id="homepage-filter-ddl-btn" data-bs-toggle="dropdown" aria-expanded="false">
                         Featured
@@ -48,7 +43,7 @@
                         {{/categories}}
                     </ul>
                 </div>
-                <span class="pull-right is-disabled-text text-md-weight text-sm">Filter By &nbsp;&nbsp;</span>
+                <span class="pull-right is-disabled-text text-md-weight text-sm d-none d-lg-block">Filter By &nbsp;&nbsp;</span>
             </div>
         </section>
 

@@ -28,11 +28,10 @@
           </li>
         </ul>
 
-        <div class="header-search-container">
-          <form class="form-inline my-2 my-lg-0">          
-            <button class="btn btn-primary btn-header-search" type="submit"></button>
-          </form>
-        </div>
+        <form class="d-flex">          
+          <input class="form-control header-search-box" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-primary btn-header-search" type="submit"><i class="fal fa-search"></i></button>
+        </form>
 
       </div>
     </nav>

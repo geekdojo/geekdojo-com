@@ -47,8 +47,15 @@ $(function(){
 
   });
 
-  var headerImageLeft = $(".header-homepage").css("left");
-  var topOfBottomBannerSection = $(".homepage-bottom-banner").css("top");
-  $("#homepage-bottom-banner").css("left", headerImageLeft).css("top", topOfBottomBannerSection);
+  function resizeHeaderLogoBg(){
+    var leftSpaceAvailable = (($(window).width() - $("header").width())/2) + 50;
+    console.log(leftSpaceAvailable);
+    $(".header-logo-container").css("width", "" + leftSpaceAvailable + "px");
+    $(".header-logo-block").css("width", "" + leftSpaceAvailable + "px");
+  }
+
+  resizeHeaderLogoBg();
+
+  $(window).resize(resizeHeaderLogoBg);
 
 });

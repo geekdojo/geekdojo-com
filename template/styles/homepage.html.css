@@ -61,7 +61,13 @@
     padding-top: 40px;
 }
 
+
 .header-homepage {
+    position: relative;
+    background-color: transparent;
+}
+
+.header-homepage::before {
     position: absolute;
     
     height: 500px;
@@ -76,11 +82,12 @@
     background-repeat:   no-repeat;
     background-position: center center;
     
+    content: " ";
     overflow: hidden;
 }
 
 .header-logo-container {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     height: var(--header-height);
@@ -90,10 +97,11 @@
 
 .header-logo-block {
     height: var(--header-height);
-    width: 500px;
+    width: 15%;
     background-color: var(--background);
     display: inline-block;
 }
+
 
 .homepage-bottom-banner {
     position: relative;
@@ -129,14 +137,6 @@
 
 .homepage-filter-drop-down .btn {
     width: 150px;
-    border: 0;
-    color: var(--black);    
-    background-color: var(--white) !important;
-}
-
-#homepage-filter-ddl-btn:hover {
-    color: var(--black) !important;    
-    background-color: var(--white) !important;
 }
 
 .main-banner {
@@ -161,13 +161,18 @@
     height: 46px;
     line-height: 1.5rem;
     place-content: "Search";
-    width: 600px !important;
+    width: 40% !important;
     border: 0 !important;
-    margin-right: .5rem;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
 }
 
 .main-banner-search-btn {
-    margin-top: -.25rem;
+    height: 46px;
+    width: 46px;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    margin-top: -5px;
 }
 
 .main-header-sep-triangle {

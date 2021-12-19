@@ -1,12 +1,35 @@
 
+input, button {
+    border-radius: .25rem;
+    border: none !important;
+}
+
+input[type="text"], input[type="search"], textarea, option, .dropdown-toggle, .dropdown-menu {
+    background-color: var(--card_background) !important;
+    color: var(--black);    
+}
+
+@media (prefers-color-scheme: dark) {
+    input[type="text"], input[type="search"], textarea, option, .dropdown-toggle, .dropdown-menu {
+        color: var(--white);
+    }
+}
+
+.dropdown-item:hover {
+    background-color: var(--card_background) !important;
+    color: var(--secondary) !important;
+}
+
 input[type="text"]::placeholder { 
     color: var(--disabled-text);
     font-style: italic;
     padding-left: 2rem; 
-} 
+}
 
-input {
-    border-radius: .25rem;
+input[type="search"]::placeholder { 
+    color: var(--disabled-text);
+    font-style: italic;
+    padding-left: 2rem; 
 }
 
 input:focus, button:focus, a {
@@ -14,17 +37,8 @@ input:focus, button:focus, a {
     box-shadow: none !important;
 }
 
-.btn:hover {
-    background-color: var(--primary) !important;
-    color: var(--background) !important;
-}
-
-.btn-primary, .btn-outline-primary, .btn-outline-primary:hover {
-    border-color: var(--primary) !important;
-}
-
-.form-control:hover, .form-control:focus {
-    border-color: rgba(var(--secondary_rgb), 0.8) !important;  
+.form-control {
+    border: none !important;
 }
 
 .form-control:focus {   
