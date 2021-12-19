@@ -10,6 +10,7 @@ a {
 }
 
 body {
+    max-width: 100vw;
     overflow-x: hidden;
 }
 
@@ -71,6 +72,7 @@ ul {
     min-width: 243px;
     min-height: var(--header-height);
     margin-left: .5rem;
+    content: " ";
 }
 
 .footer-follow-us {
