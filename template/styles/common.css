@@ -65,15 +65,9 @@ ul {
     background-color: rgba(223, 224, 229, 0.2);
 }
 
-.footer-logo {    
-    background-image:   var(--header_logo);
-    background-size:     contain;
-    background-repeat:   no-repeat;
+.footer-logo {
     min-width: 243px;
-    min-height: var(--header-height);
     margin-left: .5rem;
-    content: " ";
-    z-index: 2;
 }
 
 .footer-follow-us {
@@ -128,6 +122,26 @@ ul {
     padding-left: .5rem;
     position: absolute;
     line-height: 40px !important;
+}
+
+.logo-light {
+    display: block;
+    width: 243px;
+}
+
+.logo-dark {
+    display: none;
+    width: 243px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .logo-light {
+        display: none;
+    }
+
+    .logo-dark {
+        display: block;
+    }
 }
 
 .is-disabled-text {

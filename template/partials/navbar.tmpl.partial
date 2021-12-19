@@ -1,7 +1,7 @@
     <nav class="navbar navbar-expand-lg header-nav">
       <a class="navbar-brand" href="/">
         <div class="navbar-logo-container">
-            <div class="navbar-logo-block"><div class="header-logo"></div></div><div class="navbar-logo-end"></div>
+            <div class="navbar-logo-block"><div class="header-logo"><img class="logo-light" src="styles/media/Logo_horizontal_web.png" /><img class="logo-dark" src="styles/media/Logo_horizontal_white_web.png" /></div></div><div class="navbar-logo-end"></div>
         </div>        
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

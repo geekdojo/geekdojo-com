@@ -1,8 +1,8 @@
     <div class="row">
         <div class="col-sm-12 col-lg-4">
-            <div class="footer-logo"></div>
+            <div class="footer-logo"><img class="logo-light" src="styles/media/Logo_horizontal_web.png" /><img class="logo-dark" src="styles/media/Logo_horizontal_white_web.png" /></div>
         </div>
-        <div class="col-sm-12 col-lg-4" style="padding-top: 2.5rem;">
+        <div class="col-sm-12 col-lg-4" style="padding-top: 1.5rem;">
             <h4>Terms & Privacy</h4>
             <ul class="footer-terms">
                 <li><a href="/policies/terms-of-use.html">Usage</a></li>
@@ -12,7 +12,7 @@
                 <li><a class="" href="https://app.termly.io/notify/0e94abfd-cf8b-4c3b-a435-30129b79acbe">CCPA: Do not sell my info</a></li>
             </ul>
         </div>
-        <div class="col-sm-12 col-lg-4" style="padding-top: 2.5rem;">
+        <div class="col-sm-12 col-lg-4" style="padding-top: 1.5rem;">
             <h4>Follow Us</h4>
             <ul class="footer-follow-us">
                 <li><a href="https://www.facebook.com/groups/geekdojo" title="Facebook" target="_blank"><i class="rounded-icon-lg fab fa-facebook-f"></i></a></li>

@@ -33,9 +33,6 @@
 }
 
 .header-logo {
-    background-image:   var(--header_logo);
-    background-size:     contain;
-    background-repeat:   no-repeat;
     min-width: 243px;
     min-height: var(--header-height);
     margin-left: .5rem;
