@@ -15,7 +15,7 @@
     left: 50%;
     transform: translateX(-50%);
 
-    background-color: var(--black);
+    background-color: var(--header_background);
     
     content: " ";
     overflow: hidden;
