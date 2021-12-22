@@ -1,0 +1,39 @@
+
+
+.conceptual-header {
+    position: relative;
+    background-color: transparent;
+}
+
+.conceptual-header::before {
+    position: absolute;
+    
+    height: 300px;
+    width: 100%;  
+    
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-color: var(--black);
+    
+    content: " ";
+    overflow: hidden;
+}
+
+.conceptual-header-row {
+    margin-top: 0 !important;
+    height: 300px;
+    color: var(--white);
+    background-color: transparent;
+}
+
+.conceptual-banner {
+    z-index: 1;
+    margin: auto;
+    text-align: center;
+}
+
+.conceptual-banner h1 {
+    font-weight: 700;
+}

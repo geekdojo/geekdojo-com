@@ -1,6 +1,18 @@
 {{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
 {{!master(layout/_master.tmpl)}}
 
+    <div class="conceptual-header"></div>
+    <div class="header-logo-container"><div class="header-logo-block"></div></div>
+    <div class="container-xxl">
+        <header class="row conceptual-header-row">
+            {{>partials/navbar}}
+
+            <div class="conceptual-banner">
+                <h1>{{title}}</h1>
+            </div>
+        </header>
+    </div>
+    
     <section>
         <div class="row">
             <div class="col-lg-5 d-none d-lg-block" id="breadcrumb">
@@ -51,3 +63,5 @@
             </div>
         </div>
     </section>
+
+    {{>partials/scripts}}

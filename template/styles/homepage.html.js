@@ -47,15 +47,5 @@ $(function(){
 
   });
 
-  function resizeHeaderLogoBg(){
-    var leftSpaceAvailable = (($(window).width() - $("header").width())/2) + 50;
-    console.log(leftSpaceAvailable);
-    $(".header-logo-container").css("width", "" + leftSpaceAvailable + "px");
-    $(".header-logo-block").css("width", "" + leftSpaceAvailable + "px");
-  }
-
-  resizeHeaderLogoBg();
-
-  $(window).resize(resizeHeaderLogoBg);
 
 });
