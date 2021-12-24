@@ -1,4 +1,10 @@
 
+.bs-docs-sidebar {
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    position: sticky;
+    top: 0;
+}
 
 .conceptual-header {
     position: relative;
@@ -8,7 +14,7 @@
 .conceptual-header::before {
     position: absolute;
     
-    height: 300px;
+    height: 100px;
     width: 100%;  
     
     top: 0;
@@ -23,17 +29,35 @@
 
 .conceptual-header-row {
     margin-top: 0 !important;
-    height: 300px;
+    margin-bottom: 1rem;
+    height: 100px;
     color: var(--white);
     background-color: transparent;
 }
 
 .conceptual-banner {
-    z-index: 1;
-    margin: auto;
-    text-align: center;
+    height: 88px;
 }
 
 .conceptual-banner h1 {
     font-weight: 700;
+}
+
+.feedback-edit-link {
+    background-color: var(--card_background);
+    line-height: 2rem;
+    border-radius: var(--std_border_radius);
+    padding: .25rem .5rem;
+    margin: .25rem;
+}
+
+.project-file {
+}
+
+.fotorama__thumb-border {
+    border-color: transparent !important;
+}
+
+.fotorama__img {
+    border-radius: var(--std_border_radius) !important;
 }

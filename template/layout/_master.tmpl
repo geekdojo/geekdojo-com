@@ -7,6 +7,18 @@
 <html lang="en">
   {{>partials/head}}
   <body>
+  
     {{!body}}
+
+    <div class="container-xxl">
+        <footer>
+        {{>partials/footer}}
+        </footer>
+    </div>
+    <div class="copyright-row">
+        <div style="text-align:center;"><h6 style="line-height: inherit;">Copyright &copy; {{{currentYear}}} geekdojo</h6></div>
+    </div>
+
+    {{>partials/scripts}}
   </body>
 </html>

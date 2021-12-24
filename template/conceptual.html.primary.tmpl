@@ -6,62 +6,75 @@
     <div class="container-xxl">
         <header class="row conceptual-header-row">
             {{>partials/navbar}}
-
-            <div class="conceptual-banner">
-                <h1>{{title}}</h1>
-            </div>
         </header>
-    </div>
-    
-    <section>
-        <div class="row">
-            <div class="col-lg-5 d-none d-lg-block" id="breadcrumb">
-                <ul class="breadcrumb pull-left">
-                    <li>{{title}}</li>
-                </ul>
-            </div>
-            <div class="col-lg-4 d-none d-lg-block"></div>
-            <div class="col-lg-3 d-none d-lg-block">
-                <ul class="is-horizontal pull-right">
-                    {{#docurl}}
-                    <li id="feedback-section-link">
-                        <a href="{{docurl}}" target="_blank" title="Send feedback about this page">
-                            <i class="far fa-comment-dots"></i> Feedback
-                        </a>
-                    </li>
-                    {{/docurl}}
-                    {{#sourceurl}}
-                    <li id="contenteditbtn">
-                        <a href="{{sourceurl}}" target="_blank" title="Edit This Document" >
-                            <i class="far fa-edit"></i> Edit
-                        </a>
-                    </li>		
-                    {{/sourceurl}}				
-                </ul>
-            </div>
-        </div>
-    </section>
 
-    <section>          
-        <div class="row article">
-            <div class="col-md-0 col-lg-2 d-none d-lg-block">
-                {{>partials/toc}}
+        <section class="row">
+            <div class="leaderboard-top-banner">
+                <div class="google-ad top-banner"> </div>
             </div>
-            <div class="col-md-12 col-lg-8">
-                <article>
-                    <h2>{{{title}}}</h2>
-                    <div>{{{summary}}}</div>
+        </section>
+        
+        <section class="row row-margin-double">
+            <div class="col-lg-12">
+                <div class="conceptual-banner">
+                    <div class="geekdojo-profile geekdojo-profile-md inline-block" style="margin-right: 1rem;"></div><div class="inline-block transform-y-50">
+                        <h4 class="text-hv-weight">{{title}}</h4>
+                        <div class="text-sm">by geekdojo</div>
+                    </div>
+                    <div class="pull-right">
+                        {{#docurl}}
+                        <div class="feedback-edit-link">
+                            <a href="{{docurl}}" target="_blank" title="Send feedback about this page">
+                                <i class="far fa-comment-dots"></i> Feedback
+                            </a>
+                        </div>
+                        {{/docurl}}
+                        {{#sourceurl}}
+                        <div class="feedback-edit-link">
+                            <a href="{{sourceurl}}" target="_blank" title="Edit This Document" >
+                                <i class="far fa-edit"></i> Edit
+                            </a>
+                        </div>		
+                        {{/sourceurl}}
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                    {{{conceptual}}}
-                </article>
+        <section class="row">
+            <div class="col-lg-8">
+                <div class="project-img-carousel">
+                    <div class="row">
+                        <div class="fotorama" data-nav="thumbs" data-width="100%">
+                            {{#imagegallery}}<img src="{{{.}}}">{{/imagegallery}}
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-0 col-lg-2 d-none d-lg-block">
-                <nav class="bs-docs-sidebar hidden-print affix" id="affix">
+            <div class="col-lg-4">
+                <div class="content-normal">
+                    <h4>Project Files</h4>
+                    {{^projectfiles}}
+                    No files for this project.
+                    {{/projectfiles}}
+                    {{#projectfiles}}
+                        <div class="project-file"><a href="{{{fileUri}}}" target="_blank" ><i class="fal {{{type}}}"></i> {{{title}}}</a></div>
+                    {{/projectfiles}}
+                </div>
+            </div>
+        </section>
+
+        <section class="row article">
+            <div class="col-lg-4" id="affix-wrapper">
+                <nav class="bs-docs-sidebar hidden-print affix content-normal" id="affix">
                     <h5>{{__global.inThisArticle}}</h5>
                     <div></div>
                 </nav>
             </div>
-        </div>
-    </section>
-
-    {{>partials/scripts}}
+            <div class="col-lg-8">
+                <article class="content-normal">
+                    {{{conceptual}}}
+                </article>
+            </div>
+        </section>
+    </div>

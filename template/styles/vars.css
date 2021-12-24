@@ -30,6 +30,7 @@
 
     --theme-code-block: #f6f6f6;
 
+    --std_border_radius: .25rem;
     --header-height: 89px;
     --disabled-text: #808080;
   }
@@ -66,6 +67,7 @@
 
         --theme-code-block: #2f2f2f;
 
+        --std_border_radius: .25rem;
         --header-height: 89px;
         --disabled-text: #808080;
     }

@@ -1,0 +1,14 @@
+
+.leaderboard-top-banner {
+    padding: 2rem;
+}
+
+.google-ad {
+    margin: auto;
+    background-color: var(--secondary);    
+}
+
+.top-banner {
+    height: 180px;
+    width: 930px;
+}
