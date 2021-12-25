@@ -153,6 +153,14 @@ ul {
     line-height: 40px !important;
 }
 
+.header-rule {
+    width: 90px;
+    height: 4px !important;
+    color: var(--secondary);
+    opacity: 100;
+    margin: .5rem 0;
+}
+
 .icon::before {
     display: inline-block;
     font-style: normal;
