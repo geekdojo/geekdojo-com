@@ -10,7 +10,7 @@
 
         <section class="row">
             <div class="leaderboard-top-banner">
-                <div class="google-ad top-banner"> </div>
+                <div class="google-ad google-ad-top-banner"> </div>
             </div>
         </section>
         
@@ -52,7 +52,17 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="content-normal">
+                <div class="content-normal" style="display: none;">
+                    <div>
+                        <h4>Share</h4>
+                        <div class="project-share">
+                            <div class="project-share-item"><i class="fab fa-instagram-square"></i> Instagram</div>
+                            <div class="project-share-item"><i class="fab fa-facebook-square"></i> Facebook</div>
+                            <div class="project-share-item"><i class="fab fa-twitter-square"></i> Twitter</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-normal project-files">
                     <h4>Project Files</h4>
                     {{^projectfiles}}
                     No files for this project.
@@ -61,20 +71,23 @@
                         <div class="project-file"><a href="{{{fileUri}}}" target="_blank" ><i class="fal {{{type}}}"></i> {{{title}}}</a></div>
                     {{/projectfiles}}
                 </div>
+                <div class="content-normal">
+                    <div class="google-ad google-ad-large-rect"></div>
+                </div>
             </div>
         </section>
 
         <section class="row article">
+            <div class="col-lg-8">
+                <article class="content-normal">
+                    {{{conceptual}}}
+                </article>
+            </div>
             <div class="col-lg-4" id="affix-wrapper">
                 <nav class="bs-docs-sidebar hidden-print affix content-normal" id="affix">
                     <h5>{{__global.inThisArticle}}</h5>
                     <div></div>
                 </nav>
-            </div>
-            <div class="col-lg-8">
-                <article class="content-normal">
-                    {{{conceptual}}}
-                </article>
             </div>
         </section>
     </div>

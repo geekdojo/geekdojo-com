@@ -8,7 +8,12 @@
     background-color: var(--secondary);    
 }
 
-.top-banner {
+.google-ad-top-banner {
     height: 180px;
     width: 930px;
+}
+
+.google-ad-large-rect {
+    height: 280px;
+    width: 336px;
 }

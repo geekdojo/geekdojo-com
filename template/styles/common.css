@@ -78,6 +78,7 @@ ul {
     background-color: var(--card_background);
     border-radius: var(--std_border_radius);
     padding: .5rem;
+    margin-bottom: 2rem;
 }
 
 .copyright-row {

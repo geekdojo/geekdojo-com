@@ -21,9 +21,7 @@ projectfiles:
 github: 'https://github.com/BryceAshey/speaker-designs'
 ---
 
-## Summary
-
-A while back I found it was time to upgrade the external speakers on my desktop. I'd always wanted to assemble my own setup and since I had just purchased an Ultimake 2+ Extended I finally had enough print area to make it happen. I wanted sound that could rival bookshelf systems in the $1,000 - $2,000 range. To that end, I invested around $600 in the speakers and amplifier and am super happy with the result. The system handles both music and video games very well bringing snappy bass to machine gun fire and clear deep sound to Adele's *Rolling in the Deep*.
+A while back I found it was time to upgrade the external speakers on my desktop. I'd always wanted to assemble my own setup and since I had just purchased an Ultimaker 2+ Extended I finally had enough print area to make it happen. I wanted sound that could rival bookshelf systems in the $1,000 - $2,000 range. To that end, I invested around $600 in the speakers and amplifier and am super happy with the result. The system handles both music and video games very well bringing snappy bass to machine gun fire and clear deep sound to Adele's *Rolling in the Deep*.
 
 ## Key Components
 

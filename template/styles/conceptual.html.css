@@ -51,13 +51,34 @@
     margin: .25rem;
 }
 
-.project-file {
-}
-
 .fotorama__thumb-border {
     border-color: transparent !important;
 }
 
 .fotorama__img {
     border-radius: var(--std_border_radius) !important;
+}
+
+.project-files {
+    max-height: 250px;
+    overflow-x: hidden;    
+    overflow-y: scroll;
+}
+
+.project-share {
+    display: inline-block;
+}
+
+.project-share div:first-child {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.project-share-item {
+    display: inline-block;
+    background-color: var(--card_background);
+    line-height: 2rem;
+    border-radius: var(--std_border_radius);
+    padding: .25rem .5rem;
+    margin: .25rem;
 }
