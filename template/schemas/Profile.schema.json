@@ -1,0 +1,62 @@
+{
+    "$schema": "https://dotnet.github.io/docfx/schemas/v1.0/schema.json#",
+    "version": "1.0.0",
+    "id": "https://github.com/dotnet/docfx/schemas/profile.schema.json",
+    "title": "Profile",
+    "description": "The schema for profile page",
+    "type": "object",
+    "xrefProperties": [ "title", "summary", "globalcategory" ],
+    "properties": {
+        "metadata": {
+            "type": "object",
+            "tags": [ "metadata" ]
+        },
+        "uid": {
+            "type": "string",
+            "contentType": "uid"
+        },
+        "directory": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "authorUrl": {
+                        "type": "string",
+                        "contentType": "href"
+                    },
+                    "author": {
+                        "type": "string"                        
+                    },
+                    "urlTarget": {
+                        "type": "string"
+                    },
+                    "url": {
+                        "type": "string",
+                        "contentType": "href"
+                    },
+                    "imageUrl": {
+                        "type": "string",
+                        "contentType": "href"
+                    },
+                    "categorySlugs": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "summary": {
+                        "type": "string",
+                        "contentType": "markdown"
+                    },
+                    "title": {
+                        "type": "string",
+                        "mergeType": "key"
+                    }
+                }
+            }
+        },
+        "jsScripts": {
+            "type": "array"
+        }
+    }
+}

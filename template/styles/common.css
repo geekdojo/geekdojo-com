@@ -22,8 +22,10 @@ article.content-normal td, th {
 }
 
 body {
+    position: relative;
     max-width: 100vw;
     overflow-x: hidden;
+    z-index: -10;
 }
 
 code {
@@ -86,6 +88,17 @@ ul {
     line-height: 50px !important;
     margin: auto !important;
     background-color: rgba(223, 224, 229, 0.2);
+}
+
+.feature-icon {
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    background-color: var(--secondary);
+    color: var(--white);
+    text-align: center;
 }
 
 .footer-logo {
@@ -193,6 +206,10 @@ ul {
     }
 }
 
+.is-text-centered {
+    text-align: center;
+}
+
 .is-disabled-text {
     color: var(--disabled-text);
 }
@@ -275,6 +292,10 @@ ul {
 
 .text-md-weight {
     font-weight: 400;
+}
+
+.text-title-weight {
+    font-weight: 700;
 }
 
 .text-hv-weight {

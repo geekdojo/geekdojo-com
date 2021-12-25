@@ -1,0 +1,76 @@
+
+.profile-header {
+    position: relative;
+    background-color: transparent;
+}
+
+.profile-header::before {
+    position: absolute;
+    
+    height: 581px;
+    width: 100%;  
+    
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-color: var(--header_background);
+    
+    content: " ";
+    overflow: hidden;
+    z-index: -1;
+}
+
+.profile-header-row {
+    margin-top: 0 !important;
+    height: 100px;
+    color: var(--white);
+    background-color: transparent;
+}
+
+.profile-header-gray-accent {
+    position: absolute;
+    top: 89px;
+    left: 60%;
+    height: 54px;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.profile-header-gray-accent-end {
+    width: 0; 
+    height: 0;
+    border-top: 54px solid transparent;    
+    border-right: 54px solid #252525;
+    display: inline-block;
+}
+
+.profile-header-gray-accent-block {
+    height: 54px;
+    width: 60%;
+    background-color: #252525;
+    display: inline-block;
+}
+
+.profile-header-secondary-accent-block {
+    position: absolute;
+    top: 154px;
+    left: 0;
+    height: 427px;
+    width: 20%;
+    z-index: -1;
+    overflow: hidden;
+    background-color: var(--secondary);
+}
+
+.profile-main-content {
+    background-color: var(--card_background);
+    padding: 2rem;
+    border-radius: var(--std_border_radius);
+}
+
+.profile-main-content img {
+    width: 100%;
+    border-radius: var(--std_border_radius);
+}

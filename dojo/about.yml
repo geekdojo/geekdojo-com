@@ -1,0 +1,53 @@
+### YamlMime:Profile
+
+title: Our Story
+summary: The drivers behind geekdojo.
+globalcategory: home
+
+directory:
+  # Card
+  - title: Bitscope's 24 Node Edgerack
+    summary: none
+    categorySlugs:
+      - all
+      - featured
+      - raspberry-pi
+    url: /projects/raspberry-pi/bitscope-edgerack/index.html
+    urlTarget: _self
+    author: geekdojo
+    imageUrl: /projects/raspberry-pi/bitscope-edgerack/media/edgerack-fp-small.jpg
+  # Card
+  - title: 5'x7' Packed w/Tech
+    summary: none
+    categorySlugs:
+      - all
+      - featured
+      - streaming
+    url: /inspiration/setups/geekdojo/index.html
+    urlTarget: _self
+    author: geekdojo
+    imageUrl: /inspiration/setups/geekdojo/media/currentsetup-thumb.png
+  # Card
+  - title: 2.1 PC Sound
+    summary: none
+    categorySlugs:
+      - all
+      - featured
+      - 3d-printing
+      - home-audio
+    url: /projects/audio/3D-printed-2_1/index.html
+    urlTarget: _self
+    author: geekdojo
+    imageUrl: /projects/audio/3D-printed-2_1/media/JLAudioBassTube-thumb.png
+  # Card
+  - title: 7 node Kubernetes Cluster on Raspberry Pis
+    summary: none
+    categorySlugs:
+      - all
+      - featured
+      - 3d-printing
+      - raspberry-pi
+    url: /projects/raspberry-pi/micronetes/index.html
+    urlTarget: _self
+    author: geekdojo
+    imageUrl: /projects/raspberry-pi/micronetes/media/cluster-thumb.png

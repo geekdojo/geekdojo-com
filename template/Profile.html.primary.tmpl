@@ -1,0 +1,61 @@
+{{!master(layout/_master.tmpl)}}
+
+    <div class="profile-header"></div>
+    <div class="header-logo-container"><div class="header-logo-block"></div></div>
+    <div class="profile-header-gray-accent"><div class="profile-header-gray-accent-end"></div><div class="profile-header-gray-accent-block"></div></div>
+    <div class="profile-header-secondary-accent-block"></div>
+    <div class="container-xxl">
+        <header class="row profile-header-row">
+            {{>partials/navbar}}
+        </header>
+        <section class="row">
+            <h1 class="is-text-centered text-title-weight" style="margin-top: 3rem;">Our Story</h1>
+        </section>
+        <section class="row profile-main-content">
+            <div class="col-lg-6">
+                <h3>Bryce Ashey, Founder</h3>
+                <hr class="header-rule">
+
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <div class="project-share">
+                    <div class="project-share-item"><a href="https://www.linkedin.com/in/bryceashey" target="_blank" title="Goto Bryce's LinkedIn profile."><i class="fab fa-linkedin"></i> LinkedIn</a></div>
+                    <div class="project-share-item"><a href="https://github.com/BryceAshey" targe="_blank" title="Goto Bryce's personal GitHub"><i class="fab fa-github-square"></i> GitHub</a></div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="media/BryceAshey.jpg" />
+            </div>
+        </section>
+        <section class="row">
+            <div>
+                <div class="inline-block feature-icon"><i class="fas fa-fire"></i></div>
+                <h4 class="inline-block">Featured</h4>
+            </div>            
+            <ul class="article-blocks">
+                {{#directory}}<li class="category-box {{#categorySlugs}}{{{.}}} {{/categorySlugs}}">
+                    <div class="category-box-image" style="background: url('{{{imageUrl}}}') no-repeat center center;background-size:cover;" onclick="window.location.href = '{{{url}}}';"></div>
+                    <div class="category-box-infobox">
+                        <div class="category-box-title text-md text-hv-weight" onclick="window.location.href = '{{{url}}}';">{{{title}}}</div>
+                        <div class="category-box-slugs">
+                            <ul class="category-box-slugs-list">
+                                {{#categorySlugs}}<li class="text-sm is-disabled-text" title="{{{.}}}">{{{.}}}</li>{{/categorySlugs}}
+                            </ul>
+                        </div>
+                        <div class="category-box-profile">
+                            <div class="pull-left" style="height: 40px !important" onclick="window.location.href = 'about.html';" title="Geekdojo profile"><div class="geekdojo-profile"></div><div class="geekdojo-profile-username text-md-weight text-sm">geekdojo</div></div>
+                            <div class="pull-right"><div class="share-icon-buffer"><i onclick="copyToClipboard(this, 'fa-link', '{{{url}}}')" class="rounded-icon-md share-icon fal fa-link" title="Copy permalink"></i></div></div>
+                        </div>
+                    </div>
+                </li>{{/directory}}
+            </ul>
+        </section>
+
+        <section class="row">
+            <div class="col-lg-12" style="height: 347px; background-color: var(--secondary); border-radius: var(--std_border_radius);">
+
+            </div>
+        </section>
+
+    </div>
