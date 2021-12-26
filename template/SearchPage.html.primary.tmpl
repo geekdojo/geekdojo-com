@@ -1,11 +1,20 @@
 {{!master(layout/_master.tmpl)}}
 
-    <div class="conceptual-header"></div>
+    <div class="search-header"></div>
     <div class="header-logo-container"><div class="header-logo-block"></div></div>
     <div class="container-xxl">
-        <header class="row conceptual-header-row">
+        <header class="row search-header-row">
             {{>partials/navbar}}
         </header>
+
+        <section class="row">
+            <h1 class="is-text-centered text-title-weight" style="margin-top: 3rem;">Search</h1>
+            <div class="is-text-centered">
+                <form class="form-inline" action="search.html">
+                    <input class="form-control-inline main-banner-searchbox" type="search" name="q" aria-label="Search" placeholder="Search" /><button class="btn btn-primary btn-header-search main-banner-search-btn" title="Search Geekdojo" type="submit"><i class="fal fa-search"></i></button>
+                </form>
+            </div>
+        </section>
 
         <section class="row">
             <div class="col-sm-12">
