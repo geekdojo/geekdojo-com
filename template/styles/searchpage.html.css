@@ -1,0 +1,14 @@
+.search-result {
+
+}
+
+.search-result-item {
+    background-color: var(--card_background);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: var(--std_border_radius);
+}
+
+.search-result-item a {
+    color: var(--secondary) !important;
+}

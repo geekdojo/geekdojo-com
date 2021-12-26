@@ -1,40 +1,44 @@
 {{!master(layout/_master.tmpl)}}
 
-        <section>
-            <div class="uhf-container has-padding-bottom-extra-large has-padding-top-extra-large">            
-                <div class="row">
-                    <div class="col-sm-12">
-                        {{=<% %>=}}
+    <div class="conceptual-header"></div>
+    <div class="header-logo-container"><div class="header-logo-block"></div></div>
+    <div class="container-xxl">
+        <header class="row conceptual-header-row">
+            {{>partials/navbar}}
+        </header>
 
-                        <!-- Search Results -->
-                        <div id="search-results">
-                            <ul>
-                                <li v-for="item in searchResults.items" class="search-result-item">
-                                    <div><a :href="item.link" v-html="item.htmlTitle" class="search-result-item-link"></a></div>
-                                    <div v-html="item.htmlSnippet"></div>                                    
-                                    <div><a :href="item.link" v-html="item.htmlFormattedUrl" class="search-result-item-htmlLink"></a></div>
-                                </li>
-                            </ul>
-                        </div>
+        <section class="row">
+            <div class="col-sm-12">
+                {{=<% %>=}}
 
-                        <script type="text/javascript">
-
-                            var searchResultApp =  new Vue({
-                                el: '#search-results',
-                                data: {
-                                    searchResults: {items:[]}
-                                },
-                                mounted () {                        
-                                    const urlParams = new URLSearchParams(window.location.search);
-                                    const searchParam = urlParams.get('q');
-                                    axios.get('https://www.googleapis.com/customsearch/v1?key=AIzaSyBc8FQ1TZwU4k-jZCzJqvBXUmRrXpqB748&cx=761f405e66d6248a4&q='+searchParam).then(response => (this.searchResults = response.data));
-                                }
-                            });
-
-                        </script>
-
-                        <%={{ }}=%>
-                    </div>
+                <!-- Search Results -->
+                <div id="search-results">
+                    <ul>
+                        <li v-for="item in searchResults.items" class="search-result-item">
+                            <h5><a :href="item.link" v-html="item.htmlTitle" class="search-result-item-link"></a></h5>
+                            <div v-html="item.htmlSnippet"></div>                                    
+                            <div class="text-sm"><a :href="item.link" v-html="item.htmlFormattedUrl" class="search-result-item-htmlLink"></a></div>
+                        </li>
+                    </ul>
                 </div>
+
+                <script type="text/javascript">
+
+                    var searchResultApp =  new Vue({
+                        el: '#search-results',
+                        data: {
+                            searchResults: {items:[]}
+                        },
+                        mounted () {                        
+                            const urlParams = new URLSearchParams(window.location.search);
+                            const searchParam = urlParams.get('q');
+                            axios.get('https://www.googleapis.com/customsearch/v1?key=AIzaSyBc8FQ1TZwU4k-jZCzJqvBXUmRrXpqB748&cx=761f405e66d6248a4&q='+searchParam+'&safe=active').then(response => (this.searchResults = response.data));
+                        }
+                    });
+
+                </script>
+
+                <%={{ }}=%>
             </div>
         </section>
+    </div>
