@@ -1,52 +1,23 @@
 {{!master(layout/_master.tmpl)}}
-
-        <section>
-            <div class="row">
-                <div class="col-sm-5" id="breadcrumb">
-                    <ul class="breadcrumb pull-left">
-                        <li>{{_tocTitle}}</li>
-                    </ul>
-                </div>
-                <div class="col-sm-4"></div>
-                <div class="col-sm-3"></div>
-            </div>
-        </section>
-        <section>
-            <div class="uhf-container has-padding-bottom-extra-large has-padding-top-extra-large">            
-                <div class="row">
-                    {{^_disableToc}}
-                    <div class="col-sm-2">
-                        {{>partials/toc}}
-                    </div>
-                    <div class="col-sm-10">
-                        <div class="columns is-masonry  non-uhf-padding" style="margin-top: 20px">
-                            <!-- Termly Tracking Code -->
-                            <div name="termly-embed" data-id="{{{termlyId}}}" data-type="iframe"></div>
-                            <script type="text/javascript">(function(d, s, id) {
-                            var js, tjs = d.getElementsByTagName(s)[0];
-                            if (d.getElementById(id)) return;
-                            js = d.createElement(s); js.id = id;
-                            js.src = "https://app.termly.io/embed-policy.min.js";
-                            tjs.parentNode.insertBefore(js, tjs);
-                            }(document, 'script', 'termly-jssdk'));</script>
-                        </div>
-                    </div>
-                    {{/_disableToc}}
-                    {{#_disableToc}}
-                    <div class="col-sm-12">
-                        <div class="columns is-masonry  non-uhf-padding" style="margin-top: 20px">
-                            <!-- Termly Tracking Code -->
-                            <div name="termly-embed" data-id="{{{termlyId}}}" data-type="iframe"></div>
-                            <script type="text/javascript">(function(d, s, id) {
-                            var js, tjs = d.getElementsByTagName(s)[0];
-                            if (d.getElementById(id)) return;
-                            js = d.createElement(s); js.id = id;
-                            js.src = "https://app.termly.io/embed-policy.min.js";
-                            tjs.parentNode.insertBefore(js, tjs);
-                            }(document, 'script', 'termly-jssdk'));</script>
-                        </div>
-                    </div>
-                    {{/_disableToc}}
+    <div class="profile-header"></div>
+    <div class="header-logo-container"><div class="header-logo-block"></div></div>
+    <div class="container-xxl">
+        <header class="row profile-header-row">
+            {{>partials/navbar}}
+        </header>
+        <section class="row is-card" style="background-color: var(--light-background) !important;">
+            <div class="col-sm-12">
+                <div class="columns is-masonry  non-uhf-padding" style="margin-top: 20px">
+                    <!-- Termly Tracking Code -->
+                    <div name="termly-embed" data-id="{{{termlyId}}}" data-type="iframe"></div>
+                    <script type="text/javascript">(function(d, s, id) {
+                    var js, tjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = "https://app.termly.io/embed-policy.min.js";
+                    tjs.parentNode.insertBefore(js, tjs);
+                    }(document, 'script', 'termly-jssdk'));</script>
                 </div>
             </div>
         </section>
+    </div>

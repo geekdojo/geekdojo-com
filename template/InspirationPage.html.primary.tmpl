@@ -1,18 +1,23 @@
 {{!master(layout/_master.tmpl)}}
 
-        <section>
-            <div class="row">
-                <div class="col-sm-5" id="breadcrumb">
-                    <ul class="breadcrumb pull-left">
-                        <li>{{_tocTitle}}</li>
-                    </ul>
-                </div>
-                <div class="col-sm-4"></div>
-                <div class="col-sm-3">                    
-                </div>
+    <div class="landingpage-header"></div>
+    <div class="header-logo-container"><div class="header-logo-block"></div></div>
+    <div class="container-xxl">
+        <header class="row profile-header-row">
+            {{>partials/navbar}}
+        </header>
+
+        <section class="row">
+            <div class="col-sm-5" id="breadcrumb">
+                <ul class="breadcrumb pull-left">
+                    <li>{{_tocTitle}}</li>
+                </ul>
+            </div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-3">                    
             </div>
         </section>
-        <section>
+        <section class="row">
             <article>
                 {{=<% %>=}}
                 <div id="inspirationApp">
@@ -21,3 +26,4 @@
                 <%={{ }}=%>
             </article>
         </section>
+    </div>
