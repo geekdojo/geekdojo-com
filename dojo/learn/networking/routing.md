@@ -1,3 +1,8 @@
+---
+title: Routing TCP/IP Traffic
+globalcategory: learn
+---
+
 # Routing TCP/IP Traffic
 
 You can think of TCP/IP routing as Google Maps for the internet; without it, the packets leaving your workstation would not know how to find the web server behind the web address in your browser. Having said that, it is important to remember that a TCP/IP route does not define the entire path to the destination, only the *next* segment of the journey. There are five types of routes:

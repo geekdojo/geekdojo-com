@@ -1,0 +1,30 @@
+.landingpage-header {
+    position: relative;
+    background-color: transparent;
+}
+
+.landingpage-header::before {
+    position: absolute;
+    
+    height: 461px;
+    width: 100%;  
+    
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-color: var(--header_background);
+    
+    content: " ";
+    overflow: hidden;
+    z-index: -1;
+}
+
+.landing-card {
+    padding: .5rem;
+}
+
+.landing-toc {
+    padding: .5rem;
+}
+

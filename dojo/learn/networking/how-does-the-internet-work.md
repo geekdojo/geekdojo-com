@@ -1,3 +1,8 @@
+---
+title: How Does the Internet Work?
+globalcategory: learn
+---
+
 # How Does the Internet Work?
 
 When you browse to a website via your web browser the content may travel as light through a fiber optic cable, it may exist as bits in copper, or even radio waves in the air. The path the data takes to get to your screen is suprisingly varied yet only take milliseconds to travel around the world. The process may seem complex but it is all based around a technology created in the 1970s, TCP/IP.

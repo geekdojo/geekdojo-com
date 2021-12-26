@@ -1,3 +1,8 @@
+---
+title: Micronetes Node Setup
+globalcategory: project
+---
+
 # Node Setup
 
 ## Raspberry PI Image

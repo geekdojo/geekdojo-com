@@ -1,14 +1,7 @@
 ---
 title: Dojo Content - Working Locally
 description: Setup your machine to allow for contributing content locally.
-services: dojo
-ms.service: dojo
-ms.subservice: content
-ms.topic: how-to
-ms.reviewers: bashey
-ms.author: bashey
-author: bashey
-ms.date: 09/12/2021
+globalcategory: contribute
 ---
 
 # Overview

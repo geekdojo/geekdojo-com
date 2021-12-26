@@ -1,14 +1,7 @@
 ---
 title: Dojo Contributor Guide
 description: This guide will walk you through contributing content or code to the Dojo including setting up your local environment.
-services: dojo
-ms.service: dojo
-ms.subservice: content
-ms.topic: how-to
-ms.reviewers: bashey
-ms.author: bashey
-author: bashey
-ms.date: 09/12/2021
+globalcategory: contribute
 ---
 
 ## Dojo Contributor Guide

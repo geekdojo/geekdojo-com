@@ -1,13 +1,7 @@
 ---
 title: Code of Conduct
 description: Be excellent to each other.
-ms.assetid: 25ec96e6-dc41-4311-9650-4423b780239f
-ms.topic: concept
-ms.date: 09/12/2021
-ms.custom: ""
-ms.services: "dojo"
-ms.author: "bashey"
-_tocTitle: "Dojo"
+globalcategory: contribute"
 ---
 
 ## Our Pledge

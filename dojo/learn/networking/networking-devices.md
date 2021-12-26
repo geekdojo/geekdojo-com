@@ -1,3 +1,8 @@
+---
+title: Common Home Network Devices
+globalcategory: learn
+---
+
 # Common Home Network Devices
 
 Within any home there are a number of network devices in common use. It is also quite common for functions to be combined into a single device. For instance, the device from your cable provider may combine a modem, firewall, router, wifi, and switch into a single device. In either scenario the flow of data follows a path similar to the diagram below:

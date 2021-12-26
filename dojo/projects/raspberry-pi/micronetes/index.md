@@ -1,3 +1,8 @@
+---
+title: Raspberry PI Based Kubernetes Cluster
+globalcategory: project
+---
+
 # Raspberry PI Based Kubernetes Cluster
 
 Designs, instructions, and more for a seven node Raspberry PI Kubernetes cluster.

@@ -186,6 +186,19 @@ ul {
     display: inline-block;
 }
 
+.is-card {
+    background-color: var(--card_background) !important;
+    border-radius: var(--std_border_radius) !important;    
+}
+
+.is-text-centered {
+    text-align: center;
+}
+
+.is-disabled-text {
+    color: var(--disabled-text);
+}
+
 .logo-light {
     display: block;
     width: 243px;
@@ -204,14 +217,6 @@ ul {
     .logo-dark {
         display: block;
     }
-}
-
-.is-text-centered {
-    text-align: center;
-}
-
-.is-disabled-text {
-    color: var(--disabled-text);
 }
 
 .pull-right {

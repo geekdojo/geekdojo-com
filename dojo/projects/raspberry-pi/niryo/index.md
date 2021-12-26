@@ -1,3 +1,8 @@
+---
+title: Niryo 6-axis Robotic Arm
+globalcategory: project
+---
+
 # Review: Niryo 6-axis Robotic Arm
 
 ![Tony Stark Argues with Dummy the Robotic Arm](media/tony-stark-dummy.jpg)

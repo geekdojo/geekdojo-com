@@ -1,3 +1,8 @@
+---
+title: Micronetes Building the Cluster
+globalcategory: project
+---
+
 # Building the Cluster
 
 [**Bill of Materials**](BOM.md)

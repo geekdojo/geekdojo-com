@@ -44,9 +44,7 @@
 }
 
 .feedback-edit-link {
-    background-color: var(--card_background);
     line-height: 2rem;
-    border-radius: var(--std_border_radius);
     padding: .25rem .5rem;
     margin: .25rem;
 }

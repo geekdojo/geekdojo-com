@@ -1,6 +1,12 @@
+---
+title: Micronetes Master Node Setup
+globalcategory: project
+---
+
 # Master Node Setup
 
 ## Configure Keepalive
+
 We use keepalive on each of the 3 master nodes to ensure a single static IP is available at all times for the Kubernetes API. If a node fails then keepalive will move the IP to one of the remaining "up" nodes. As with before change the IPs found within to meet your needs.
 
 Install Keepalive

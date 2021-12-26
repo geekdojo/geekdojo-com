@@ -1,3 +1,8 @@
+---
+title: TCP/IP Makes the Internet go Round
+globalcategory: learn
+---
+
 # TCP/IP Makes the Internet go Round
 
 TCP/IP was originally created in the 1970s by Tim Berners-Lee as a project to enable communication for the US Department of Defense computers. The Defense Department operated a network called the Advanced Research Projects Agency Network (ARPANet) and needed to allow communication between computers in any location. ARPANet officially completed the transition to TCP/IP on January 1st, 1983 and the World Wide Web was born. Of course, the speed and diversity of connections didn't look anything like it does in modern times. Typical connectivity in 1983 involved thousands of bits of data per second over physical lines only versus billions of bits per second today on air, land, space, and sea.

@@ -1,71 +1,75 @@
 {{!master(layout/_master.tmpl)}}
 
-        <section>
-            <div class="row">
-                <div class="col-sm-5" id="breadcrumb">
-                    <ul class="breadcrumb pull-left">
-                        <li>{{_tocTitle}}</li>
-                    </ul>
-                </div>
-                <div class="col-sm-4"></div>
-                <div class="col-sm-3">
-                    <ul class="is-horizontal pull-right">
+    <div class="landingpage-header"></div>
+    <div class="header-logo-container"><div class="header-logo-block"></div></div>
+    <div class="container-xxl">
+        <header class="row profile-header-row">
+            {{>partials/navbar}}
+        </header>
+
+        <section class="row">
+            <div class="leaderboard-top-banner">
+                <div class="google-ad google-ad-top-banner"> </div>
+            </div>
+        </section>
+        
+        <section class="row row-margin-double">
+            <div class="col-lg-12">
+                <div class="conceptual-banner">
+                    <div class="geekdojo-profile geekdojo-profile-md inline-block" style="margin-right: 1rem;"></div><div class="inline-block transform-y-50">
+                        <h4 class="text-hv-weight">{{title}}</h4>
+                        <div class="text-sm">by geekdojo</div>
+                    </div>
+                    <div class="pull-right">
                         {{#docurl}}
-                        <li id="feedback-section-link">
+                        <div class="is-card feedback-edit-link">
                             <a href="{{docurl}}" target="_blank" title="Send feedback about this page">
                                 <i class="far fa-comment-dots"></i> Feedback
                             </a>
-                        </li>
+                        </div>
                         {{/docurl}}
                         {{#sourceurl}}
-                        <li id="contenteditbtn">
+                        <div class="is-card feedback-edit-link">
                             <a href="{{sourceurl}}" target="_blank" title="Edit This Document" >
                                 <i class="far fa-edit"></i> Edit
                             </a>
-                        </li>		
-                        {{/sourceurl}}				
-                    </ul>
+                        </div>		
+                        {{/sourceurl}}
+                    </div>
                 </div>
             </div>
         </section>
-        <section>
-            <div class="has-padding-bottom-extra-large has-padding-top-extra-large">            
-                <div class="row">
-                    {{^_disableToc}}
-                    <div class="col-sm-2">
-                        {{>partials/toc}}
-                    </div>
-                    <div class="col-sm-10">
-                    {{/_disableToc}}                    
-                    {{#_disableToc}}
-                    <div class="col-sm-12">
-                    {{/_disableToc}}      
-                        <h2>{{{title}}}</h2>
-                        <div>{{{summary}}}</div>
 
-                        <ul class="landing-page">
-                        
-                            {{#landingContent}}
-                            <li style="background: linear-gradient(135deg, var(--background) 0%, transparent 400%), url('{{{image_url}}}') no-repeat; background-size: cover !important;">
-                                <div>
-                                    <h5>{{title}}</h5>
-                                    <hr />
-                                    {{#linkLists}}
-                                        <h6 class="is-uppercase">
-                                            <span class="has-margin-right-extra-small align-self-center font-size-h5 lp-card-topic lp-card-topic-{{{linkListType}}}" aria-hidden="true"></span>
-                                            {{topic_word}}
-                                        </h6>
-                                        {{#links}}
-                                        <p><a href="{{{url}}}" target="{{{target}}}">{{{text}}}</a></p>
-                                        {{/links}}
-                                    {{/linkLists}}
-                                </div>
-                            </li>
-                            {{/landingContent}}
-
-                        </ul>
-                    </div>
-                    
+        <section class="row">
+            {{^_disableToc}}
+            <div class="col-sm-2">
+                <div class="is-card landing-toc">
+                    {{>partials/toc}}
                 </div>
+            </div>
+            <div class="col-sm-10">
+            {{/_disableToc}}                    
+            {{#_disableToc}}
+            <div class="col-sm-12">
+            {{/_disableToc}}
+                <div class="row row-cols-1 row-cols-md-2">
+                    {{#landingContent}}
+                    <div class="col">
+                        <div class="card is-card landing-card">
+                            <h5>{{title}}</h5>
+                            <hr />
+                            {{#linkLists}}
+                                <h6 class="is-uppercase">
+                                    <span class="has-margin-right-extra-small align-self-center font-size-h5 lp-card-topic lp-card-topic-{{{linkListType}}}" aria-hidden="true"></span>
+                                    {{topic_word}}
+                                </h6>
+                                {{#links}}
+                                <p><a href="{{{url}}}" target="{{{target}}}">{{{text}}}</a></p>
+                                {{/links}}
+                            {{/linkLists}}
+                        </div>
+                    </div>
+                    {{/landingContent}}
+                </div>               
             </div>
         </section>

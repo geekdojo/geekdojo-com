@@ -1,3 +1,8 @@
+---
+title: Micronetes Kubernetes Setup
+globalcategory: project
+---
+
 # Kubernetes Setup
 
 ## First Master Node (kuber04m01)

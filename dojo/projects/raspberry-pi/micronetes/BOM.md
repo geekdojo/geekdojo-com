@@ -1,3 +1,8 @@
+---
+title: Micronetes Bill of Materials
+globalcategory: project
+---
+
 # Bill of Materials
 
 ### Compute
