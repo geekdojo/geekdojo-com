@@ -16,10 +16,10 @@
           </li>
           <li class="nav-item learn-active">
             <a class="nav-link" href="/learn/index.html" title="Learn about geek things">Learn</a>
-          </li>
+          </li> <!--
           <li class="nav-item inspiration-active">
             <a class="nav-link" href="/inspiration/index.html" title="Find Inspiration">Inspiration</a>
-          </li>
+          </li> -->
           <li class="nav-item project-active">
             <a class="nav-link" href="/projects/index.html" title="Geekdojo Projects">Projects</a>
           </li>
