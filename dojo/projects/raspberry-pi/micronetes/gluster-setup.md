@@ -1,6 +1,7 @@
 ---
 title: Micronetes Gluster
 globalcategory: project
+imagegallery: ['media/cluster.jpg']
 ---
 
 # Gluster

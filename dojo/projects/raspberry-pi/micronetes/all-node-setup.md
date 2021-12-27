@@ -1,6 +1,7 @@
 ---
 title: Micronetes Node Setup
 globalcategory: project
+imagegallery: ['media/cluster.jpg']
 ---
 
 # Node Setup

@@ -1,6 +1,7 @@
 ---
 title: Micronetes Master Node Setup
 globalcategory: project
+imagegallery: ['media/cluster.jpg']
 ---
 
 # Master Node Setup

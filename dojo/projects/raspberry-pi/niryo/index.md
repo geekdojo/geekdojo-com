@@ -1,11 +1,11 @@
 ---
 title: Niryo 6-axis Robotic Arm
 globalcategory: project
+imagegallery: ['media/tony-stark-dummy.jpg','media/niryo-one.jpg','media/assembly-steps.png']
+github: 'https://github.com/NiryoRobotics'
 ---
 
 # Review: Niryo 6-axis Robotic Arm
-
-![Tony Stark Argues with Dummy the Robotic Arm](media/tony-stark-dummy.jpg)
 
 In Act 2 of the first Iron Man we see Tony Stark (played by Robert Downey Jr.) building out the first incarnation of Iron Man armor. During one of his initial flight tests Tony can be seen arguing with one of his trusty companions - a robotic arm. This robotic arm makes repeated appearances throughout the films helping Tony with assembling his creations; often to great comic relief. Combine that pop culture impression with a general love of robotics and one can imagine our excitement when [Niryo](https://niryo.com) released the first incarnation of their six-axis arm based on the Raspberry Pi platform the [Niryo One](https://niryo.com/product/niryo-one/). 
 

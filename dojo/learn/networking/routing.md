@@ -1,6 +1,7 @@
 ---
 title: Routing TCP/IP Traffic
 globalcategory: learn
+imagegallery: ['media/networking.jpg']
 ---
 
 # Routing TCP/IP Traffic

@@ -1,6 +1,7 @@
 ---
 title: Micronetes Kubernetes Setup
 globalcategory: project
+imagegallery: ['media/cluster.jpg']
 ---
 
 # Kubernetes Setup

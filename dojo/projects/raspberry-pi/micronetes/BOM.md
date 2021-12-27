@@ -1,6 +1,7 @@
 ---
 title: Micronetes Bill of Materials
 globalcategory: project
+imagegallery: ['media/cluster.jpg']
 ---
 
 # Bill of Materials

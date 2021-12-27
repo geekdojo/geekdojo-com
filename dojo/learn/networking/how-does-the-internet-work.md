@@ -1,6 +1,7 @@
 ---
 title: How Does the Internet Work?
 globalcategory: learn
+imagegallery: ['media/networking.jpg']
 ---
 
 # How Does the Internet Work?

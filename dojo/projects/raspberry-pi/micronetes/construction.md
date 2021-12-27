@@ -1,6 +1,12 @@
 ---
 title: Micronetes Building the Cluster
 globalcategory: project
+imagegallery: ['media/cluster-cooling-fan.jpg']
+projectfiles:
+  - title: Left Mount
+    fileUri: https://github.com/BryceAshey/raspberry-pi-kubernetes-cluster/blob/master/designs/netgear-pi-mount-left.stl
+  - title: Right Mount
+    fileUri: https://github.com/BryceAshey/raspberry-pi-kubernetes-cluster/blob/master/designs/netgear-pi-mount-right.stl
 ---
 
 # Building the Cluster
@@ -11,10 +17,7 @@ Constructing the physical parts of the cluster is fairly straightforward once th
 
 ## Printing the Switch Rack Mounts
 
-Each mount should be printed with PLA. I used a .4 mm nozzle on an Ultimaker 2+ Extended (any printer should work though).
-
-- [Left Mount](https://github.com/BryceAshey/raspberry-pi-kubernetes-cluster/blob/master/designs/netgear-pi-mount-left.stl)
-- [Right Mount](https://github.com/BryceAshey/raspberry-pi-kubernetes-cluster/blob/master/designs/netgear-pi-mount-right.stl)
+Each mount should be printed with PLA. I used a .4 mm nozzle on an Ultimaker 2+ Extended (any printer should work though). The STL files are located at the top of this page under "Project Files".
 
 ## Putting it all Together
 

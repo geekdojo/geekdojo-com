@@ -1,6 +1,7 @@
 ---
 title: Common Home Network Devices
 globalcategory: learn
+imagegallery: ['media/networking.jpg']
 ---
 
 # Common Home Network Devices

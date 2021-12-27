@@ -1,6 +1,7 @@
 ---
 title: TCP/IP Makes the Internet go Round
 globalcategory: learn
+imagegallery: ['media/networking.jpg']
 ---
 
 # TCP/IP Makes the Internet go Round
