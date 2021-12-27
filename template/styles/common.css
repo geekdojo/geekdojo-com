@@ -199,6 +199,10 @@ ul {
     color: var(--disabled-text);
 }
 
+.is-uppercase {
+	text-transform: uppercase !important;
+}
+
 .logo-light {
     display: block;
     width: 243px;
