@@ -1,7 +1,7 @@
 
 .landingpage-accent {
     position: absolute;
-    top: 281px;
+    top: 110px;
     left: 97%;
     height: 360px;
     width: 360px;
@@ -20,7 +20,7 @@
 .landingpage-header::before {
     position: absolute;
     
-    height: 461px;
+    height: 290px;
     width: 100%;  
     
     top: 0;
