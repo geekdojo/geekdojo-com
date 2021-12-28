@@ -6,6 +6,7 @@
 .google-ad {
     margin: auto;
     background-color: var(--secondary);
+    display: none;
 }
 
 .google-ad-top-banner {
