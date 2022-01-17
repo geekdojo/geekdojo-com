@@ -25,7 +25,7 @@ Prospective Brands or Products should be:
 
 - relevant to Geekdojo's audience,
 - create unique experiences for our audience,
-- support existing subject areas on Geekdojo,
+- support subject areas on Geekdojo,
 - and align with Geekdojo's values.
 
 ## Potential Collaboration Opportunities
