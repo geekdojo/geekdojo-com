@@ -22,6 +22,7 @@
                         <div class="text-sm">by geekdojo</div>
                     </div>
                     <div class="pull-right">
+                        {{^hideContrib}}
                         {{#docurl}}
                         <div class="is-card feedback-edit-link">
                             <a href="{{docurl}}" target="_blank" title="Send feedback about this page">
@@ -36,11 +37,13 @@
                             </a>
                         </div>		
                         {{/sourceurl}}
+                        {{/hideContrib}}
                     </div>
                 </div>
             </div>
         </section>
 
+        {{^hideProjectHeader}}
         <section class="row">
             <div class="col-lg-8">
                 <div class="project-img-carousel">
@@ -78,6 +81,7 @@
                 </div>
             </div>
         </section>
+        {{/hideProjectHeader}}
 
         <section class="row article">
             <div class="col-lg-8">

@@ -18,7 +18,7 @@ landingContent:
     linkLists:
       - linkListType: Builds
         links:
-          - text: 3D Printed 2.1
+          - text: 3D Printed 2.1 Sound
             url: audio/3D-printed-2_1/index.html
             target: _self
   - title: Raspberry Pi

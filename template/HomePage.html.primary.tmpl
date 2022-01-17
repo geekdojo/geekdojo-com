@@ -33,7 +33,7 @@
                     <button class="btn btn-secondary dropdown-toggle text-hv-weight text-sm text-start icon" type="button" id="homepage-filter-ddl-btn" data-bs-toggle="dropdown" aria-expanded="false">
                         Featured
                     </button>
-                    <ul id="homepage-filter-ddl" class="dropdown-menu text-sm" aria-labelledby="homepage-filter-ddl-btn">
+                    <ul id="homepage-filter-ddl" class="dropdown-menu text-sm is-undecorated-list" aria-labelledby="homepage-filter-ddl-btn">
                         <li><a class="dropdown-item" data-category-slug="all">All</a></li>
                         <li><a class="dropdown-item" data-category-slug="featured">Featured</a></li>
                         {{#categories}}
@@ -47,13 +47,13 @@
 
         <section class="row">
 
-            <ul class="article-blocks">
+            <ul class="article-blocks is-undecorated-list">
                 {{#directory}}<li class="category-box {{#categorySlugs}}{{{.}}} {{/categorySlugs}}" style="display:none;">
                     <div class="category-box-image" style="background: url('{{{imageUrl}}}') no-repeat center center;background-size:cover;" onclick="window.location.href = '{{{url}}}';"></div>
                     <div class="category-box-infobox">
                         <div class="category-box-title text-md text-hv-weight" onclick="window.location.href = '{{{url}}}';">{{{title}}}</div>
                         <div class="category-box-slugs">
-                            <ul class="category-box-slugs-list">
+                            <ul class="category-box-slugs-list is-undecorated-list">
                                 {{#categorySlugs}}<li class="text-sm is-disabled-text" title="{{{.}}}">{{{.}}}</li>{{/categorySlugs}}
                             </ul>
                         </div>

@@ -4,7 +4,7 @@
         </div>
         <div class="col-sm-12 col-lg-4" style="padding-top: 1.5rem;">
             <h4>Terms & Privacy</h4>
-            <ul class="footer-terms">
+            <ul class="footer-terms is-undecorated-list">
                 <li><a href="/policies/terms-of-use.html">Usage</a></li>
                 <li><a href="/policies/privacy.html">Privacy</a></li>
                 <li><a href="/policies/cookie.html">Cookies</a></li>
@@ -14,11 +14,13 @@
         </div>
         <div class="col-sm-12 col-lg-4" style="padding-top: 1.5rem;">
             <h4>Follow Us</h4>
-            <ul class="footer-follow-us">
+            <ul class="footer-follow-us is-undecorated-list">
                 <li><a href="https://www.facebook.com/groups/geekdojo" title="Facebook" target="_blank"><i class="rounded-icon-lg fab fa-facebook-f"></i></a></li>
                 <li><a href="https://www.instagram.com/geekdojo_official/" title="Instagram" target="_blank"><i class="rounded-icon-lg fab fa-instagram"></i></a></li>
                 <li><a href="https://www.youtube.com/channel/UCPKxFczM9f3aqwmxiUbnocQ" title="YouTube" target="_blank"><i class="rounded-icon-lg fab fa-youtube"></i></a></li>
                 <li><a href="https://twitter.com/geekdojo_ofc" title="Twitter" target="_blank"><i class="rounded-icon-lg fab fa-twitter"></i></a></li>
             </ul>
+            <div>&nbsp;</div>
+            <h4><a href="/collab.html">Collaborate with Us.</a></h4>
         </div>
     </div>

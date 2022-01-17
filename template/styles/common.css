@@ -71,11 +71,6 @@ section {
     margin: 1rem;
 }
 
-ul {
-    list-style: none;
-    padding: 0 !important;
-}
-
 .content-normal {
     background-color: var(--card_background);
     border-radius: var(--std_border_radius);
@@ -205,6 +200,11 @@ ul {
 
 .is-disabled-text {
     color: var(--disabled-text);
+}
+
+.is-undecorated-list {
+    list-style: none;
+    padding: 0 !important;
 }
 
 .is-uppercase {

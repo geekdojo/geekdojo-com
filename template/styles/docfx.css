@@ -169,5 +169,6 @@ body .toc{
 }
 
 .bs-docs-sidenav {
+  padding: 0 !important;
   display: block !important;
 }

@@ -210,7 +210,7 @@ $(function () {
       $("#affix").hide();
     }
     else {
-      var html = util.formList(hierarchy, ['nav', 'bs-docs-sidenav']);
+      var html = util.formList(hierarchy, ['nav', 'bs-docs-sidenav is-undecorated-list']);
       $("#affix>div").empty().append(html);
       if ($('footer').is(':visible')) {
         $(".sideaffix").css("bottom", "70px");
