@@ -26,14 +26,6 @@ landingContent:
     linkLists:
       - linkListType: kubernetes
         links:
-          - text: Bitscope Edgerack
-            url: raspberry-pi/bitscope-edgerack/index.html
-            target: _self
           - text: Micronetes
             url: raspberry-pi/micronetes/index.html
-            target: _self
-      - linkListType: robotics
-        links:
-          - text: Niryo 6-Axis Arm
-            url: raspberry-pi/niryo/index.html
             target: _self

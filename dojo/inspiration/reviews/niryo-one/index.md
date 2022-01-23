@@ -1,6 +1,6 @@
 ---
 title: Niryo 6-axis Robotic Arm
-globalcategory: project
+globalcategory: inspiration
 imagegallery: ['media/tony-stark-dummy.jpg','media/niryo-one.jpg','media/assembly-steps.png']
 github: 'https://github.com/NiryoRobotics'
 ---

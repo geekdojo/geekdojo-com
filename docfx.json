@@ -65,7 +65,8 @@
       "_gitContribute": {
         "repo": "https://github.com/geekdojo-ofc/geekdojo-com",
         "branch": "master"
-      }
+      },
+      "_disableAds": true
     },
     "dest": "_site",
     "globalMetadataFiles": [],

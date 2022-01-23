@@ -1,8 +1,4 @@
 items:
-  - name: Bitscope Edgerack
-    href: bitscope-edgerack/index.md
   - name: Micronetes
     topicHref: micronetes/index.md
     href: micronetes/toc.yml
-  - name: Niryo
-    href: niryo/index.md

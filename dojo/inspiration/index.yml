@@ -13,10 +13,15 @@ metadata:
   ms.date: 09/11/2021
 
 landingContent:
-  - title: Home Setups
+  - title: Reviews
     linkLists:
-      - linkListType: Builds
+      - linkListType: Raspberry Pi
         links:
-          - text: Creating geekdojo
-            url: setups/geekdojo/index.html
+          - text: BitScope 24 Node Cluster
+            url: reviews/bitscope-edgerack/index.html
+            target: _self
+      - linkListType: Robotics
+        links:
+          - text: Niryo 6DF Arm
+            url: reviews/niryo-one/index.html
             target: _self
