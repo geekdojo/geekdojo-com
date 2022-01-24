@@ -13,8 +13,12 @@ metadata:
 categories:
   - name: 3D Printing
     slug: 3d-printing
+  - name: Gaming
+    slug: gaming
   - name: Home Audio
     slug: home-audio
+  - name: Kubernetes
+    slug: kubernetes
   - name: Networking
     slug: networking
   - name: Raspberry Pi
@@ -23,6 +27,30 @@ categories:
     slug: streaming
 
 directory:
+  # Card
+  - title: Setup a Home Gaming Network
+    summary: none
+    categorySlugs:
+      - all
+      - featured
+      - gaming
+      - networking
+    url: https://youtu.be/uOixQTyidic
+    urlTarget: _blank
+    author: geekdojo
+    imageUrl: /learn/networking/media/GeekdojoGamingNetwork-Instagram.png
+  # Card
+  - title: Assembling BitScope's Edge Rack
+    summary: none
+    categorySlugs:
+      - all
+      - featured
+      - kubernetes
+      - raspberry-pi
+    url: /inspiration/reviews/bitscope-edgerack/index.html
+    urlTarget: _self
+    author: geekdojo
+    imageUrl: /inspiration/reviews/bitscope-edgerack/media/nightlight.jpg
   # Card
   - title: 2.1 PC Sound
     summary: none
@@ -42,6 +70,7 @@ directory:
       - all
       - featured
       - 3d-printing
+      - kubernetes
       - raspberry-pi
     url: /projects/raspberry-pi/micronetes/index.html
     urlTarget: _self
