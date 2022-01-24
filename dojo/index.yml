@@ -23,6 +23,8 @@ categories:
     slug: networking
   - name: Raspberry Pi
     slug: raspberry-pi
+  - name: Robotics
+    slug: robotics
   - name: Streaming
     slug: streaming
 
@@ -82,6 +84,7 @@ directory:
       - all
       - featured
       - raspberry-pi
+      - robotics
     url: /inspiration/reviews/niryo-one/index.html
     urlTarget: _self
     author: geekdojo
