@@ -70,7 +70,6 @@ directory:
       - all
       - featured
       - 3d-printing
-      - kubernetes
       - raspberry-pi
     url: /projects/raspberry-pi/micronetes/index.html
     urlTarget: _self
