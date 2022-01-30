@@ -8,7 +8,8 @@ $(function(){
     changed() {
         window.location.href = window.location.pathname + '#category=' + this.value;
         $('.category-box').hide();
-        var articleCount = $('.' + this.value).show().length;        
+        var articleCount = $('.' + this.value).show().length;
+        $('.isAd').show();
         $('ul.topic-list > li').removeClass('is-active');
         $('#homepage-filter-ddl-btn').text($('#homepage-filter-ddl li a[data-category-slug="' + this.value + '"]').text());
         $('#homepage-article-count').text('' + articleCount + ' of ' + articleTotalCount + ' articles');

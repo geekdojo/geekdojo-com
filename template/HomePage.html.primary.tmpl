@@ -48,21 +48,26 @@
         <section class="row">
 
             <ul class="article-blocks is-undecorated-list">
-                {{#directory}}<li class="category-box {{#categorySlugs}}{{{.}}} {{/categorySlugs}}" style="display:none;">
-                    <div class="category-box-image" style="background: url('{{{imageUrl}}}') no-repeat center center;background-size:cover;" onclick="window.location.href = '{{{url}}}';"></div>
-                    <div class="category-box-infobox">
-                        <div class="category-box-title text-md text-hv-weight" onclick="window.location.href = '{{{url}}}';">{{{title}}}</div>
-                        <div class="category-box-slugs">
-                            <ul class="category-box-slugs-list is-undecorated-list">
-                                {{#categorySlugs}}<li class="text-sm is-disabled-text" title="{{{.}}}">{{{.}}}</li>{{/categorySlugs}}
-                            </ul>
+                {{#directory}}{{#isAd}}<li class="category-box isAd" style="display:none;">
+                        <div class="category-box-image">
+                            <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=12&l=ur1&category=electronics&banner=1RJ5QAT5B55ECPXSXB82&f=ifr&linkID=35057d845d963f6e119f094eec13f139&t=geekdojo-20&tracking_id=geekdojo-20" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;display:inherit;border-radius:10px;" frameborder="0"></iframe>
                         </div>
-                        <div class="category-box-profile">
-                            <div class="pull-left" style="height: 40px !important" onclick="window.location.href = 'about.html';" title="Geekdojo profile"><div class="geekdojo-profile"></div><div class="geekdojo-profile-username text-md-weight text-sm">geekdojo</div></div>
-                            <div class="pull-right"><div class="share-icon-buffer"><i onclick="copyToClipboard(this, 'fa-link', '{{{url}}}')" class="rounded-icon-md share-icon fal fa-link" title="Copy permalink"></i></div></div>
+                        <div class="category-box-infobox text-sm is-disabled-text">Ad to support geekdojo.</div>
+                    </li>{{/isAd}}{{^isAd}}<li class="category-box {{#categorySlugs}}{{{.}}} {{/categorySlugs}}" style="display:none;">
+                        <div class="category-box-image" style="background: url('{{{imageUrl}}}') no-repeat center center;background-size:cover;" onclick="window.location.href = '{{{url}}}';"></div>
+                        <div class="category-box-infobox">
+                            <div class="category-box-title text-md text-hv-weight" onclick="window.location.href = '{{{url}}}';">{{{title}}}</div>
+                            <div class="category-box-slugs">
+                                <ul class="category-box-slugs-list is-undecorated-list">
+                                    {{#categorySlugs}}<li class="text-sm is-disabled-text" title="{{{.}}}">{{{.}}}</li>{{/categorySlugs}}
+                                </ul>
+                            </div>
+                            <div class="category-box-profile">
+                                <div class="pull-left" style="height: 40px !important" onclick="window.location.href = 'about.html';" title="Geekdojo profile"><div class="geekdojo-profile"></div><div class="geekdojo-profile-username text-md-weight text-sm">geekdojo</div></div>
+                                <div class="pull-right"><div class="share-icon-buffer"><i onclick="copyToClipboard(this, 'fa-link', '{{{url}}}')" class="rounded-icon-md share-icon fal fa-link" title="Copy permalink"></i></div></div>
+                            </div>
                         </div>
-                    </div>
-                </li>{{/directory}}
+                    </li>{{/isAd}}{{/directory}}
             </ul>
         </section>
     </div>

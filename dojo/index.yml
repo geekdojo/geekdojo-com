@@ -54,6 +54,8 @@ directory:
     author: geekdojo
     imageUrl: /inspiration/reviews/bitscope-edgerack/media/nightlight.jpg
   # Card
+  - isAd: true
+  # Card
   - title: 2.1 PC Sound
     summary: none
     categorySlugs:

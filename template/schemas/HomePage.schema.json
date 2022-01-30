@@ -34,6 +34,10 @@
             "items": {
                 "type": "object",
                 "properties": {
+                    "isAd": {
+                        "type": "boolean",
+                        "default": false
+                    },                    
                     "authorUrl": {
                         "type": "string",
                         "contentType": "href"

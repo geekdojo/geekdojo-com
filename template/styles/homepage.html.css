@@ -16,7 +16,7 @@
 
 .category-box-image {
     width: 300px;
-    height: 234px;
+    height: 250px;
     border-radius: 10px;
     content: "";
     cursor: pointer;
@@ -57,9 +57,8 @@
 
 .category-box-profile {
     height: 80px;
-    padding-top: 40px;
+    padding-top: 20px;
 }
-
 
 .header-homepage {
     position: relative;
