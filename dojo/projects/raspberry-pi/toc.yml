@@ -2,3 +2,6 @@ items:
   - name: Micronetes
     topicHref: micronetes/index.md
     href: micronetes/toc.yml
+  - name: Talos on PI
+    topicHref: talos/index.md
+    href: talos/toc.yml

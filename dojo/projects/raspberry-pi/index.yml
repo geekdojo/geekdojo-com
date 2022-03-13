@@ -20,3 +20,6 @@ landingContent:
           - text: Micronetes
             url: micronetes/index.html
             target: _self
+          - text: Talos on PI
+            url: talos/index.html
+            target: _self

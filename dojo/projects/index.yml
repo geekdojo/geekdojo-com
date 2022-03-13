@@ -29,3 +29,6 @@ landingContent:
           - text: Micronetes
             url: raspberry-pi/micronetes/index.html
             target: _self
+          - text: "30 Minutes to K8s: Talos on PI"
+            url: raspberry-pi/talos/index.html
+            target: _self
