@@ -5,6 +5,7 @@
   <title>{{#title}}{{title}}{{/title}}{{^title}}{{>partials/title}}{{/title}} {{#_appTitle}}| {{_appTitle}} {{/_appTitle}}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="title" content="GD | {{#title}}{{title}}{{/title}}{{^title}}{{>partials/title}}{{/title}} {{#_appTitle}}| {{_appTitle}} {{/_appTitle}}">
+  <meta name="author" content="Bryce Ashey">
   <meta name="generator" content="docfx {{_docfxVersion}}">
   {{#_description}}<meta name="description" content="{{_description}}">{{/_description}}
   <link rel="icon" href="/favicon.ico">
