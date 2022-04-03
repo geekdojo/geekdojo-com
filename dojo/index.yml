@@ -30,6 +30,17 @@ categories:
 
 directory:
   # Card
+  - title: Water Cooled Radiator Cleaning
+    summary: none
+    categorySlugs:
+      - all
+      - featured
+      - gaming
+    url: https://youtu.be/lU1w3N8UvZ0
+    urlTarget: _blank
+    author: geekdojo
+    imageUrl: /learn/media/CleaningTheRadiator-IG.png
+  # Card
   - title: Setup a Home Gaming Network
     summary: none
     categorySlugs:
