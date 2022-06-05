@@ -17,6 +17,9 @@ landingContent:
     linkLists:
       - linkListType: Raspberry Pi
         links:
+          - text: FlightAware Ground Station
+            url: reviews/flightaware/index.html
+            target: _self
           - text: BitScope 24 Node Cluster
             url: reviews/bitscope-edgerack/index.html
             target: _self
