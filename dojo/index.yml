@@ -30,6 +30,17 @@ categories:
 
 directory:
   # Card
+  - title: FlightAware Ground Station
+    summary: none
+    categorySlugs:
+      - all
+      - featured
+      - raspberry-pi
+    url: /inspiration/reviews/flightaware/index.html
+    urlTarget: _self
+    author: geekdojo
+    imageUrl: /inspiration/reviews/flightaware/media/flightawaremap.png
+  # Card
   - title: Water Cooled Radiator Cleaning
     summary: none
     categorySlugs:
