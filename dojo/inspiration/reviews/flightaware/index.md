@@ -28,6 +28,8 @@ ADS-B comes in two flavors, 1090Mhz and 978Mhz. 1090Mhz works anywhere in the wo
 
 Once the PiAware is up and running you'll see some information come across the screen including the IP of the appliance. Browsing to that IP from your workstation or phone (assuming the phone is on the same network) will show the FlightAware screen and allow you to connect the device to your FlightAware account. One note here, if the "FlightAware" box is red and the console says it cannot connect you may need to open TCP 1200 to FlightAware's servers. If you're not automatically locking down outbound traffic from your network we highly recommend you do so. Likewise, if the "Radio" box is Orange then the antenna needs to be moved to a place with better reception.
 
+**City Dwellers:** We highly recommend that you purchase the associated [1090Mhz (or dual band) filter](https://flightaware.store/products/band-pass-signal-filter-dual-978-1090-mhz). It made quite a bit of difference in how far out we could see the planes (assuming due to all the RF noise in San Diego).
+
 ![FlightAware Claim Success](media/flightawaresuccess.png)
 
 ## Watching the Local Airspace
