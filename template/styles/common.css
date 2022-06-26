@@ -85,6 +85,10 @@ section {
     background-color: rgba(223, 224, 229, 0.2);
 }
 
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
 .feature-icon {
     height: 2rem;
     width: 2rem;
@@ -143,7 +147,6 @@ section {
     background-repeat:   no-repeat;
     background-position: center center;
     border-radius: 20px;
-    cursor: pointer;
 }
 
 .geekdojo-profile-md {
@@ -154,8 +157,7 @@ section {
 
 .geekdojo-profile-username {
     display: inline-block;
-    color: var(--disabled-text);    
-    cursor: pointer;
+    color: var(--disabled-text);
     padding-left: .5rem;
     position: absolute;
     line-height: 40px !important;

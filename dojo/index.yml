@@ -30,6 +30,17 @@ categories:
 
 directory:
   # Card
+  - title: Stream Deck KVM
+    summary: none
+    categorySlugs:
+      - all
+      - featured
+      - streaming
+    url: /inspiration/setups/geekdojo/streamdeck-kvm/index.html
+    urlTarget: _self
+    author: geekdojo
+    imageUrl: /inspiration/setups/geekdojo/streamdeck-kvm/media/streamdeck-kvm-icons.png
+  # Card
   - title: FlightAware Ground Station
     summary: none
     categorySlugs:

@@ -6,6 +6,17 @@ globalcategory: home
 
 directory:
   # Card
+  - title: FlightAware Ground Station
+    summary: none
+    categorySlugs:
+      - all
+      - featured
+      - raspberry-pi
+    url: /inspiration/reviews/flightaware/index.html
+    urlTarget: _self
+    author: geekdojo
+    imageUrl: /inspiration/reviews/flightaware/media/flightawaremap.png
+  # Card
   - title: 2.1 PC Sound
     summary: none
     categorySlugs:
@@ -18,28 +29,17 @@ directory:
     author: geekdojo
     imageUrl: /projects/audio/3D-printed-2_1/media/JLAudioBassTube-thumb.png
   # Card
-  - title: 7 node Kubernetes Cluster on Raspberry Pis
-    summary: none
-    categorySlugs:
-      - all
-      - featured
-      - 3d-printing
-      - raspberry-pi
-    url: /projects/raspberry-pi/micronetes/index.html
-    urlTarget: _self
-    author: geekdojo
-    imageUrl: /projects/raspberry-pi/micronetes/media/cluster-thumb.png
-  # Card
   - title: Niryo's 6-axis Robotic Arm
     summary: none
     categorySlugs:
       - all
       - featured
       - raspberry-pi
-    url: /projects/raspberry-pi/niryo/index.html
+      - robotics
+    url: /inspiration/reviews/niryo-one/index.html
     urlTarget: _self
     author: geekdojo
-    imageUrl: /projects/raspberry-pi/niryo/media/niryo-one.jpg
+    imageUrl: /inspiration/reviews/niryo-one/media/niryo-one.jpg
   # Card
   - title: 'Learn: Networking'
     summary: none
