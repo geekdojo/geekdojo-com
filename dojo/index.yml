@@ -23,12 +23,25 @@ categories:
     slug: networking
   - name: Raspberry Pi
     slug: raspberry-pi
+  - name: Retro
+    slug: retro
   - name: Robotics
     slug: robotics
   - name: Streaming
     slug: streaming
 
 directory:
+  # Card
+  - title: Nextube Nixie Clock
+    summary: none
+    categorySlugs:
+      - all
+      - featured
+      - retro
+    url: /inspiration/reviews/nextube/index.html
+    urlTarget: _self
+    author: geekdojo
+    imageUrl: /inspiration/reviews/nextube/media/8_nextube_marque_.png
   # Card
   - title: Stream Deck KVM
     summary: none
