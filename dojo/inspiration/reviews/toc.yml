@@ -1,4 +1,8 @@
 items:
+  - name: Nextube Nixie Clock
+    href: nextube/index.md
+  - name: Flightaware PiAware
+    href: flightaware/index.md
   - name: Bitscope Edgerack
     href: bitscope-edgerack/index.md
   - name: Niryo

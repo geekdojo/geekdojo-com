@@ -23,6 +23,11 @@ landingContent:
           - text: BitScope 24 Node Cluster
             url: reviews/bitscope-edgerack/index.html
             target: _self
+      - linkListType: Retro
+        links:
+          - text: Nextube Nixie Clock
+            url: reviews/nextube/index.html
+            target: _self
       - linkListType: Robotics
         links:
           - text: Niryo 6DF Arm

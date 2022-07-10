@@ -14,8 +14,16 @@ landingContent:
     linkLists:
       - linkListType: RaspberryPi
         links:
+          - text: Flightaware - PiAware
+            url: flightaware/index.html
+            target: _self
           - text: Bitscope Edgerack
             url: bitscope-edgerack/index.html
+            target: _self
+      - linkListType: Retro
+        links:
+          - text: Nextube Nixie Clock
+            url: nextube/index.html
             target: _self
       - linkListType: Robotics
         links:
