@@ -1,7 +1,0 @@
-- name: Projects
-  href: index.yml
-- name: Audio
-  href: audio/toc.yml
-- name: Raspberry Pi
-  topicHref: raspberry-pi/index.yml
-  href: raspberry-pi/toc.yml
