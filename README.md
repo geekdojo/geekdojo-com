@@ -7,7 +7,7 @@ Static Web Apps via `.github/workflows/`.
 geekdojo's flagship project is **Rasputin**, the open-source homelab cluster
 system — its site lives at [rasputin.geekdojo.com](https://rasputin.geekdojo.com)
 ([source](https://github.com/geekdojo/rasputin-site)), downloads at
-[rasputin-releases](https://github.com/geekdojo/rasputin-releases).
+[rasputin.geekdojo.com/download](https://rasputin.geekdojo.com/download/).
 
 The previous DocFx-based "dojo" content site lives on in this repo's git
 history (pre-2026 commits).
