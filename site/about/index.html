@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — geekdojo</title>
+<meta name="description" content="geekdojo is one person: Bryce Ashey. Twenty-five years of shipping infrastructure, a workbench, a server rack, and a corgi named MoneyPenny.">
+<meta property="og:title" content="About geekdojo">
+<meta property="og:description" content="The one person behind geekdojo and Rasputin.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://geekdojo.com/about/">
+<meta property="og:image" content="https://geekdojo.com/images/workshop.jpg">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/styles.css">
+<script data-goatcounter="https://geekdojo.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<header class="site-head">
+  <nav class="wrap">
+    <a class="brand" href="/">
+      <img class="mark" src="/logo-icon.png" alt="" width="22" height="22">
+      GEEKDOJO
+    </a>
+    <div class="nav-links">
+      <a href="/#rasputin">Rasputin</a>
+      <a href="/about/">About</a>
+      <a href="https://github.com/geekdojo">GitHub</a>
+    </div>
+  </nav>
+</header>
+<main>
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">The one-person shop</p>
+    <h1>Hi — I'm Bryce.</h1>
+    <p class="lede">geekdojo is one person: me, a workbench, a server rack, and a corgi named
+    MoneyPenny. When the Rasputin site says "built in the open by one person," this page is
+    who that person is.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <figure class="figure">
+      <img src="/images/workshop.jpg" alt="Bryce in the geekdojo workshop — workbench and electronics lab on the left, server rack in the background, a Pembroke Welsh Corgi sitting by the desk" width="1600" height="1200">
+      <figcaption class="figcap">The geekdojo workshop, San Diego — bench and lab on the left,
+      the rack in the back, MoneyPenny on quality assurance.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="band band-alt">
+  <div class="wrap prose">
+    <h2>The short version</h2>
+    <p>I've been building software — and the infrastructure underneath it — since the late
+    '90s. By day I'm a Distinguished Engineer at a Fortune-5 enterprise, where I lead a cloud
+    enablement dojo for an engineering organization of roughly 50,000 people: the team that turns
+    proven cloud architecture, networking, security, and PKI patterns into training, pipelines,
+    and templates an org that size can actually use.</p>
+    <p>Along the way I've cofounded an angel-funded startup, grown a development org from
+    under twenty engineers to over sixty while its platform serviced billions in loans per
+    quarter, co-invented a patented rules engine (US&nbsp;2004/0024888), and architected a
+    disaster-recovery program with sub-hour recovery targets that became a model across the
+    enterprise. Most of that work happened under compliance regimes — HIPAA, HITRUST,
+    SOC&nbsp;2 — where "it usually works" doesn't ship.</p>
+    <p>None of that makes Rasputin good. The <a href="https://rasputin.geekdojo.com/devlog/">devlog</a>
+    and the <a href="https://github.com/geekdojo">repos</a> have to earn that on their own.
+    What it should tell you is that the one person behind this has shipped and operated
+    production infrastructure for a long time, and knows what it takes to keep it running.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap prose">
+    <h2>The workshop</h2>
+    <p>Everything geekdojo ships is developed against real hardware on that bench: a 24-node
+    Raspberry Pi bench cluster, a stack of Intel N100 boxes, the x86 firewall reference
+    hardware, and the 3D printer that keeps producing brackets for all of it. Every Rasputin
+    release boots here before it's published — flash, boot, dashboard, apps — because "works
+    in the first hour" is a claim you can only make by doing it, repeatedly, on the gear
+    people actually own.</p>
+  </div>
+</section>
+
+<section class="band band-alt">
+  <div class="wrap prose">
+    <h2>How I build — including the AI part</h2>
+    <p>I build with AI agents, and I don't hide it. One person ships a cluster OS, a control
+    plane, and a firewall image at this pace by pairing a lot of experience with a lot of
+    automation — and by keeping the human accountable for every line that lands.</p>
+    <p>What that means in practice: I review what merges, releases are signed and
+    checksummed, every image is flashed and booted on the bench before it ships, and when
+    something is wrong I write it up in public — including the time
+    <a href="https://rasputin.geekdojo.com/devlog/001-your-keys-not-mine/">my own SSH key was
+    baked into every published image</a>, found, disclosed, and fixed within a day.</p>
+    <p>If AI-assisted engineering makes you skeptical, good — it should be judged by its
+    output. The devlog exists so you can.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap prose">
+    <h2>Why "geekdojo"</h2>
+    <p>Geeks learning geek things. I've run the shop under this name since 2020, and its
+    thesis hasn't changed: opinionated, open-source infrastructure for people who run their
+    own gear — software that works the first hour, defaults you can trust, and escape
+    hatches everywhere. Rasputin is the flagship.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="https://rasputin.geekdojo.com">See Rasputin</a>
+      <a class="btn btn-ghost" href="https://rasputin.geekdojo.com/#partners">Become a design partner</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-foot">
+  <div class="wrap foot-fine">
+    <p class="muted">© 2026 geekdojo. Site content
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a>;
+    our software is licensed in its own repos (Rasputin is AGPL-3.0).</p>
+  </div>
+</footer>
+</body>
+</html>

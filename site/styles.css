@@ -133,6 +133,25 @@ h2 {
 .btn-ghost { color: var(--text); border: 1px solid var(--line); background: var(--bg); }
 .btn-ghost:hover { border-color: var(--accent-dim); color: var(--accent); }
 
+.figure { margin: 0; }
+.figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--line);
+  clip-path: polygon(var(--notch) 0, 100% 0, 100% calc(100% - var(--notch)), calc(100% - var(--notch)) 100%, 0 100%, 0 var(--notch));
+}
+.figcap {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 12px;
+}
+
+.prose { max-width: 46em; }
+.prose p { color: #b9bdc6; margin-bottom: 16px; }
+.prose p:last-of-type { margin-bottom: 0; }
+
 .site-foot {
   border-top: 1px solid var(--line);
   box-shadow: 0 -1px 0 #000, 0 -2px 0 var(--line);
