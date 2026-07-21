@@ -1,0 +1,34 @@
+name: ci
+
+# PR-time build gate, same pattern as rasputin-site: run the exact Hugo build
+# deploy runs, so a broken template/ref/front-matter is caught at the merge
+# button instead of on the live site. Hermetic — no tokens, no network beyond
+# the Hugo download; behaves identically on fork PRs.
+
+on:
+  pull_request:
+    branches: [master]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  hugo-build:
+    runs-on: ubuntu-latest
+    env:
+      # Keep in lockstep with the deploy workflow.
+      HUGO_VERSION: "0.164.0"
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Hugo
+        run: |
+          curl -sSL -o "${{ runner.temp }}/hugo.deb" \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i "${{ runner.temp }}/hugo.deb"
+      - name: Build
+        # --gc surfaces dangling refs; template errors exit non-zero.
+        run: hugo --minify --gc

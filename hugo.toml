@@ -1,0 +1,27 @@
+# geekdojo.com — Hugo builds the content sections; the landing and about pages
+# are plain HTML served verbatim from static/ (kind "home" is disabled so
+# static/index.html is the homepage). One pipeline: `hugo --minify` → public/.
+baseURL = "https://geekdojo.com/"
+languageCode = "en-us"
+title = "geekdojo"
+
+# No generated homepage (static/index.html serves) and no tag machinery yet —
+# enable taxonomies when the section has enough content to need them.
+disableKinds = ["home", "taxonomy", "term"]
+
+[params]
+  description = "Opinionated, open-source infrastructure for people who run their own gear."
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      # Allow raw HTML in article markdown (figures, embeds).
+      unsafe = true
+  [markup.highlight]
+    # Style code blocks with the site's own CSS, not inline Chroma colors.
+    codeFences = true
+    noClasses = false
+
+[services]
+  [services.rss]
+    limit = 20

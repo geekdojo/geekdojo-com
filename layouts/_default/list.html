@@ -1,0 +1,39 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">How geekdojo builds</p>
+    <h1>{{ .Title }}</h1>
+    <p class="lede">{{ .Description }}</p>
+  </div>
+</section>
+
+<section class="band band-alt">
+  <div class="wrap prose">
+    {{ .Content }}
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2>Deep dives</h2>
+    {{ $pages := .Pages.ByDate.Reverse }}
+    {{ if $pages }}
+    <div class="post-list">
+      {{ range $pages }}
+      <a class="card card-link post-card" href="{{ .RelPermalink }}">
+        <p class="post-meta">{{ .Date.Format "2006-01-02" }}</p>
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Description }}</p>
+      </a>
+      {{ end }}
+    </div>
+    {{ else }}
+    <div class="card">
+      <p class="post-meta">Coming soon</p>
+      <p>The first deep-dive is in production. New pieces land here first —
+      <a href="{{ .RelPermalink }}index.xml">subscribe to the feed</a>.</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
