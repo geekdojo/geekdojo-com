@@ -2,7 +2,7 @@
 # are plain HTML served verbatim from static/ (kind "home" is disabled so
 # static/index.html is the homepage). One pipeline: `hugo --minify` → public/.
 baseURL = "https://geekdojo.com/"
-languageCode = "en-us"
+locale = "en-us"
 title = "geekdojo"
 
 # No generated homepage (static/index.html serves) and no tag machinery yet —
