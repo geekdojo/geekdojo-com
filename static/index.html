@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>geekdojo — opinionated open-source infrastructure for people who run their own gear</title>
-<meta name="description" content="geekdojo builds opinionated, open-source infrastructure for people who run their own gear. Home of Rasputin, the homelab cluster system built to work in the first hour.">
+<title>geekdojo — independent software, built to put you in control</title>
+<meta name="description" content="Independent software, built to put you in control. Explore Rasputin for your homelab and Human System for your personal health record.">
 <meta property="og:title" content="geekdojo">
-<meta property="og:description" content="Opinionated, open-source infrastructure for people who run their own gear. Home of Rasputin.">
+<meta property="og:description" content="Independent software. Home of Rasputin and Human System.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://geekdojo.com/">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -24,7 +24,7 @@
       GEEKDOJO
     </a>
     <div class="nav-links">
-      <a href="#rasputin">Rasputin</a>
+      <a href="#products">Products</a>
       <a href="/developing-with-ai/">Developing with AI</a>
       <a href="/about/">About</a>
       <a href="https://github.com/geekdojo">GitHub</a>
@@ -34,28 +34,33 @@
 <main>
 <section class="hero">
   <div class="wrap">
-    <h1>Opinionated, open-source infrastructure<br>for people who <span class="accent">run their own gear</span>.</h1>
-    <p class="lede">geekdojo is an independent, <a href="/about/">one-person shop</a> building in the open: software
-    that works the first hour, defaults you can trust, and escape hatches everywhere. Everything
-    we ship is open source — no paywalls, no open core.</p>
+    <h1>Independent software.<br>Built to put <span class="accent">you in control</span>.</h1>
+    <p class="lede">geekdojo is an independent, <a href="/about/">one-person shop</a> building
+    practical software for the systems you run and the information you keep.
+    Two products, one principle: you should be in control of your tools.</p>
   </div>
 </section>
 
-<section class="band band-alt" id="rasputin">
+<section class="band band-alt" id="products" aria-labelledby="products-title">
   <div class="wrap">
-    <h2>Rasputin</h2>
-    <div class="flagship card">
-      <p class="eyebrow">Flagship project · pre-alpha · AGPL-3.0</p>
-      <h3>The homelab cluster that works in the first hour.</h3>
-      <p>Rasputin turns a few Raspberry Pis or Intel N100 mini-PCs into one managed system:
-      a web control plane, a node OS with atomic updates and automatic rollback, and a
-      dedicated firewall node. Opinionated where you want guidance, open where you want
-      control.</p>
-      <div class="cta-row">
-        <a class="btn btn-primary" href="https://rasputin.geekdojo.com">rasputin.geekdojo.com</a>
-        <a class="btn btn-ghost" href="https://rasputin.geekdojo.com/download/">Download</a>
-        <a class="btn btn-ghost" href="https://rasputin.geekdojo.com/devlog/">Devlog</a>
-      </div>
+    <h2 id="products-title">Our products</h2>
+    <div class="product-grid">
+      <article class="card product-card" id="rasputin">
+        <div class="product-heading"><img src="/images/products/rasputin.svg" alt="" width="72" height="72"><div><p class="eyebrow">Infrastructure</p><h3>Rasputin</h3></div></div>
+        <p class="product-tagline">Your hardware.<br>One managed system.</p>
+        <p>Turn Raspberry Pis and mini-PCs into a managed homelab: a web control plane, a node OS with atomic updates and rollback, and a dedicated firewall node.</p>
+        <p class="product-detail">Open source · AGPL-3.0</p>
+        <div class="cta-row"><a class="btn btn-primary" href="https://rasputin.geekdojo.com/">Explore Rasputin</a></div>
+        <div class="product-links"><a href="https://rasputin.geekdojo.com/download/">Downloads</a><a href="https://rasputin.geekdojo.com/devlog/">Devlog</a></div>
+      </article>
+      <article class="card product-card product-human-system" id="human-system">
+        <div class="product-heading"><img src="/images/products/human-system.png" alt="" width="72" height="72"><div><p class="eyebrow">Personal health records</p><h3>Human System</h3></div></div>
+        <p class="product-tagline">Your health.<br>One connected picture.</p>
+        <p>Bring lab results, body composition and interventions into one record. See how measurements fit together and change over time, on your computer or your own server.</p>
+        <p class="product-detail">Optional imports with Codex or Claude send selected data to the AI provider for processing.</p>
+        <div class="cta-row"><a class="btn btn-primary" href="https://hsys.me/">Explore Human System</a></div>
+        <div class="product-links"><a href="https://hsys.me/#hs-import-a2">How AI import works</a></div>
+      </article>
     </div>
   </div>
 </section>
@@ -66,7 +71,7 @@
     <div class="grid">
       <a class="card card-link" href="https://github.com/geekdojo">
         <h3>GitHub</h3>
-        <p>All the source, all the releases. Stars and issues both welcome.</p>
+        <p>Explore our public repositories and releases. Stars and issues both welcome.</p>
       </a>
       <a class="card card-link" href="https://youtube.com/@geekdojo">
         <h3>YouTube</h3>
@@ -92,7 +97,7 @@
   <div class="wrap foot-fine">
     <p class="muted">© 2026 geekdojo. Site content
     <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a>;
-    our software is licensed in its own repos (Rasputin is AGPL-3.0).</p>
+    software licensing and availability are described on each product site.</p>
   </div>
 </footer>
 </body>

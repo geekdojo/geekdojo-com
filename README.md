@@ -20,3 +20,5 @@ The previous DocFx-based "dojo" content site lives on in this repo's git
 history (pre-2026 commits).
 
 Site content is [CC-BY-SA-4.0](LICENSE).
+
+Human System is the personal health record product at [hsys.me](https://hsys.me/). The company homepage presents both products; each product site owns its licensing, availability and installation details. Product marks in `static/images/products/` come from the respective site repositories.
