@@ -10,7 +10,7 @@ title = "geekdojo"
 disableKinds = ["home", "taxonomy", "term"]
 
 [params]
-  description = "Opinionated, open-source infrastructure for people who run their own gear."
+  description = "Independent software, built to put you in control. Home of Rasputin and Human System."
 
 [markup]
   [markup.goldmark]
