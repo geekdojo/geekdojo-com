@@ -1,0 +1,8 @@
+{{- /* External links (any absolute http(s) URL whose host is not geekdojo.com / www.geekdojo.com) open in a new tab. */ -}}
+{{- $u := urls.Parse .Destination -}}
+{{- $external := and (in (slice "http" "https") $u.Scheme) (not (in (slice "geekdojo.com" "www.geekdojo.com") $u.Hostname)) -}}
+<a href="{{ .Destination | safeURL }}"
+  {{- with .Title }} title="{{ . }}"{{ end }}
+  {{- if $external }} target="_blank" rel="noopener noreferrer"{{ end -}}
+>{{ .Text }}</a>
+{{- /* chomp trailing newline */ -}}
