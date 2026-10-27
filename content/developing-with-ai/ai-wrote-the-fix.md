@@ -5,7 +5,7 @@ description: "A weekly CVE scanner was green on every run it ever made — and h
 ---
 
 <div class="video-embed" style="position:relative;padding-top:56.25%;margin:0 0 2rem;border-radius:10px;overflow:hidden;">
-  <iframe src="https://www.youtube-nocookie.com/embed/8viuMRVpe5o" title="AI wrote the fix. I asked the question that made it right."
+  <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/8viuMRVpe5o" title="AI wrote the fix. I asked the question that made it right."
     style="position:absolute;inset:0;width:100%;height:100%;border:0;" loading="lazy" allowfullscreen
     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 </div>

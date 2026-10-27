@@ -5,7 +5,7 @@ description: "One person, a whole company. The AI system I actually run — engi
 ---
 
 <div class="video-embed" style="position:relative;padding-top:56.25%;margin:0 0 2rem;border-radius:10px;overflow:hidden;">
-  <iframe src="https://www.youtube-nocookie.com/embed/zvZWd_P_pXE" title="How I run a company of one — and it ships like a team"
+  <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/zvZWd_P_pXE" title="How I run a company of one — and it ships like a team"
     style="position:absolute;inset:0;width:100%;height:100%;border:0;" loading="lazy" allowfullscreen
     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 </div>
