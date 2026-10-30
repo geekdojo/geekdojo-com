@@ -1,13 +1,13 @@
 {{ define "main" }}
 <section class="band">
-  <div class="wrap article-wrap">
+  <div class="wrap">
     <p class="eyebrow"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a> · {{ .Date.Format "2006-01-02" }}</p>
-    <h1 class="article-title">{{ .Title }}</h1>
+    <h1>{{ .Title }}</h1>
     {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
-    <div class="prose article-body">
+    <div class="prose">
       {{ .Content }}
     </div>
-    <div class="cta-row article-foot">
+    <div class="cta-row">
       <a class="btn btn-ghost" href="{{ .Parent.RelPermalink }}">← All deep dives</a>
       <a class="btn btn-ghost" href="{{ .Parent.RelPermalink }}index.xml">RSS</a>
     </div>
