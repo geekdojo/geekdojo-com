@@ -46,7 +46,7 @@ can read every PR that ever went into Rasputin.
 
 ## Engineering: building Rasputin with agents
 
-The flagship is [Rasputin](https://github.com/geekdojo) — an open-source homelab cluster
+The flagship is [Rasputin](https://rasputin.geekdojo.com/) — an open-source homelab cluster
 system: the node OS, the control plane, and a firewall image. I start a product with a
 vision doc and let Claude tear into it; if you know spec-kit, my process is close. Once the
 work items get dense enough, I have the agent organize them into the epics you can see on
@@ -149,6 +149,10 @@ Everything here is public:
 - **Steal the patterns:** [Karpathy's LLM-wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) ·
   [spec-kit](https://github.com/github/spec-kit) ·
   [Boris Cherny — "Building Claude Code"](https://www.ycombinator.com/library/UN-boris-cherny-building-claude-code)
+- **Rasputin:** [site](https://rasputin.geekdojo.com/) ·
+  [docs](https://rasputin.geekdojo.com/docs/) ·
+  [learn](https://rasputin.geekdojo.com/learn/) ·
+  [devlog](https://rasputin.geekdojo.com/devlog/)
 - **The receipts:** [all the repos](https://github.com/geekdojo) · the
   [Rasputin roadmap](https://rasputin.geekdojo.com/docs/roadmap/), kept honest by a linter that
   fails the commit. The quality agents are GitHub Actions in those repos — read the workflows.

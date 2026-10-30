@@ -12,6 +12,7 @@ before it earned trust.
 
 These are the deep dives: how each piece works, how it failed on the way in, and
 where to find the receipts — everything referenced runs in
-[public repos](https://github.com/geekdojo). The short-form build log lives on the
-[Rasputin devlog](https://rasputin.geekdojo.com/devlog/); this is the long-form
-layer.
+[public repos](https://github.com/geekdojo). Rasputin itself is on its
+[product site](https://rasputin.geekdojo.com/), with [docs](https://rasputin.geekdojo.com/docs/),
+[learn](https://rasputin.geekdojo.com/learn/), and the short-form
+[devlog](https://rasputin.geekdojo.com/devlog/); this is the long-form layer.
