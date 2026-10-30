@@ -32,3 +32,7 @@ jobs:
       - name: Build
         # --gc surfaces dangling refs; template errors exit non-zero.
         run: hugo --minify --gc
+      - name: Check canonical URLs and Rasputin links
+        # Catches missing rel=canonical, a dropped SWA trailing-slash config, or
+        # a page that lost the crawl links to rasputin.geekdojo.com.
+        run: python3 scripts/check-canonical-and-rasputin-links.py

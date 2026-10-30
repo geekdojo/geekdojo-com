@@ -145,6 +145,10 @@ schedule bottleneck was me answering questions, not the work getting done.
 Everything above is public.
 
 - **Watch it:** [the video](https://youtu.be/8viuMRVpe5o) (7 min).
+- **Rasputin:** [site](https://rasputin.geekdojo.com/) ·
+  [docs](https://rasputin.geekdojo.com/docs/) ·
+  [learn](https://rasputin.geekdojo.com/learn/) ·
+  [devlog](https://rasputin.geekdojo.com/devlog/)
 - **Steal the workflows:** the [OpenWrt base-currency check](https://github.com/geekdojo/rasputin-openwrt-firewall/blob/main/.github/workflows/canary.yml)
   that replaced the scanner, and the [Buildroot CVE watch](https://github.com/geekdojo/rasputin-os/blob/main/.github/workflows/cve-watch.yml)
   for the node OS.

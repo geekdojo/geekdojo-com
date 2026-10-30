@@ -4,6 +4,9 @@
 baseURL = "https://geekdojo.com/"
 locale = "en-us"
 title = "geekdojo"
+# Pretty URLs: directory permalinks with a trailing slash. Azure Static Web Apps
+# must emit the same form (static/staticwebapp.config.json, trailingSlash=always)
+# so /about and /about/ are not duplicate content.
 
 # No generated homepage (static/index.html serves) and no tag machinery yet —
 # enable taxonomies when the section has enough content to need them.
