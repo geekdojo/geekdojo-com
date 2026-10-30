@@ -3,16 +3,6 @@ title: "Developing with AI"
 description: "Deep dives on how a one-person shop ships like a bigger one — AI agents doing the quality work, a human accountable for every merge, receipts in public repos."
 ---
 
-geekdojo is one person. The output — a cluster OS, a control plane, a firewall
-image, and the quality system around them — looks like a team, and the difference
-is a system: AI agents that sweep for duplicated code, review every pull request
-for security, write fault-detecting tests, watch CVEs, and fuzz the parsers.
-Agents propose; a human merges. Every mechanism here had to catch something real
-before it earned trust.
+Geekdojo is me, one person. I build Rasputin, a homelab cluster system, and I use AI agents for the quality work a team would normally share: reviewing every pull request for security, writing tests that catch real faults, and fuzzing the parsers. The agents open pull requests; I read and merge each one myself. An agent only stays in the pipeline after it has caught a real problem.
 
-These are the deep dives: how each piece works, how it failed on the way in, and
-where to find the receipts — everything referenced runs in
-[public repos](https://github.com/geekdojo). Rasputin itself is on its
-[product site](https://rasputin.geekdojo.com/), with [docs](https://rasputin.geekdojo.com/docs/),
-[learn](https://rasputin.geekdojo.com/learn/), and the short-form
-[devlog](https://rasputin.geekdojo.com/devlog/); this is the long-form layer.
+The posts below cover how each piece works, how it broke when I first set it up, and where to find the code. All of it is in [public repos](https://github.com/geekdojo). For Rasputin itself, start at the [product site](https://rasputin.geekdojo.com/), or go straight to the [docs](https://rasputin.geekdojo.com/docs/), the [Learn lessons](https://rasputin.geekdojo.com/learn/) or the [devlog](https://rasputin.geekdojo.com/devlog/).
